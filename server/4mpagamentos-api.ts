@@ -23,15 +23,15 @@ export class QuatroMPagamentosAPI {
   private readonly bearer_token: string;
 
   constructor() {
-    // Usar variável de ambiente segura
-    this.bearer_token = process.env.MPAG_API_KEY || '';
+    // Usar variável de ambiente segura (nova chave)
+    this.bearer_token = process.env.MPAG_API_KEY_NEW || '';
     
     if (!this.bearer_token) {
-      console.error('[4MPAGAMENTOS] ⚠️ ERRO: MPAG_API_KEY não configurada!');
-      throw new Error('MPAG_API_KEY não configurada');
+      console.error('[4MPAGAMENTOS] ⚠️ ERRO: MPAG_API_KEY_NEW não configurada!');
+      throw new Error('MPAG_API_KEY_NEW não configurada');
     }
     
-    console.log('[4MPAGAMENTOS] API client inicializada com sucesso');
+    console.log('[4MPAGAMENTOS] API client inicializada com sucesso com nova chave');
   }
 
   private getHeaders(): Record<string, string> {
