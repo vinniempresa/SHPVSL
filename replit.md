@@ -117,6 +117,11 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (TikTok Pixel D3OJACRC77U816ES04EG Instalado)**:
+  - Configurado novo TikTok Pixel ID: D3OJACRC77U816ES04EG
+  - Pixel já estava integrado globalmente via TikTokPixelInitializer em App.tsx
+  - Sistema anti-duplicata garante que cada venda é rastreada apenas uma vez
+  - Rastreamento acontece em todas as páginas de pagamento (Payment, CpfPayment, Pagamento, Pay, Treinamento)
 - **October 16, 2025 (Valor do Kit Atualizado)**:
   - Alterado valor da primeira taxa de R$ 64,90 para R$ 64,97
   - Atualizado em todos os arquivos: frontend (páginas de pagamento, pixels) e backend (rotas de API)
