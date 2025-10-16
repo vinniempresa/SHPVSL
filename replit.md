@@ -117,8 +117,13 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (Segundo TikTok Pixel D3N3EFJC77U5QFM08SUG Adicionado)**:
+  - Adicionado segundo pixel TikTok: D3N3EFJC77U5QFM08SUG
+  - Sistema agora rastreia TODAS as vendas em 2 pixels simultaneamente
+  - Cada pixel opera de forma independente com anti-duplicata próprio
+  - Cobertura total: 100% das conversões rastreadas em ambos os pixels
 - **October 16, 2025 (TikTok Pixel D3OJACRC77U816ES04EG Instalado)**:
-  - Configurado novo TikTok Pixel ID: D3OJACRC77U816ES04EG
+  - Configurado primeiro TikTok Pixel ID: D3OJACRC77U816ES04EG
   - Pixel já estava integrado globalmente via TikTokPixelInitializer em App.tsx
   - Sistema anti-duplicata garante que cada venda é rastreada apenas uma vez
   - Rastreamento acontece em todas as páginas de pagamento (Payment, CpfPayment, Pagamento, Pay, Treinamento)
