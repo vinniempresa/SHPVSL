@@ -117,6 +117,10 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (Chave API 4M Pagamentos Atualizada)**:
+  - Atualizada chave secreta do gateway 4M Pagamentos
+  - Nova chave: 3mpag_l04cmpzhx_mgtzhwuq (armazenada em MPAG_API_KEY_NEW)
+  - Sistema de pagamentos PIX agora usa a nova credencial
 - **October 16, 2025 (Segundo TikTok Pixel D3N3EFJC77U5QFM08SUG Adicionado)**:
   - Adicionado segundo pixel TikTok: D3N3EFJC77U5QFM08SUG
   - Sistema agora rastreia TODAS as vendas em 2 pixels simultaneamente
