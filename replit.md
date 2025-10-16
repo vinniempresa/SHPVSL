@@ -117,6 +117,11 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (API de Verificação de Placas - Fix Produção)**:
+  - CORRIGIDO: Removido código conflitante que tentava usar proxy Netlify inexistente
+  - Página /cadastro agora usa apenas VehicleInfoBox para consultas de placas
+  - Sistema funciona corretamente via endpoint /api/vehicle-info/:placa do backend
+  - Logs de debug adicionados para facilitar troubleshooting
 - **October 16, 2025 (API de Verificação de Placas Integrada)**:
   - Integrada API de verificação de placas de veículos
   - Configurada chave API segura via variável de ambiente VEHICLE_API_KEY
