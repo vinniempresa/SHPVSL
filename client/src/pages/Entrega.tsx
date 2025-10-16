@@ -1112,7 +1112,7 @@ const Entrega: React.FC = () => {
                       <h4 className="text-sm font-medium text-[#E83D22]">Informação Importante:</h4>
                       <p className="text-sm text-gray-700">
                         Para ativar seu cadastro e se tornar um entregador Shopee, é obrigatório a aquisição do 
-                        Kit Oficial de Entregador da Shopee. O kit é entregue a preço de custo por <strong>R$64,90</strong>.
+                        Kit Oficial de Entregador da Shopee. O kit é entregue a preço de custo por <strong>R$64,97</strong>.
                       </p>
                     </div>
                   </div>

@@ -52,7 +52,7 @@ const Treinamento: FC = () => {
     // Disparar evento Purchase usando a biblioteca centralizada
     const tracked = trackTikTokPurchase(
       pageConversionId,
-      64.90,
+      64.97,
       'BRL',
       'Kit de Segurança Shopee'
     );

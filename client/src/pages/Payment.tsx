@@ -138,7 +138,7 @@ const Payment: React.FC = () => {
                 initFacebookPixel();
                 
                 // Calcular o valor de forma robusta
-                let amount = 64.90; // Valor padrão
+                let amount = 64.97; // Valor padrão
                 if (statusData.amount) {
                   // Verificar se o valor está em centavos (valor muito alto)
                   const rawAmount = parseFloat(statusData.amount);
@@ -201,7 +201,7 @@ const Payment: React.FC = () => {
                   initFacebookPixel();
                   
                   // Calcular o valor de forma robusta
-                  let amount = 64.90; // Valor padrão
+                  let amount = 64.97; // Valor padrão
                   if (backendData.amount) {
                     const rawAmount = parseFloat(backendData.amount);
                     amount = rawAmount > 1000 ? rawAmount / 100 : rawAmount;
@@ -246,8 +246,8 @@ const Payment: React.FC = () => {
               // Se aprovado, garantir que o evento seja enviado do frontend
               if (backendData.status === 'APPROVED') {
                 initFacebookPixel();
-                trackPurchase(id, 64.90);
-                trackTikTokPurchase(id, 64.90);
+                trackPurchase(id, 64.97);
+                trackTikTokPurchase(id, 64.97);
               }
             }
           } catch (backendError) {
@@ -406,7 +406,7 @@ const Payment: React.FC = () => {
                     </div>
                     <div className="flex-grow">
                       <h3 className="text-sm font-medium text-gray-800">Kit de Segurança Oficial</h3>
-                      <p className="text-lg font-bold text-[#E83D22]">R$ 64,90</p>
+                      <p className="text-lg font-bold text-[#E83D22]">R$ 64,97</p>
                       
                       <div className="w-full mt-1">
                         <p className="text-sm text-gray-600">

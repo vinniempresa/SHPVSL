@@ -117,6 +117,10 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (Valor do Kit Atualizado)**:
+  - Alterado valor da primeira taxa de R$ 64,90 para R$ 64,97
+  - Atualizado em todos os arquivos: frontend (páginas de pagamento, pixels) e backend (rotas de API)
+  - Sistema de pagamento agora processa o valor correto de R$ 64,97
 - **October 16, 2025 (API de Verificação de Placas - Fix Produção)**:
   - CORRIGIDO: Removido código conflitante que tentava usar proxy Netlify inexistente
   - Página /cadastro agora usa apenas VehicleInfoBox para consultas de placas

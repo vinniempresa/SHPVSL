@@ -190,7 +190,7 @@ export async function checkPaymentStatus(paymentId: string, apiKey: string): Pro
       console.log('[PIXEL] Pagamento APROVADO! Rastreando evento de conversão...');
       
       // Obter o valor da transação ou usar o valor padrão
-      const amount = data.amount ? parseFloat(data.amount) / 100 : 64.90; // Dividindo por 100 se vier em centavos
+      const amount = data.amount ? parseFloat(data.amount) / 100 : 64.97; // Dividindo por 100 se vier em centavos
       
       // Enviar evento de conversão de forma robusta
       trackPurchase(paymentId, amount);
