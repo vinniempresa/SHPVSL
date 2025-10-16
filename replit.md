@@ -117,6 +117,11 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (Nova Conta 4M Pagamentos Integrada)**:
+  - Migrada integração de pagamento para nova conta 4M Pagamentos
+  - Atualizada URL da API para https://app.4mpagamentos.com/api/v1
+  - Configurada chave API segura via variável de ambiente MPAG_API_KEY_NEW
+  - Todos os logs e comentários atualizados para refletir 4M Pagamentos
 - **October 16, 2025 (Proteções Completamente Removidas)**:
   - Removido import do useDesktopProtection do App.tsx
   - Confirmado que TODAS as proteções de desktop/IP foram removidas
