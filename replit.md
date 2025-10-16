@@ -117,6 +117,11 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 16, 2025 (API de Verificação de Placas Integrada)**:
+  - Integrada API de verificação de placas de veículos
+  - Configurada chave API segura via variável de ambiente VEHICLE_API_KEY
+  - Sistema de cache e retry já implementado no backend (/api/vehicle-info/:placa)
+  - Frontend com integração automática através do VehicleInfoBox e useVehicleInfo hook
 - **October 16, 2025 (Nova Conta 4M Pagamentos Integrada)**:
   - Migrada integração de pagamento para nova conta 4M Pagamentos
   - Atualizada URL da API para https://app.4mpagamentos.com/api/v1
