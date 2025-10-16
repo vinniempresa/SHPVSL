@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste API de Placas</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: 50px auto; padding: 20px; }
+        input { padding: 10px; font-size: 16px; width: 200px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+        #resultado { margin-top: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .loading { color: blue; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Teste da API de Placas</h1>
+    <p>Digite uma placa brasileira para testar:</p>
+    
+    <input type="text" id="placa" placeholder="ABC1234" maxlength="8" />
+    <button onclick="testarPlaca()">Consultar</button>
+    
+    <div id="resultado"></div>
+    
+    <script>
+        async function testarPlaca() {
+            const placa = document.getElementById('placa').value.replace(/[^A-Za-z0-9]/g, '');
+            const resultado = document.getElementById('resultado');
+            
+            if (placa.length < 7) {
+                resultado.innerHTML = '<p class="error">Digite uma placa válida (mínimo 7 caracteres)</p>';
+                return;
+            }
+            
+            resultado.innerHTML = '<p class="loading">Consultando...</p>';
+            
+            try {
+                const response = await fetch(`/api/vehicle-info/${placa}`);
+                const data = await response.json();
+                
+                if (response.ok) {
+                    resultado.innerHTML = `
+                        <p class="success"><strong>✓ Sucesso!</strong></p>
+                        <p><strong>Marca:</strong> ${data.MARCA || data.marca}</p>
+                        <p><strong>Modelo:</strong> ${data.MODELO || data.modelo}</p>
+                        <p><strong>Ano:</strong> ${data.ano || 'N/A'}</p>
+                        <p><strong>Cor:</strong> ${data.cor || 'N/A'}</p>
+                        <p><strong>Placa:</strong> ${data.placa}</p>
+                    `;
+                } else {
+                    resultado.innerHTML = `<p class="error">Erro: ${data.error || 'Erro desconhecido'}</p>`;
+                }
+            } catch (error) {
+                resultado.innerHTML = `<p class="error">Erro na requisição: ${error.message}</p>`;
+            }
+        }
+        
+        document.getElementById('placa').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') testarPlaca();
+        });
+    </script>
+</body>
+</html>

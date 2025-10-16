@@ -149,12 +149,8 @@ const Cadastro: React.FC = () => {
     }
   }, [debouncedCpf]);
   
-  // Efeito para buscar informações do veículo quando a placa mudar
-  useEffect(() => {
-    if (debouncedPlaca && debouncedPlaca.length >= 7) {
-      fetchVehicleInfo(debouncedPlaca);
-    }
-  }, [debouncedPlaca]);
+  // REMOVIDO: useEffect que chamava fetchVehicleInfo
+  // Agora o VehicleInfoBox component cuida disso automaticamente
 
   // Formatação de CPF
   const formatCpf = (value: string) => {

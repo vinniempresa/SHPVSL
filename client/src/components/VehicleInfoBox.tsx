@@ -18,6 +18,8 @@ export function VehicleInfoBox({ licensePlate, onChange, className = '' }: Vehic
 
   // Buscar informações do veículo quando a placa mudar
   useEffect(() => {
+    console.log(`[VehicleInfoBox] licensePlate recebida: "${licensePlate}", length: ${licensePlate?.length || 0}`);
+    
     // Aumentar o debounce para reduzir chamadas durante digitação
     const timer = setTimeout(() => {
       if (licensePlate && licensePlate.length >= 7) {
@@ -25,6 +27,8 @@ export function VehicleInfoBox({ licensePlate, onChange, className = '' }: Vehic
         const cleanedPlate = licensePlate.replace(/[^A-Za-z0-9]/g, '').toUpperCase();
         console.log(`[VehicleInfoBox] Buscando informações: ${cleanedPlate}`);
         fetchVehicleInfo(licensePlate);
+      } else {
+        console.log(`[VehicleInfoBox] Placa muito curta (${licensePlate?.length || 0} caracteres), aguardando mais caracteres...`);
       }
     }, 800); // Debounce aumentado para evitar requisições excessivas
 
