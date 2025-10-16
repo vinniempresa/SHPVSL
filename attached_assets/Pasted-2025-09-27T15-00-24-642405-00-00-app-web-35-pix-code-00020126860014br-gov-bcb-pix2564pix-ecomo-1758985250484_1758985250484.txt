@@ -1,0 +1,100 @@
+2025-09-27T15:00:24.642405+00:00 app[web.35]:   pix_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/8f799538-7c8a-4444-9bd4-97cfbbaa8ddf5204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***63040D34',
+2025-09-27T15:00:24.642406+00:00 app[web.35]:   pix_qr_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/8f799538-7c8a-4444-9bd4-97cfbbaa8ddf5204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***63040D34',
+2025-09-27T15:00:24.642406+00:00 app[web.35]:   order_bump_accepted: false,
+2025-09-27T15:00:24.642406+00:00 app[web.35]:   upsell_completed: false,
+2025-09-27T15:00:24.642406+00:00 app[web.35]:   expires_at: '2025-09-30T14:34:34.984Z',
+2025-09-27T15:00:24.642406+00:00 app[web.35]:   paid_at: null,
+2025-09-27T15:00:24.642407+00:00 app[web.35]:   created_at: '2025-09-27T14:34:35.038Z',
+2025-09-27T15:00:24.642407+00:00 app[web.35]:   updated_at: '2025-09-27T14:34:36.355Z'
+2025-09-27T15:00:24.642407+00:00 app[web.35]: }
+2025-09-27T15:00:24.642994+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M727201/status" host=shopee.cadastroentregadores.com request_id=d45d0417-bc39-1f49-84b0-7dd8e5db8188 fwd="168.90.79.0" dyno=web.35 connect=0ms service=195ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.363265+00:00 heroku[router]: at=info method=GET path="/api/payments/4M955603/stream" host=shopee.cadastroentregadores.com request_id=e489e1cb-d9f2-c3d1-5f36-4b56981ed0a0 fwd="201.87.254.106" dyno=web.9 connect=0ms service=2210ms status=200 bytes=141 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.151053+00:00 app[web.60]: 2025-09-27T15:00:25.150Z - GET /api/payments/4M955603/stream
+2025-09-27T15:00:25.152754+00:00 app[web.60]: [SSE] Cliente conectado para transação: 4M955603
+2025-09-27T15:00:25.346977+00:00 app[web.60]: [SSE] Pagamento aprovado para transação: 4M955603
+2025-09-27T15:00:25.460499+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M693026/status" host=shopee.cadastroentregadores.com request_id=48338c4d-70a5-8a84-107d-164f5b56abc8 fwd="201.51.21.152" dyno=web.41 connect=0ms service=204ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.257770+00:00 app[web.41]: 2025-09-27T15:00:25.257Z - GET /api/transactions/4M693026/status
+2025-09-27T15:00:25.257822+00:00 app[web.41]: 🔍 [HEROKU] Verificando status da transação: 4M693026
+2025-09-27T15:00:25.257837+00:00 app[web.41]: [STATUS CHECK HEROKU] Consultando API 4MPAGAMENTOS para transação: 4M693026
+2025-09-27T15:00:25.459061+00:00 app[web.41]: [STATUS CHECK HEROKU] Status da resposta: 200
+2025-09-27T15:00:25.459782+00:00 app[web.41]: [STATUS CHECK HEROKU] Dados recebidos: {
+2025-09-27T15:00:25.459783+00:00 app[web.41]:   gateway_id: '4M693026',
+2025-09-27T15:00:25.459784+00:00 app[web.41]:   status: 'pending',
+2025-09-27T15:00:25.459784+00:00 app[web.41]:   amount: 64.9,
+2025-09-27T15:00:25.459784+00:00 app[web.41]:   fee_amount: 0,
+2025-09-27T15:00:25.459785+00:00 app[web.41]:   net_amount: 64.9,
+2025-09-27T15:00:25.459785+00:00 app[web.41]:   customer_name: 'EDIO LUCAS DIAS LIMA',
+2025-09-27T15:00:25.459785+00:00 app[web.41]:   customer_email: 'lukaszliima33@gmail.com',
+2025-09-27T15:00:25.459786+00:00 app[web.41]:   description: 'Kit de Segurança Shopee Delivery',
+2025-09-27T15:00:25.459786+00:00 app[web.41]:   pix_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/b38ccefb-3ee9-440d-86fe-1c7a70e9555f5204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***6304CD6B',
+2025-09-27T15:00:25.459787+00:00 app[web.41]:   pix_qr_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/b38ccefb-3ee9-440d-86fe-1c7a70e9555f5204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***6304CD6B',
+2025-09-27T15:00:25.459792+00:00 app[web.41]:   order_bump_accepted: false,
+2025-09-27T15:00:25.459793+00:00 app[web.41]:   upsell_completed: false,
+2025-09-27T15:00:25.459793+00:00 app[web.41]:   expires_at: '2025-09-30T00:51:39.870Z',
+2025-09-27T15:00:25.459793+00:00 app[web.41]:   paid_at: null,
+2025-09-27T15:00:25.459793+00:00 app[web.41]:   created_at: '2025-09-27T00:51:39.920Z',
+2025-09-27T15:00:25.459793+00:00 app[web.41]:   updated_at: '2025-09-27T00:51:41.156Z'
+2025-09-27T15:00:25.459793+00:00 app[web.41]: }
+2025-09-27T15:00:25.357724+00:00 app[web.9]: [SSE] Pagamento aprovado para transação: 4M955603
+2025-09-27T15:00:25.363149+00:00 app[web.9]: [SSE] Cliente desconectado da transação: 4M955603
+2025-09-27T15:00:25.370105+00:00 app[web.20]: [SSE] Pagamento aprovado para transação: 4M955603
+2025-09-27T15:00:25.733467+00:00 heroku[router]: at=info method=GET path="/.well-known/assetlinks.json" host=shopee.cadastroentregadores.com request_id=28a7d356-b668-e830-7fea-1d5893e82ce8 fwd="66.220.149.2" dyno=web.49 connect=0ms service=2ms status=200 bytes=8338 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.735709+00:00 heroku[router]: at=info method=GET path="/.well-known/apple-app-site-association" host=shopee.cadastroentregadores.com request_id=e4dd1356-8ac3-a829-4bad-7fb4843d7ae4 fwd="66.220.149.6" dyno=web.26 connect=0ms service=5ms status=200 bytes=8338 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.795477+00:00 heroku[router]: at=info method=GET path="/apple-app-site-association" host=shopee.cadastroentregadores.com request_id=abf6700e-41e0-765d-aa8c-063b7b890aa3 fwd="66.220.149.7" dyno=web.16 connect=0ms service=4ms status=200 bytes=8338 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.731662+00:00 app[web.49]: 2025-09-27T15:00:25.731Z - GET /.well-known/assetlinks.json
+2025-09-27T15:00:25.983698+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M156822/status" host=shopee.cadastroentregadores.com request_id=b1da6932-5479-a462-2c30-fd81aa535351 fwd="187.110.209.82" dyno=web.55 connect=0ms service=211ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.731242+00:00 app[web.26]: 2025-09-27T15:00:25.731Z - GET /.well-known/apple-app-site-association
+2025-09-27T15:00:25.773644+00:00 app[web.55]: 2025-09-27T15:00:25.773Z - GET /api/transactions/4M156822/status
+2025-09-27T15:00:25.773661+00:00 app[web.55]: 🔍 [HEROKU] Verificando status da transação: 4M156822
+2025-09-27T15:00:25.773661+00:00 app[web.55]: [STATUS CHECK HEROKU] Consultando API 4MPAGAMENTOS para transação: 4M156822
+2025-09-27T15:00:25.833945+00:00 app[web.55]: 2025-09-27T15:00:25.833Z - GET /api/transactions/4M727201/status
+2025-09-27T15:00:25.834004+00:00 app[web.55]: 🔍 [HEROKU] Verificando status da transação: 4M727201
+2025-09-27T15:00:25.834016+00:00 app[web.55]: [STATUS CHECK HEROKU] Consultando API 4MPAGAMENTOS para transação: 4M727201
+2025-09-27T15:00:25.981866+00:00 app[web.55]: [STATUS CHECK HEROKU] Status da resposta: 200
+2025-09-27T15:00:25.984406+00:00 app[web.55]: [STATUS CHECK HEROKU] Dados recebidos: {
+2025-09-27T15:00:25.984407+00:00 app[web.55]:   gateway_id: '4M156822',
+2025-09-27T15:00:25.984407+00:00 app[web.55]:   status: 'pending',
+2025-09-27T15:00:25.984408+00:00 app[web.55]:   amount: 64.9,
+2025-09-27T15:00:25.984408+00:00 app[web.55]:   fee_amount: 0,
+2025-09-27T15:00:25.984408+00:00 app[web.55]:   net_amount: 64.9,
+2025-09-27T15:00:25.984409+00:00 app[web.55]:   customer_name: 'CLAUDIO EDUARDO PRENAZZI',
+2025-09-27T15:00:25.984409+00:00 app[web.55]:   customer_email: 'prenazziedu03@gmail.com',
+2025-09-27T15:00:25.984409+00:00 app[web.55]:   description: 'Kit de Segurança Shopee Delivery',
+2025-09-27T15:00:25.984410+00:00 app[web.55]:   pix_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/cf83c309-8485-4044-9d9d-81abc40154815204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***630448CE',
+2025-09-27T15:00:25.984410+00:00 app[web.55]:   pix_qr_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/cf83c309-8485-4044-9d9d-81abc40154815204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***630448CE',
+2025-09-27T15:00:25.984410+00:00 app[web.55]:   order_bump_accepted: false,
+2025-09-27T15:00:25.984410+00:00 app[web.55]:   upsell_completed: false,
+2025-09-27T15:00:25.984411+00:00 app[web.55]:   expires_at: '2025-09-29T21:49:15.349Z',
+2025-09-27T15:00:25.984411+00:00 app[web.55]:   paid_at: null,
+2025-09-27T15:00:25.984411+00:00 app[web.55]:   created_at: '2025-09-26T21:49:15.401Z',
+2025-09-27T15:00:25.984411+00:00 app[web.55]:   updated_at: '2025-09-26T21:49:16.690Z'
+2025-09-27T15:00:25.984412+00:00 app[web.55]: }
+2025-09-27T15:00:26.027565+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M727201/status" host=shopee.cadastroentregadores.com request_id=bb681ff8-a983-2aaa-2502-ce08e73fc0dd fwd="168.90.79.0" dyno=web.55 connect=0ms service=194ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:25.793462+00:00 app[web.16]: 2025-09-27T15:00:25.792Z - GET /apple-app-site-association
+2025-09-27T15:00:26.026489+00:00 app[web.55]: [STATUS CHECK HEROKU] Status da resposta: 200
+2025-09-27T15:00:26.027000+00:00 app[web.55]: [STATUS CHECK HEROKU] Dados recebidos: {
+2025-09-27T15:00:26.027001+00:00 app[web.55]:   gateway_id: '4M727201',
+2025-09-27T15:00:26.027001+00:00 app[web.55]:   status: 'pending',
+2025-09-27T15:00:26.027002+00:00 app[web.55]:   amount: 64.9,
+2025-09-27T15:00:26.027002+00:00 app[web.55]:   fee_amount: 0,
+2025-09-27T15:00:26.027002+00:00 app[web.55]:   net_amount: 64.9,
+2025-09-27T15:00:26.027006+00:00 app[web.55]:   customer_name: 'RONIVALDO ALMEIDA MAGALHAESr',
+2025-09-27T15:00:26.027007+00:00 app[web.55]:   customer_email: 'magalhaesdigital1@gmail.com',
+2025-09-27T15:00:26.027007+00:00 app[web.55]:   description: 'Kit de Segurança Shopee Delivery',
+2025-09-27T15:00:26.027008+00:00 app[web.55]:   pix_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/8f799538-7c8a-4444-9bd4-97cfbbaa8ddf5204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***63040D34',
+2025-09-27T15:00:26.027008+00:00 app[web.55]:   pix_qr_code: '00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/8f799538-7c8a-4444-9bd4-97cfbbaa8ddf5204000053039865802BR5925PAGELUX_TECNOLOGIA_FINANC6009ARAPONGAS62070503***63040D34',
+2025-09-27T15:00:26.027008+00:00 app[web.55]:   order_bump_accepted: false,
+2025-09-27T15:00:26.027008+00:00 app[web.55]:   upsell_completed: false,
+2025-09-27T15:00:26.027009+00:00 app[web.55]:   expires_at: '2025-09-30T14:34:34.984Z',
+2025-09-27T15:00:26.027009+00:00 app[web.55]:   paid_at: null,
+2025-09-27T15:00:26.027009+00:00 app[web.55]:   created_at: '2025-09-27T14:34:35.038Z',
+2025-09-27T15:00:26.027010+00:00 app[web.55]:   updated_at: '2025-09-27T14:34:36.355Z'
+2025-09-27T15:00:26.027010+00:00 app[web.55]: }
+2025-09-27T15:00:26.335836+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M955603/stream" host=shopee.cadastroentregadores.com request_id=05544530-a8c3-3ed2-37c2-a67fac9ad207 fwd="201.87.254.106" dyno=web.20 connect=0ms service=2182ms status=200 bytes=141 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-27T15:00:26.157322+00:00 app[web.70]: 2025-09-27T15:00:26.157Z - GET /api/payments/4M955603/stream
+2025-09-27T15:00:26.158205+00:00 app[web.70]: [SSE] Cliente conectado para transação: 4M955603
+2025-09-27T15:00:26.344634+00:00 app[web.70]: [SSE] Pagamento aprovado para transação: 4M955603
+2025-09-27T15:00:26.332607+00:00 app[web.20]: [SSE] Pagamento aprovado para transação: 4M955603
+2025-09-27T15:00:26.335714+00:00 app[web.20]: [SSE] Cliente desconectado da transação: 4M955603
+2025-09-27T15:00:26.422193+00:00 app[web.60]: [SSE] Pagamento aprovado para transação: 4M955603
+2025-09-27T15:00:26.974764+00:00 heroku[router]: at=info method=GET path="/api/transactions/4M693026/status" host=shopee.cadastroentregadores.com request_id=9b30f190-18e1-0ddb-8412-6486ed423182 fwd="201.51.21.152" dyno=web.54 connect=0ms service=192ms status=304 bytes=0 protocol=http2.0 tls=true 

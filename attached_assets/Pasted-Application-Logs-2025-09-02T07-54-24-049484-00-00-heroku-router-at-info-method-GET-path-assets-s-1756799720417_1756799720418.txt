@@ -1,0 +1,41 @@
+Application Logs
+2025-09-02T07:54:24.049484+00:00 heroku[router]: at=info method=GET path="/assets/shopee-moto-g9ZTW-iH.webp" host=shopee.cadastrodoentregador.com request_id=17b3e713-ae57-af6a-a905-65ffb00c15c9 fwd="189.82.175.72" dyno=web.22 connect=0ms service=6ms status=200 bytes=142564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:54:24.052153+00:00 heroku[router]: at=info method=GET path="/assets/shopee-cars-BEd8cnmS.webp" host=shopee.cadastrodoentregador.com request_id=8a4597dd-d985-9dbd-bcb5-62e69c42c791 fwd="189.82.175.72" dyno=web.10 connect=0ms service=10ms status=200 bytes=140702 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:54:33.646864+00:00 app[web.21]: 2025-09-02T07:54:33.646Z - GET /assets/kit-epi-new-Du3wJUxp.webp
+2025-09-02T07:54:33.648800+00:00 heroku[router]: at=info method=GET path="/assets/kit-epi-new-Du3wJUxp.webp" host=shopee.cadastrodoentregador.com request_id=02067eb8-0a5d-bb72-2490-9906051e4c4f fwd="189.55.143.77" dyno=web.21 connect=0ms service=3ms status=200 bytes=48216 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:54:44.630426+00:00 app[web.18]: 2025-09-02T07:54:44.630Z - GET /api/check-ip-status
+2025-09-02T07:54:44.632678+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=fa4b914c-2fe0-f1ad-644a-8b62829d5ddf fwd="201.87.252.51" dyno=web.18 connect=0ms service=3ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:54:49.792357+00:00 app[web.48]: 2025-09-02T07:54:49.791Z - GET /api/check-ip-status
+2025-09-02T07:54:49.795799+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=a5bc48b3-fef0-cc9d-bbf8-2e15f1075562 fwd="189.82.175.72" dyno=web.48 connect=0ms service=7ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:54:51.985772+00:00 app[web.30]: 2025-09-02T07:54:51.985Z - GET /api/check-ip-status
+2025-09-02T07:54:51.988310+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=48f2097d-1a0a-c5fe-38df-9820c5123515 fwd="189.55.143.77" dyno=web.30 connect=0ms service=3ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:01.987370+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=bbbd2f29-3566-2f37-4756-9bb2ff109825 fwd="201.87.252.51" dyno=web.7 connect=0ms service=9ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:01.997499+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=78dc0b9b-8023-5cc9-0ee6-980f23b52fd3 fwd="177.131.17.53" dyno=web.40 connect=0ms service=10ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:01.985623+00:00 app[web.7]: 2025-09-02T07:55:01.985Z - POST /api/app-users/login
+2025-09-02T07:55:01.985854+00:00 app[web.7]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:01.985921+00:00 app[web.7]: ❌ CPF não encontrado: 065.370.801-77
+2025-09-02T07:55:01.992689+00:00 app[web.40]: 2025-09-02T07:55:01.992Z - GET /api/check-ip-status
+2025-09-02T07:55:02.667219+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=5a3d604a-20a0-b15b-9758-0919e219d5c6 fwd="201.87.252.51" dyno=web.5 connect=0ms service=2ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:02.666277+00:00 app[web.5]: 2025-09-02T07:55:02.666Z - POST /api/app-users/login
+2025-09-02T07:55:02.666361+00:00 app[web.5]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:02.667255+00:00 app[web.5]: ❌ CPF não encontrado: 065.370.801-77
+2025-09-02T07:55:03.256650+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=1dd3572a-56f3-3b8d-4285-996fbdb13189 fwd="201.87.252.51" dyno=web.10 connect=0ms service=8ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:03.255666+00:00 app[web.10]: 2025-09-02T07:55:03.255Z - POST /api/app-users/login
+2025-09-02T07:55:03.256078+00:00 app[web.10]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:03.256113+00:00 app[web.10]: ❌ CPF não encontrado: 065.370.801-77
+2025-09-02T07:55:03.825327+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=11f5ad8a-d557-79e6-0bff-0d64878eb3a0 fwd="201.87.252.51" dyno=web.53 connect=0ms service=10ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:03.822789+00:00 app[web.53]: 2025-09-02T07:55:03.822Z - POST /api/app-users/login
+2025-09-02T07:55:03.823317+00:00 app[web.53]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:03.823450+00:00 app[web.53]: ❌ CPF não encontrado: 065.370.801-77
+2025-09-02T07:55:04.393506+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=f14c460f-f71a-46ee-7776-a10fa155fd3b fwd="201.87.252.51" dyno=web.15 connect=0ms service=13ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:04.390787+00:00 app[web.15]: 2025-09-02T07:55:04.390Z - POST /api/app-users/login
+2025-09-02T07:55:04.391251+00:00 app[web.15]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:04.391303+00:00 app[web.15]: ❌ CPF não encontrado: 065.370.801-77
+2025-09-02T07:55:04.834815+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=d8dc30dc-2fb1-7c2d-1388-1177e3140f4a fwd="201.87.252.51" dyno=web.57 connect=0ms service=9ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:04.833401+00:00 app[web.57]: 2025-09-02T07:55:04.833Z - POST /api/app-users/login
+2025-09-02T07:55:04.833914+00:00 app[web.57]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:04.833970+00:00 app[web.57]: ❌ CPF não encontrado: 065.370.801-77
+2025-09-02T07:55:05.343613+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastrodoentregador.com request_id=9a5b523f-5ec9-f3d5-e152-66aded864b7b fwd="201.87.252.51" dyno=web.12 connect=0ms service=11ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-02T07:55:05.341636+00:00 app[web.12]: 2025-09-02T07:55:05.341Z - POST /api/app-users/login
+2025-09-02T07:55:05.342036+00:00 app[web.12]: 🔐 Tentativa de login com CPF: 065.370.801-77
+2025-09-02T07:55:05.342066+00:00 app[web.12]: ❌ CPF não encontrado: 065.370.801-77

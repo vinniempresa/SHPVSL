@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="64" fill="#E83D22"/>
+  <path d="M256 110C192.7 110 140 162.7 140 226C140 289.3 192.7 342 256 342C319.3 342 372 289.3 372 226C372 162.7 319.3 110 256 110ZM256 310C209.1 310 172 272.9 172 226C172 179.1 209.1 142 256 142C302.9 142 340 179.1 340 226C340 272.9 302.9 310 256 310Z" fill="white"/>
+  <path d="M256 178C231.9 178 212 197.9 212 222C212 246.1 231.9 266 256 266C280.1 266 300 246.1 300 222C300 197.9 280.1 178 256 178Z" fill="white"/>
+  <text x="256" y="410" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">SHOPEE</text>
+  <text x="256" y="450" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white">DELIVERY PARTNERS</text>
+</svg>

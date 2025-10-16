@@ -1,0 +1,443 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Shopee Treinamento
+  </title>
+  <meta content="width=375, initial-scale=1" name="viewport"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body, .sora {
+      font-family: 'Sora', Arial, sans-serif !important;
+    }
+    .btn-treinamento:focus-visible {
+      outline: 2px solid #f55a1e;
+      outline-offset: 2px;
+    }
+    .app-shadow {
+      box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08), 0 1.5px 0 0 #f3f4f6;
+    }
+    .app-bottom-shadow {
+      box-shadow: 0 -2px 16px 0 rgba(0,0,0,0.08), 0 -1.5px 0 0 #f3f4f6;
+    }
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
+    html, body {
+      background: #fafbfc;
+      overscroll-behavior-y: none;
+      min-height: 100vh;
+      height: 100%;
+    }
+    @media (max-width: 430px) {
+      body {
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-top: env(safe-area-inset-top);
+      }
+    }
+    .modal-bg {
+      background: rgba(0,0,0,0.25);
+      backdrop-filter: blur(2px);
+    }
+    /* Força todas as bordas arredondadas para 8px */
+    .rounded-2xl, .rounded-xl, .rounded-lg, .rounded-full, .rounded-t-2xl, .rounded-b-2xl, .rounded, .rounded-t-lg, .rounded-b-lg, .rounded-t, .rounded-b, .rounded-md, .rounded-sm {
+      border-radius: 8px !important;
+    }
+    .btn-treinamento img, .btn-treinamento .rounded-t-2xl {
+      border-radius: 8px 8px 0 0 !important;
+    }
+    .btn-treinamento {
+      border-radius: 8px !important;
+    }
+    /* Custom 2px border radius for specific elements */
+    .rounded-2px {
+      border-radius: 2px !important;
+    }
+  </style>
+ </head>
+ <body class="bg-[#fafbfc] min-h-screen flex flex-col justify-between sora relative" style="max-width:430px;margin:0 auto;box-shadow:0 0 24px 0 rgba(0,0,0,0.08);height:100vh;">
+  <!-- Header -->
+  <div class="bg-[#f55a1e] w-full h-[48px] fixed top-0 left-0 flex items-center justify-between px-4 pt-2 pb-1 z-30 sora app-shadow" style="max-width:430px;">
+   <div class="flex items-center">
+    <div class="w-[36px] h-[36px] flex items-center justify-center">
+     <img alt="Shopee logo icon, white bag with orange S on orange background" class="w-7 h-7" height="28" src="https://freelogopng.com/images/all_img/1656181355shopee-icon-white.png" width="28"/>
+    </div>
+   </div>
+   <div>
+    <button aria-label="Abrir notificações" class="relative focus:outline-none" id="bell-btn">
+     <i class="fas fa-bell text-white text-xl">
+     </i>
+     <span class="absolute -top-1 -right-1 bg-white text-[#f55a1e] text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center border border-[#f55a1e]" id="notif-badge" style="padding:0;">
+      1
+     </span>
+    </button>
+   </div>
+  </div>
+  <!-- Modal Notificações -->
+  <div class="fixed inset-0 z-50 flex items-center justify-center hidden" id="modal-notificacoes">
+   <div class="modal-bg absolute inset-0">
+   </div>
+   <div class="relative bg-white rounded-2xl shadow-2xl w-[92%] max-w-[370px] mx-auto p-0 overflow-hidden z-10 border border-[#f3f4f6]">
+    <div class="flex items-center justify-between px-5 py-4 border-b border-gray-100 bg-[#f55a1e] rounded-t-2xl">
+     <span class="text-white text-lg font-bold sora">
+      Notificações
+     </span>
+     <button aria-label="Fechar notificações" class="text-white text-2xl focus:outline-none" id="close-modal-btn">
+      <i class="fas fa-times">
+      </i>
+     </button>
+    </div>
+    <div class="p-5">
+     <div class="flex items-start space-x-3">
+      <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-orange-100">
+       <i aria-hidden="true" class="fas fa-exclamation-triangle text-[#f55a1e] text-2xl">
+       </i>
+      </div>
+      <div>
+       <div class="font-bold text-[#f55a1e] mb-1 sora">
+        Treinamento obrigatório pendente
+       </div>
+       <div class="text-gray-700 text-sm mb-1">
+        Você ainda não realizou o treinamento obrigatório para entregadores. Acesse o treinamento para continuar utilizando a plataforma.
+       </div>
+       <div class="text-xs text-gray-400">
+        Agora mesmo
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Main Content -->
+  <div class="flex-1 w-full flex flex-col items-center mt-[52px] mb-[90px] sora overflow-y-auto" id="content" style="max-width:430px;">
+   <!-- Home Page Content -->
+   <div class="w-full" id="home-content">
+    <!-- Alert Card -->
+    <div class="w-[94%] max-w-[400px] bg-gradient-to-br from-[#f55a1e] to-[#ff7e3e] rounded-2xl p-0 mb-6 flex justify-center items-center mx-auto shadow-lg border border-[#ff7e3e]/20">
+     <img alt="Banner de treinamento obrigatório Shopee, com ícone de alerta e texto em português sobre o treinamento para entregadores" class="w-full object-cover rounded-2xl" src="https://ppyxcanzwxsbsrokvpky.supabase.co/storage/v1/object/public/app-assets/apps/banners/1756753623789-1jp3dstfhyf.png" style="max-height: 200px;"/>
+    </div>
+    <!-- Square Card Aligned Left with Button Effect and Shadow -->
+    <div class="w-full flex justify-start pl-4">
+     <button aria-label="Acessar treinamento" class="btn-treinamento w-[170px] bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col sora transition transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-[#f55a1e] active:scale-95 border border-[#f3f4f6]" style="border:none; padding:0;" type="button">
+      <div class="relative">
+       <img alt="Banner quadrado Shopee treinamento, ilustração de entregador e texto em português" class="w-full h-[170px] object-cover rounded-t-2xl select-none pointer-events-none transition-shadow duration-200 hover:shadow-xl" draggable="false" src="https://i.ibb.co/nMfSpcM1/assets-task-01k43b21e2eqrszdavwvt81vf6-1756753987-img-0.webp"/>
+       <span class="absolute top-2 right-2 bg-white/80 text-[#f55a1e] text-xs font-bold px-2 py-0.5 rounded-full shadow">
+        Novo
+       </span>
+      </div>
+      <div class="bg-[#FB4903] text-white text-center py-3 text-base font-bold sora transition-colors duration-150 hover:bg-[#e04e1a] shadow-md tracking-wide">
+       ACESSAR TREINAMENTO
+      </div>
+     </button>
+    </div>
+    <!-- Quick Actions -->
+    <div class="w-full max-w-[400px] mx-auto mt-8 flex justify-between px-4">
+     <div class="flex flex-col items-center">
+      <button class="bg-white rounded-2px shadow-lg w-14 h-14 flex items-center justify-center border border-[#f3f4f6] hover:bg-[#fff5f0] transition">
+       <i class="fas fa-book-open text-[#f55a1e] text-2xl">
+       </i>
+      </button>
+      <span class="text-xs mt-2 text-gray-700 font-medium">
+       Meus Cursos
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <button class="bg-white rounded-2px shadow-lg w-14 h-14 flex items-center justify-center border border-[#f3f4f6] hover:bg-[#fff5f0] transition">
+       <i class="fas fa-question-circle text-[#f55a1e] text-2xl">
+       </i>
+      </button>
+      <span class="text-xs mt-2 text-gray-700 font-medium">
+       Ajuda
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <button class="bg-white rounded-2px shadow-lg w-14 h-14 flex items-center justify-center border border-[#f3f4f6] hover:bg-[#fff5f0] transition">
+       <i class="fas fa-user text-[#f55a1e] text-2xl">
+       </i>
+      </button>
+      <span class="text-xs mt-2 text-gray-700 font-medium">
+       Perfil
+      </span>
+     </div>
+    </div>
+    <!-- Section: Dicas rápidas -->
+    <div class="w-full max-w-[400px] mx-auto mt-8 px-4">
+     <h3 class="text-lg font-bold mb-2 text-[#f55a1e]">
+      Dicas rápidas
+     </h3>
+     <div class="flex space-x-3 overflow-x-auto pb-2">
+      <div class="min-w-[140px] bg-white rounded-xl shadow p-3 flex flex-col items-center border border-[#f3f4f6]">
+       <img alt="Ícone de capacete de entregador laranja, estilo flat" class="w-12 h-12 mb-2" height="60" src="https://replicate.delivery/xezq/hBdOeikZxKRwACiuv9x9uvAKuL7el2ENE6kqK1xuNMS9zfhqA/out-0.png" width="60"/>
+       <span class="text-xs text-gray-700 text-center">
+        Use sempre o capacete
+       </span>
+      </div>
+      <div class="min-w-[140px] bg-white rounded-xl shadow p-3 flex flex-col items-center border border-[#f3f4f6]">
+       <img alt="Ícone de caixa de entrega laranja, estilo flat" class="w-12 h-12 mb-2" height="60" src="https://replicate.delivery/xezq/MVJaO2VEMNLgOZDGa2xjXjYF7nrjMCICHScVZGb9U5HfezfhqA/out-0.png" width="60"/>
+       <span class="text-xs text-gray-700 text-center">
+        Conferir o pacote antes de sair
+       </span>
+      </div>
+      <div class="min-w-[140px] bg-white rounded-xl shadow p-3 flex flex-col items-center border border-[#f3f4f6]">
+       <img alt="Ícone de smartphone com mapa, estilo flat" class="w-12 h-12 mb-2" height="60" src="https://replicate.delivery/xezq/C4e7QRJqkq3kNq0v5GjCcWm6vLBuIvQrcCOqZBfjkBY9zfhqA/out-0.png" width="60"/>
+       <span class="text-xs text-gray-700 text-center">
+        Acompanhe o trajeto pelo app
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Entregas Page Content -->
+   <div class="w-full hidden" id="entregas-content">
+    <h2 class="text-2xl font-bold text-center my-6 sora text-[#f55a1e]">
+     Entregas Disponíveis
+    </h2>
+    <div class="w-[94%] max-w-[400px] bg-white rounded-2xl p-4 mb-4 mx-auto shadow-lg border border-[#f3f4f6]">
+     <div class="flex items-center mb-2">
+      <img alt="Ícone de pacote de entrega laranja em fundo branco, flat" class="w-10 h-10 rounded-full mr-3" height="40" src="https://replicate.delivery/xezq/lUeAawqR3ZSzVaxfBqaPPofrbTI5riISbI774GdvYQDFXAiqA/out-0.png" width="40"/>
+      <h3 class="font-bold sora text-[#f55a1e]">
+       Rota Centro (São Paulo)
+      </h3>
+     </div>
+     <p class="text-gray-700 text-sm">
+      Entregas disponíveis:
+      <span class="font-bold">
+       54
+      </span>
+      <br/>
+      Ganho total:
+      <span class="font-bold">
+       R$ 648,00
+      </span>
+     </p>
+     <button class="mt-4 w-full bg-[#f55a1e] hover:bg-[#e04e1a] text-white font-bold py-2 rounded-2px shadow transition sora text-base flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-[#f55a1e]">
+      <i class="fas fa-box">
+      </i>
+      Realizar entregas
+     </button>
+    </div>
+    <div class="w-[94%] max-w-[400px] bg-white rounded-2xl p-4 mb-4 mx-auto shadow-lg border border-[#f3f4f6]">
+     <div class="flex items-center mb-2">
+      <img alt="Ícone de pacote de entrega laranja em fundo branco, flat" class="w-10 h-10 rounded-full mr-3" height="40" src="https://replicate.delivery/xezq/lUeAawqR3ZSzVaxfBqaPPofrbTI5riISbI774GdvYQDFXAiqA/out-0.png" width="40"/>
+      <h3 class="font-bold sora text-[#f55a1e]">
+       Rota Zona Sul (São Paulo)
+      </h3>
+     </div>
+     <p class="text-gray-700 text-sm">
+      Entregas disponíveis:
+      <span class="font-bold">
+       68
+      </span>
+      <br/>
+      Ganho total:
+      <span class="font-bold">
+       R$ 816,00
+      </span>
+     </p>
+     <button class="mt-4 w-full bg-[#f55a1e] hover:bg-[#e04e1a] text-white font-bold py-2 rounded-2px shadow transition sora text-base flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-[#f55a1e]">
+      <i class="fas fa-box">
+      </i>
+      Realizar entregas
+     </button>
+    </div>
+    <div class="w-[94%] max-w-[400px] bg-white rounded-2xl p-4 mb-4 mx-auto shadow-lg border border-[#f3f4f6]">
+     <div class="flex items-center mb-2">
+      <img alt="Ícone de pacote de entrega laranja em fundo branco, flat" class="w-10 h-10 rounded-full mr-3" height="40" src="https://replicate.delivery/xezq/lUeAawqR3ZSzVaxfBqaPPofrbTI5riISbI774GdvYQDFXAiqA/out-0.png" width="40"/>
+      <h3 class="font-bold sora text-[#f55a1e]">
+       Rota Leste (São Paulo)
+      </h3>
+     </div>
+     <p class="text-gray-700 text-sm">
+      Entregas disponíveis:
+      <span class="font-bold">
+       42
+      </span>
+      <br/>
+      Ganho total:
+      <span class="font-bold">
+       R$ 504,00
+      </span>
+     </p>
+     <button class="mt-4 w-full bg-[#f55a1e] hover:bg-[#e04e1a] text-white font-bold py-2 rounded-2px shadow transition sora text-base flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-[#f55a1e]">
+      <i class="fas fa-box">
+      </i>
+      Realizar entregas
+     </button>
+    </div>
+    <div class="w-[94%] max-w-[400px] bg-white rounded-2xl p-4 mb-4 mx-auto shadow-lg border border-[#f3f4f6]">
+     <div class="flex items-center mb-2">
+      <img alt="Ícone de pacote de entrega laranja em fundo branco, flat" class="w-10 h-10 rounded-full mr-3" height="40" src="https://replicate.delivery/xezq/lUeAawqR3ZSzVaxfBqaPPofrbTI5riISbI774GdvYQDFXAiqA/out-0.png" width="40"/>
+      <h3 class="font-bold sora text-[#f55a1e]">
+       Rota Norte (São Paulo)
+      </h3>
+     </div>
+     <p class="text-gray-700 text-sm">
+      Entregas disponíveis:
+      <span class="font-bold">
+       85
+      </span>
+      <br/>
+      Ganho total:
+      <span class="font-bold">
+       R$ 1.020,00
+      </span>
+     </p>
+     <button class="mt-4 w-full bg-[#f55a1e] hover:bg-[#e04e1a] text-white font-bold py-2 rounded-2px shadow transition sora text-base flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-[#f55a1e]">
+      <i class="fas fa-box">
+      </i>
+      Realizar entregas
+     </button>
+    </div>
+    <div class="w-[94%] max-w-[400px] bg-white rounded-2xl p-4 mb-4 mx-auto shadow-lg border border-[#f3f4f6]">
+     <div class="flex items-center mb-2">
+      <img alt="Ícone de pacote de entrega laranja em fundo branco, flat" class="w-10 h-10 rounded-full mr-3" height="40" src="https://replicate.delivery/xezq/lUeAawqR3ZSzVaxfBqaPPofrbTI5riISbI774GdvYQDFXAiqA/out-0.png" width="40"/>
+      <h3 class="font-bold sora text-[#f55a1e]">
+       Rota Oeste (São Paulo)
+      </h3>
+     </div>
+     <p class="text-gray-700 text-sm">
+      Entregas disponíveis:
+      <span class="font-bold">
+       61
+      </span>
+      <br/>
+      Ganho total:
+      <span class="font-bold">
+       R$ 732,00
+      </span>
+     </p>
+     <button class="mt-4 w-full bg-[#f55a1e] hover:bg-[#e04e1a] text-white font-bold py-2 rounded-2px shadow transition sora text-base flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-[#f55a1e]">
+      <i class="fas fa-box">
+      </i>
+      Realizar entregas
+     </button>
+    </div>
+   </div>
+   <!-- Saldo Page Content -->
+   <div class="w-full hidden" id="saldo-content">
+    <div class="w-[94%] max-w-[400px] bg-white rounded-2xl p-6 mb-4 mx-auto shadow-lg mt-8 sora flex flex-col items-center border border-[#f3f4f6]">
+     <h2 class="text-2xl font-bold mb-4 sora text-center text-[#f55a1e]">
+      Saldo disponível
+     </h2>
+     <div class="flex items-center justify-center mb-6">
+      <i class="fas fa-wallet text-[#f55a1e] text-3xl mr-3">
+      </i>
+      <span class="text-3xl font-bold text-gray-800 sora">
+       R$ 0,00
+      </span>
+     </div>
+     <button aria-disabled="true" class="bg-gray-300 text-gray-500 font-bold py-3 px-8 rounded-lg cursor-not-allowed text-lg sora shadow-md opacity-70" disabled="" type="button">
+      Realizar saque
+     </button>
+     <div class="w-full mt-8">
+      <h3 class="text-base font-bold text-[#f55a1e] mb-2">
+       Histórico de transações
+      </h3>
+      <ul class="divide-y divide-gray-100">
+       <li class="flex justify-between py-2">
+        <span class="text-gray-700">
+         Entrega #12345
+        </span>
+        <span class="text-gray-500">
+         R$ 0,00
+        </span>
+       </li>
+       <li class="flex justify-between py-2">
+        <span class="text-gray-700">
+         Entrega #12344
+        </span>
+        <span class="text-gray-500">
+         R$ 0,00
+        </span>
+       </li>
+       <li class="flex justify-between py-2">
+        <span class="text-gray-700">
+         Entrega #12343
+        </span>
+        <span class="text-gray-500">
+         R$ 0,00
+        </span>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Bottom Navigation -->
+  <div class="fixed bottom-0 left-0 w-full bg-white flex justify-between items-center border-t border-gray-200 z-30 sora app-bottom-shadow" style="max-width:430px;">
+   <div class="flex-1 flex flex-col items-center py-2 cursor-pointer sora transition" id="nav-home" onclick="showPage('home')">
+    <i class="fas fa-home text-[#f55a1e] text-2xl">
+    </i>
+    <span class="text-[#f55a1e] text-base font-medium mt-1 sora">
+     Início
+    </span>
+   </div>
+   <div class="flex-1 flex flex-col items-center py-2 cursor-pointer sora transition" id="nav-entregas" onclick="showPage('entregas')">
+    <i class="fas fa-box text-[#f55a1e] text-2xl opacity-40">
+    </i>
+    <span class="text-[#f55a1e] text-base font-medium mt-1 opacity-40 sora">
+     Entregas
+    </span>
+   </div>
+   <div class="flex-1 flex flex-col items-center py-2 cursor-pointer sora transition" id="nav-saldo" onclick="showPage('saldo')">
+    <i class="fas fa-wallet text-[#f55a1e] text-2xl opacity-40">
+    </i>
+    <span class="text-[#f55a1e] text-base font-medium mt-1 opacity-40 sora">
+     Saldo
+    </span>
+   </div>
+  </div>
+  <script>
+   function showPage(page) {
+      document.getElementById('home-content').classList.add('hidden');
+      document.getElementById('entregas-content').classList.add('hidden');
+      document.getElementById('saldo-content').classList.add('hidden');
+      document.getElementById(`${page}-content`).classList.remove('hidden');
+
+      // Update active state in navigation
+      const navs = ['home', 'entregas', 'saldo'];
+      navs.forEach(n => {
+        const nav = document.getElementById('nav-' + n);
+        if (n === page) {
+          nav.querySelector('i').classList.remove('opacity-40');
+          nav.querySelector('span').classList.remove('opacity-40');
+        } else {
+          nav.querySelector('i').classList.add('opacity-40');
+          nav.querySelector('span').classList.add('opacity-40');
+        }
+      });
+    }
+
+    // Modal Notificações
+    const bellBtn = document.getElementById('bell-btn');
+    const modal = document.getElementById('modal-notificacoes');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const modalBg = modal.querySelector('.modal-bg');
+
+    bellBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    });
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    closeModalBtn.addEventListener('click', closeModal);
+    modalBg.addEventListener('click', closeModal);
+
+    // Fechar modal com ESC
+    document.addEventListener('keydown', function(e) {
+      if (!modal.classList.contains('hidden') && e.key === 'Escape') {
+        closeModal();
+      }
+    });
+  </script>
+ </body>
+</html>

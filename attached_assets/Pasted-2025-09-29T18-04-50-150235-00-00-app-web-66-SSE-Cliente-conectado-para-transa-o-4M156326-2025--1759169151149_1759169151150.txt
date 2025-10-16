@@ -1,0 +1,172 @@
+2025-09-29T18:04:50.150235+00:00 app[web.66]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:50.330230+00:00 app[web.66]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:50.830246+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=8bd8ef67-075b-30d2-d4a1-dea7f362939e fwd="201.87.252.50" dyno=web.24 connect=0ms service=1685ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:50.830413+00:00 app[web.24]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:51.079619+00:00 app[web.36]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:04:51.151699+00:00 app[web.12]: 2025-09-29T18:04:51.151Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:51.152202+00:00 app[web.12]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:51.336263+00:00 app[web.12]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:51.832789+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=004aefca-d85a-a317-6f74-6c0eae61c827 fwd="201.87.252.50" dyno=web.66 connect=0ms service=1685ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:51.832884+00:00 app[web.66]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:52.151865+00:00 app[web.18]: 2025-09-29T18:04:52.151Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:52.152328+00:00 app[web.18]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:52.336068+00:00 app[web.18]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:52.176190+00:00 app[web.71]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:04:52.840013+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=843eac03-6947-9252-7828-0eabbdaa6c31 fwd="201.87.252.50" dyno=web.12 connect=0ms service=1691ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:52.840248+00:00 app[web.12]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:53.209794+00:00 app[web.74]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:04:53.552850+00:00 app[web.63]: 2025-09-29T18:04:53.552Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:53.553239+00:00 app[web.63]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:53.838603+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=793c3778-917d-a45e-8f6f-b8da0792006b fwd="201.87.252.50" dyno=web.18 connect=0ms service=1687ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:53.838701+00:00 app[web.18]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:53.849583+00:00 app[web.63]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:54.161263+00:00 app[web.2]: 2025-09-29T18:04:54.161Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:54.161765+00:00 app[web.2]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:54.346340+00:00 app[web.2]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:54.275044+00:00 app[web.21]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:04:55.366339+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=7b1a63c1-a1b0-e6ec-921e-fa8e0821e77c fwd="201.87.252.50" dyno=web.63 connect=0ms service=1814ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:55.169702+00:00 app[web.74]: 2025-09-29T18:04:55.169Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:55.170320+00:00 app[web.74]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:55.370445+00:00 app[web.74]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:55.324252+00:00 app[web.22]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:04:55.366827+00:00 app[web.63]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:55.848902+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=ea6d4f78-5e58-95de-8fc5-c7938950a1d0 fwd="201.87.252.50" dyno=web.2 connect=0ms service=1688ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:55.849184+00:00 app[web.2]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:56.175488+00:00 app[web.12]: 2025-09-29T18:04:56.175Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:56.176635+00:00 app[web.12]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:56.346749+00:00 app[web.12]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:56.383374+00:00 app[web.18]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:04:56.871994+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=0d9cf672-29e1-272b-32a9-c55ec47751cf fwd="201.87.252.50" dyno=web.74 connect=0ms service=1703ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:56.872219+00:00 app[web.74]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:57.173306+00:00 app[web.30]: 2025-09-29T18:04:57.173Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:57.173726+00:00 app[web.30]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:57.380352+00:00 app[web.30]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:57.848955+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=58377cf3-55e5-ad20-de87-dfd43632dca8 fwd="201.87.252.50" dyno=web.12 connect=0ms service=1674ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:57.849112+00:00 app[web.12]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:58.181513+00:00 app[web.92]: 2025-09-29T18:04:58.181Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:58.182322+00:00 app[web.92]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:58.411308+00:00 app[web.92]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:04:58.883650+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=84e57b44-ca8e-267b-8649-59e104620c86 fwd="201.87.252.50" dyno=web.30 connect=0ms service=1711ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:58.883859+00:00 app[web.30]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:04:59.180431+00:00 app[web.78]: 2025-09-29T18:04:59.180Z - GET /api/payments/4M156326/stream
+2025-09-29T18:04:59.181446+00:00 app[web.78]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:04:59.912778+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=f7f73102-fada-f159-b9ac-0e599c1ea90e fwd="201.87.252.50" dyno=web.92 connect=0ms service=1732ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:04:59.912853+00:00 app[web.92]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:00.064124+00:00 app[web.78]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:00.182503+00:00 app[web.33]: 2025-09-29T18:05:00.182Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:00.183371+00:00 app[web.33]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:00.380205+00:00 app[web.33]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:01.046547+00:00 heroku[router]: at=info method=GET path="/12345678900" host=shopee.acesso.inc request_id=8847fdb7-2e11-ddcc-52ca-99c32a4ca853 fwd="74.125.218.192" dyno=web.50 connect=0ms service=6ms status=200 bytes=2803 protocol=http1.1 tls=true tls_version=tls1.3
+2025-09-29T18:05:01.041713+00:00 app[web.50]: 2025-09-29T18:05:01.041Z - GET /12345678900
+2025-09-29T18:05:01.190034+00:00 app[web.53]: 2025-09-29T18:05:01.189Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:01.192311+00:00 app[web.53]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:01.389732+00:00 app[web.53]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:01.566674+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=0d06395e-8c2a-8c77-37ec-ac04fcaa145c fwd="201.87.252.50" dyno=web.78 connect=0ms service=2387ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:01.567019+00:00 app[web.78]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:01.882300+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=97a7b7a2-cc2b-20d6-d0b1-1cefc3a298fe fwd="201.87.252.50" dyno=web.33 connect=0ms service=1700ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:01.882897+00:00 app[web.33]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:02.197129+00:00 app[web.28]: 2025-09-29T18:05:02.192Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:02.197142+00:00 app[web.28]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:02.892666+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=a8be971a-a495-19ee-cbaa-c001a162c689 fwd="201.87.252.50" dyno=web.53 connect=0ms service=1705ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:02.652966+00:00 app[web.28]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:02.892589+00:00 app[web.53]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:03.198088+00:00 app[web.7]: 2025-09-29T18:05:03.197Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:03.200387+00:00 app[web.7]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:03.417419+00:00 app[web.7]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:04.157962+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=fc2d27a0-59a6-fdbd-357d-74511c7354f8 fwd="201.87.252.50" dyno=web.28 connect=0ms service=1966ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:04.158209+00:00 app[web.28]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:04.476702+00:00 heroku[router]: at=info method=GET path="/95294236591" host=shopee.acesso.inc request_id=ecc9d9ec-e3c1-d041-8efa-151c3cfbaa15 fwd="74.125.218.193" dyno=web.23 connect=0ms service=3ms status=200 bytes=2803 protocol=http1.1 tls=true tls_version=tls1.3
+2025-09-29T18:05:04.474045+00:00 app[web.23]: 2025-09-29T18:05:04.473Z - GET /95294236591
+2025-09-29T18:05:04.485916+00:00 app[web.92]: 2025-09-29T18:05:04.485Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:04.486338+00:00 app[web.92]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:04.674557+00:00 app[web.92]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:04.922550+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=61a270c9-767b-787a-09c1-8813c8c9fdfc fwd="201.87.252.50" dyno=web.7 connect=0ms service=1725ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:04.925625+00:00 app[web.7]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:05.201721+00:00 app[web.42]: 2025-09-29T18:05:05.201Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:05.202311+00:00 app[web.42]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:05.395686+00:00 app[web.42]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:06.175785+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=37e9c7e9-b15c-0e0f-2e39-d9367552bab1 fwd="201.87.252.50" dyno=web.92 connect=0ms service=1690ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:06.175841+00:00 app[web.92]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:06.203385+00:00 app[web.92]: 2025-09-29T18:05:06.203Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:06.203913+00:00 app[web.92]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:06.382093+00:00 app[web.92]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:06.902595+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=262a0d04-b88f-e04d-ef69-ad5c9939bf96 fwd="201.87.252.50" dyno=web.42 connect=0ms service=1702ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:06.902819+00:00 app[web.42]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:07.323808+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.acesso.inc request_id=14b0f89c-5207-f93d-0cc1-7745f022cc88 fwd="191.26.132.155" dyno=web.91 connect=0ms service=122ms status=200 bytes=214 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:07.212269+00:00 app[web.2]: 2025-09-29T18:05:07.212Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:07.212705+00:00 app[web.2]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:07.398591+00:00 app[web.2]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:07.212517+00:00 app[web.91]: 2025-09-29T18:05:07.212Z - POST /api/app-users/login
+2025-09-29T18:05:07.212665+00:00 app[web.91]: 🔐 Tentativa de login com CPF: 637.638.262-20
+2025-09-29T18:05:07.323057+00:00 app[web.91]: ✅ Login realizado com sucesso: USZERNEI GOMES DO NASCIMENTO
+2025-09-29T18:05:07.426210+00:00 app[web.71]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:07.883661+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=acb7c45b-0f80-9af1-f2a5-8e24fd9094b5 fwd="201.87.252.50" dyno=web.92 connect=0ms service=1681ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:07.883771+00:00 app[web.92]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:08.123157+00:00 app[web.10]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:08.214899+00:00 app[web.89]: 2025-09-29T18:05:08.214Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:08.215272+00:00 app[web.89]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:08.494406+00:00 app[web.89]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:08.900843+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=51f3e296-ecc6-b678-6cab-485860ee7607 fwd="201.87.252.50" dyno=web.2 connect=0ms service=1689ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:08.900919+00:00 app[web.2]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:09.121577+00:00 app[web.67]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:09.218079+00:00 app[web.44]: 2025-09-29T18:05:09.217Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:09.218465+00:00 app[web.44]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:09.417002+00:00 app[web.44]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:09.996797+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=56df4399-a3cd-1d91-aac7-0e562bf0232d fwd="201.87.252.50" dyno=web.89 connect=0ms service=1783ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:09.996801+00:00 app[web.89]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:10.130652+00:00 app[web.51]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:10.218874+00:00 app[web.60]: 2025-09-29T18:05:10.218Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:10.221777+00:00 app[web.60]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:10.415517+00:00 app[web.60]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:10.918014+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=bfdf84f8-5e58-f004-a09b-ec7081967200 fwd="201.87.252.50" dyno=web.44 connect=0ms service=1701ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:10.918646+00:00 app[web.44]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:11.134298+00:00 app[web.61]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:11.224684+00:00 app[web.15]: 2025-09-29T18:05:11.222Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:11.224696+00:00 app[web.15]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:11.412622+00:00 app[web.15]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:11.917008+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=87d90b53-98f5-ba8d-8b92-101df753541e fwd="201.87.252.50" dyno=web.60 connect=0ms service=1699ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:11.917289+00:00 app[web.60]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:12.140478+00:00 app[web.4]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:12.227311+00:00 app[web.66]: 2025-09-29T18:05:12.227Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:12.227802+00:00 app[web.66]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:12.417883+00:00 app[web.66]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:12.918620+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=98087526-e535-2c8e-048a-a0139b479b8c fwd="201.87.252.50" dyno=web.15 connect=0ms service=1697ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:12.918710+00:00 app[web.15]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:13.219618+00:00 heroku[router]: at=info method=GET path="/assets/index-DpreQmzl.css" host=shopee.acesso.inc request_id=5764699e-86d1-0828-2474-984467e0102e fwd="74.125.218.192" dyno=web.83 connect=0ms service=5ms status=200 bytes=15134 protocol=http1.1 tls=true tls_version=tls1.3
+2025-09-29T18:05:13.140803+00:00 app[web.87]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:13.429432+00:00 heroku[router]: at=info method=GET path="/assets/index-6HZkn4Uo.js" host=shopee.acesso.inc request_id=bdda8304-cd5e-1c62-471c-1bd2d80c67ab fwd="74.125.218.201" dyno=web.39 connect=0ms service=66ms status=200 bytes=393525 protocol=http1.1 tls=true tls_version=tls1.3
+2025-09-29T18:05:13.214808+00:00 app[web.83]: 2025-09-29T18:05:13.214Z - GET /assets/index-DpreQmzl.css
+2025-09-29T18:05:13.232162+00:00 app[web.10]: 2025-09-29T18:05:13.231Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:13.232699+00:00 app[web.10]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:13.412883+00:00 app[web.10]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:13.489761+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=shopee.acesso.inc request_id=b062979e-2187-9ac1-ee2f-146017045b1d fwd="74.125.218.201" dyno=web.51 connect=0ms service=2ms status=200 bytes=175 protocol=http1.1 tls=true tls_version=tls1.3
+2025-09-29T18:05:13.364969+00:00 app[web.39]: 2025-09-29T18:05:13.363Z - GET /assets/index-6HZkn4Uo.js
+2025-09-29T18:05:13.487852+00:00 app[web.51]: 2025-09-29T18:05:13.487Z - GET /fonts/rawline/rawline.css
+2025-09-29T18:05:13.920298+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=d4f1fc6b-9491-d35d-062f-00380b1b8c76 fwd="201.87.252.50" dyno=web.66 connect=0ms service=1694ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:13.920465+00:00 app[web.66]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:14.150561+00:00 app[web.24]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:14.238236+00:00 app[web.15]: 2025-09-29T18:05:14.235Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:14.238259+00:00 app[web.15]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:14.418141+00:00 app[web.15]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:14.291494+00:00 app[web.83]: 2025-09-29T18:05:14.291Z - POST /api/proxy/for4payments/pix
+2025-09-29T18:05:14.292270+00:00 app[web.83]: [GATEWAY PROD] Usando gateway: 4MPAGAMENTOS
+2025-09-29T18:05:14.295001+00:00 app[web.83]: Dados recebidos: { name: 'João Silva', cpf: '123***00', amount: 64.9 }
+2025-09-29T18:05:14.295030+00:00 app[web.83]: Iniciando transação 4Mpagamentos no Heroku...
+2025-09-29T18:05:14.295077+00:00 app[web.83]: [4MPAGAMENTOS PROD] Usando CPF do usuário: 123***00
+2025-09-29T18:05:14.295164+00:00 app[web.83]: Enviando payload para 4Mpagamentos API: {
+2025-09-29T18:05:14.295165+00:00 app[web.83]:   "amount": "64.9",
+2025-09-29T18:05:14.295165+00:00 app[web.83]:   "customer_name": "João Silva",
+2025-09-29T18:05:14.295166+00:00 app[web.83]:   "customer_email": "joao.silva@example.com",
+2025-09-29T18:05:14.295166+00:00 app[web.83]:   "customer_cpf": "12345678900",
+2025-09-29T18:05:14.295166+00:00 app[web.83]:   "customer_phone": "11999999999",
+2025-09-29T18:05:14.295167+00:00 app[web.83]:   "description": "Kit de Segurança Shopee Delivery"
+2025-09-29T18:05:14.295168+00:00 app[web.83]: }
+2025-09-29T18:05:14.915054+00:00 heroku[router]: at=info method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=ba8cfed8-b327-a207-94f3-314f0e1dd9de fwd="201.87.252.50" dyno=web.10 connect=0ms service=1683ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:14.915311+00:00 app[web.10]: [SSE] Cliente desconectado da transação: 4M156326
+2025-09-29T18:05:15.149098+00:00 app[web.66]: [SSE] Timeout da conexão para transação: 4M156326
+2025-09-29T18:05:15.559762+00:00 app[web.38]: 2025-09-29T18:05:15.559Z - GET /api/payments/4M156326/stream
+2025-09-29T18:05:15.560293+00:00 app[web.38]: [SSE] Cliente conectado para transação: 4M156326
+2025-09-29T18:05:15.747617+00:00 app[web.38]: [SSE] Pagamento aprovado para transação: 4M156326
+2025-09-29T18:05:15.923953+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/api/payments/4M156326/stream" host=shopee.cadastroentregadores.com request_id=11f1f0f9-a994-6d39-b5d4-468dd114334b fwd="201.87.252.50" dyno=web.15 connect=0ms service=1689ms status=200 bytes=176 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-29T18:05:16.100423+00:00 heroku[router]: at=info method=POST path="/api/proxy/for4payments/pix" host=shopee.acesso.inc request_id=19bfa59e-5aef-efd2-c06b-ae0b084e98b0 fwd="74.125.218.201" dyno=web.83 connect=2ms service=1820ms status=200 bytes=2500 protocol=http1.1 tls=true tls_version=tls1.3
+2025-09-29T18:05:15.924648+00:00 app[web.15]: [SSE] Cliente desconectado da transação: 4M156326

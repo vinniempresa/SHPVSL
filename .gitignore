@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Python files (to prevent buildpack conflicts)
+*.py
+*.pyc
+__pycache__/
+.pythonlibs/
+.cache/
+uv.lock
+requirements*.txt
+.python-version

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Entregas Shopee</title>
+    
+    <meta name="description" content="Cadastre-se como entregador Shopee e comece a trabalhar conosco! Receba pedidos, faça entregas e ganhe dinheiro." />
+    <meta name="theme-color" content="#E83D22" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <!-- PWA Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/shopee-icon.jpg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/shopee-icon.jpg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512x512.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "tqmoh4z09o");
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17372990053"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17372990053');
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/fonts/rawline/rawline.css">
+    
+    <!-- CSS crítico para loading instantâneo -->
+    <style>
+      body, html {
+        background: #f55a1e !important;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+      #root {
+        min-height: 100vh;
+        background: #f55a1e;
+      }
+    </style>
+  </head>
+  <body style="background: #f55a1e; margin: 0; padding: 0;">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Base tag para garantir carregamento correto de assets -->
+    <base href="/">
+    
+    <!-- Runtime path fix apenas em ambiente de produção -->
+    <script>
+      // Em produção, verifica falhas de carregamento e tenta corrigir caminhos
+      if (window.location.hostname !== 'localhost' && !window.location.hostname.includes('replit')) {
+        window.addEventListener('error', function(e) {
+          if (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK') {
+            const src = e.target.src || e.target.href;
+            if (src && src.startsWith('/assets/')) {
+              // Tenta recarregar com caminho relativo
+              const newSrc = '.' + src;
+              if (e.target.tagName === 'SCRIPT') {
+                e.target.src = newSrc;
+              } else {
+                e.target.href = newSrc;
+              }
+            }
+          }
+        }, true);
+      }
+    </script>
+    
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script>
+      // Only include the Replit banner in development environment
+      if (window.location.hostname === 'localhost' || window.location.hostname.includes('replit.dev')) {
+        const script = document.createElement('script');
+        script.src = "https://replit.com/public/js/replit-dev-banner.js";
+        document.body.appendChild(script);
+      }
+    </script>
+  </body>
+</html>

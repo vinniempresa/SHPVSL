@@ -1,0 +1,406 @@
+2025-10-15T16:16:18.650769+00:00 app[web.4]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:18.650769+00:00 app[web.4]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:18.650770+00:00 app[web.4]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:18.650770+00:00 app[web.4]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:18.650771+00:00 app[web.4]:   errno: -111,
+2025-10-15T16:16:18.650771+00:00 app[web.4]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:18.650772+00:00 app[web.4]:   syscall: 'connect',
+2025-10-15T16:16:18.650772+00:00 app[web.4]:   address: '127.0.0.1',
+2025-10-15T16:16:18.650772+00:00 app[web.4]:   port: 5432
+2025-10-15T16:16:18.650772+00:00 app[web.4]: }
+2025-10-15T16:16:18.988352+00:00 heroku[web.7]: State changed from starting to up
+2025-10-15T16:16:18.836351+00:00 app[web.3]: ✅ Servidor Heroku rodando na porta 49921
+2025-10-15T16:16:18.836550+00:00 app[web.3]: 🌐 Ambiente: production
+2025-10-15T16:16:18.836575+00:00 app[web.3]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:18.836604+00:00 app[web.3]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:18.836625+00:00 app[web.3]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:18.838328+00:00 app[web.3]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:18.838328+00:00 app[web.3]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:18.838329+00:00 app[web.3]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:18.838329+00:00 app[web.3]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:18.838330+00:00 app[web.3]:   errno: -111,
+2025-10-15T16:16:18.838330+00:00 app[web.3]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:18.838330+00:00 app[web.3]:   syscall: 'connect',
+2025-10-15T16:16:18.838330+00:00 app[web.3]:   address: '127.0.0.1',
+2025-10-15T16:16:18.838331+00:00 app[web.3]:   port: 5432
+2025-10-15T16:16:18.838331+00:00 app[web.3]: }
+2025-10-15T16:16:19.173615+00:00 heroku[web.3]: State changed from starting to up
+2025-10-15T16:16:18.950483+00:00 app[web.12]: ✅ Servidor Heroku rodando na porta 57773
+2025-10-15T16:16:18.950682+00:00 app[web.12]: 🌐 Ambiente: production
+2025-10-15T16:16:18.950706+00:00 app[web.12]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:18.950732+00:00 app[web.12]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:18.950755+00:00 app[web.12]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:18.952688+00:00 app[web.12]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:18.952689+00:00 app[web.12]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:18.952689+00:00 app[web.12]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:18.952689+00:00 app[web.12]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:18.952690+00:00 app[web.12]:   errno: -111,
+2025-10-15T16:16:18.952690+00:00 app[web.12]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:18.952690+00:00 app[web.12]:   syscall: 'connect',
+2025-10-15T16:16:18.952690+00:00 app[web.12]:   address: '127.0.0.1',
+2025-10-15T16:16:18.952691+00:00 app[web.12]:   port: 5432
+2025-10-15T16:16:18.952691+00:00 app[web.12]: }
+2025-10-15T16:16:19.239292+00:00 heroku[web.12]: State changed from starting to up
+2025-10-15T16:16:19.000069+00:00 app[web.9]: ✅ Servidor Heroku rodando na porta 17228
+2025-10-15T16:16:19.000282+00:00 app[web.9]: 🌐 Ambiente: production
+2025-10-15T16:16:19.000306+00:00 app[web.9]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.000333+00:00 app[web.9]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.000357+00:00 app[web.9]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.002085+00:00 app[web.9]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.002085+00:00 app[web.9]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.002086+00:00 app[web.9]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.002086+00:00 app[web.9]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.002086+00:00 app[web.9]:   errno: -111,
+2025-10-15T16:16:19.002087+00:00 app[web.9]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.002087+00:00 app[web.9]:   syscall: 'connect',
+2025-10-15T16:16:19.002087+00:00 app[web.9]:   address: '127.0.0.1',
+2025-10-15T16:16:19.002088+00:00 app[web.9]:   port: 5432
+2025-10-15T16:16:19.002088+00:00 app[web.9]: }
+2025-10-15T16:16:19.292616+00:00 heroku[web.9]: State changed from starting to up
+2025-10-15T16:16:19.041536+00:00 app[web.10]: ✅ Servidor Heroku rodando na porta 27638
+2025-10-15T16:16:19.041740+00:00 app[web.10]: 🌐 Ambiente: production
+2025-10-15T16:16:19.041768+00:00 app[web.10]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.041800+00:00 app[web.10]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.041828+00:00 app[web.10]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.043645+00:00 app[web.10]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.043646+00:00 app[web.10]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.043646+00:00 app[web.10]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.043647+00:00 app[web.10]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.043647+00:00 app[web.10]:   errno: -111,
+2025-10-15T16:16:19.043648+00:00 app[web.10]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.043648+00:00 app[web.10]:   syscall: 'connect',
+2025-10-15T16:16:19.043648+00:00 app[web.10]:   address: '127.0.0.1',
+2025-10-15T16:16:19.043648+00:00 app[web.10]:   port: 5432
+2025-10-15T16:16:19.043649+00:00 app[web.10]: }
+2025-10-15T16:16:19.311303+00:00 heroku[web.6]: State changed from starting to up
+2025-10-15T16:16:19.063441+00:00 app[web.6]: ✅ Servidor Heroku rodando na porta 51140
+2025-10-15T16:16:19.063640+00:00 app[web.6]: 🌐 Ambiente: production
+2025-10-15T16:16:19.063663+00:00 app[web.6]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.063690+00:00 app[web.6]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.063712+00:00 app[web.6]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.065451+00:00 app[web.6]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.065451+00:00 app[web.6]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.065452+00:00 app[web.6]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.065452+00:00 app[web.6]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.065452+00:00 app[web.6]:   errno: -111,
+2025-10-15T16:16:19.065452+00:00 app[web.6]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.065453+00:00 app[web.6]:   syscall: 'connect',
+2025-10-15T16:16:19.065453+00:00 app[web.6]:   address: '127.0.0.1',
+2025-10-15T16:16:19.065453+00:00 app[web.6]:   port: 5432
+2025-10-15T16:16:19.065453+00:00 app[web.6]: }
+2025-10-15T16:16:19.346900+00:00 heroku[web.10]: State changed from starting to up
+2025-10-15T16:16:19.422343+00:00 heroku[web.1]: State changed from starting to up
+2025-10-15T16:16:19.096098+00:00 app[web.11]: ✅ Servidor Heroku rodando na porta 16971
+2025-10-15T16:16:19.096276+00:00 app[web.11]: 🌐 Ambiente: production
+2025-10-15T16:16:19.096299+00:00 app[web.11]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.096327+00:00 app[web.11]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.096349+00:00 app[web.11]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.098128+00:00 app[web.11]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.098129+00:00 app[web.11]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.098129+00:00 app[web.11]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.098130+00:00 app[web.11]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.098130+00:00 app[web.11]:   errno: -111,
+2025-10-15T16:16:19.098131+00:00 app[web.11]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.098131+00:00 app[web.11]:   syscall: 'connect',
+2025-10-15T16:16:19.098131+00:00 app[web.11]:   address: '127.0.0.1',
+2025-10-15T16:16:19.098131+00:00 app[web.11]:   port: 5432
+2025-10-15T16:16:19.098132+00:00 app[web.11]: }
+2025-10-15T16:16:19.150847+00:00 app[web.5]: ✅ Servidor Heroku rodando na porta 10099
+2025-10-15T16:16:19.151226+00:00 app[web.5]: 🌐 Ambiente: production
+2025-10-15T16:16:19.151288+00:00 app[web.5]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.151368+00:00 app[web.5]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.151443+00:00 app[web.5]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.153890+00:00 app[web.5]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.153891+00:00 app[web.5]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.153891+00:00 app[web.5]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.153892+00:00 app[web.5]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.153892+00:00 app[web.5]:   errno: -111,
+2025-10-15T16:16:19.153892+00:00 app[web.5]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.153893+00:00 app[web.5]:   syscall: 'connect',
+2025-10-15T16:16:19.153893+00:00 app[web.5]:   address: '127.0.0.1',
+2025-10-15T16:16:19.153893+00:00 app[web.5]:   port: 5432
+2025-10-15T16:16:19.153893+00:00 app[web.5]: }
+2025-10-15T16:16:19.430772+00:00 heroku[web.11]: State changed from starting to up
+2025-10-15T16:16:19.458227+00:00 heroku[web.5]: State changed from starting to up
+2025-10-15T16:16:19.528178+00:00 heroku[web.4]: State changed from starting to up
+2025-10-15T16:16:19.295210+00:00 app[web.8]: ✅ Servidor Heroku rodando na porta 59913
+2025-10-15T16:16:19.295433+00:00 app[web.8]: 🌐 Ambiente: production
+2025-10-15T16:16:19.295456+00:00 app[web.8]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.295483+00:00 app[web.8]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.295506+00:00 app[web.8]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.297358+00:00 app[web.8]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.297358+00:00 app[web.8]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.297358+00:00 app[web.8]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.297359+00:00 app[web.8]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.297359+00:00 app[web.8]:   errno: -111,
+2025-10-15T16:16:19.297359+00:00 app[web.8]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.297359+00:00 app[web.8]:   syscall: 'connect',
+2025-10-15T16:16:19.297360+00:00 app[web.8]:   address: '127.0.0.1',
+2025-10-15T16:16:19.297360+00:00 app[web.8]:   port: 5432
+2025-10-15T16:16:19.297360+00:00 app[web.8]: }
+2025-10-15T16:16:19.585911+00:00 heroku[web.8]: State changed from starting to up
+2025-10-15T16:16:19.600307+00:00 heroku[web.2]: State changed from starting to up
+2025-10-15T16:16:19.408246+00:00 app[web.2]: ✅ Servidor Heroku rodando na porta 3737
+2025-10-15T16:16:19.408475+00:00 app[web.2]: 🌐 Ambiente: production
+2025-10-15T16:16:19.408510+00:00 app[web.2]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-10-15T16:16:19.408551+00:00 app[web.2]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-10-15T16:16:19.408587+00:00 app[web.2]: 🚀 Polling de status via backend API ativo
+2025-10-15T16:16:19.410702+00:00 app[web.2]: ❌ Erro ao criar tabela app_users: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:19.410703+00:00 app[web.2]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:19.410703+00:00 app[web.2]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:19.410704+00:00 app[web.2]:     at async /app/heroku-simple-production.cjs:838:5 {
+2025-10-15T16:16:19.410704+00:00 app[web.2]:   errno: -111,
+2025-10-15T16:16:19.410705+00:00 app[web.2]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:19.410705+00:00 app[web.2]:   syscall: 'connect',
+2025-10-15T16:16:19.410705+00:00 app[web.2]:   address: '127.0.0.1',
+2025-10-15T16:16:19.410706+00:00 app[web.2]:   port: 5432
+2025-10-15T16:16:19.410706+00:00 app[web.2]: }
+2025-10-15T16:16:12.000000+00:00 app[api]: Build succeeded
+2025-10-15T16:16:19.880999+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtgBCU4vInWVuaR6xgsZYiUZysnr_LAvcCJmOgFuBIOiJJQbyExaJy6cCtaI9WWTykAFYLJItQuTPwRtP50y-KbCvgQR50zuqPRK_Y6_BeBRQaEazEfTu4DPS57whlEJxMOFQsQpT_A1XxHU8vNDqvXDT5hrEAEdMmxs_Gd9vDog6oO-GPrn4GsaAapLdE6DYqhneErNPWls5wS0v2Ti9odbaOxN-pRreipRWibbHtGiMUHnwhVvlf4s2xw4oo2qo6QXDYF6DsCxTDFCx5XC0lRv98QBXPoHwj5xEgR2Mi4wGiBEMV3ThKsvBhF26MA4utTGrbgcoJPLL1ypTGZvw71wKA" host=vagas.entregas-brasil.com request_id=6b23c8cc-14bf-43d1-8865-3a45b998853d fwd="179.186.223.64" dyno=web.7 connect=7001ms service=11ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:19.873575+00:00 app[web.7]: 2025-10-15T16:16:19.873Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtgBCU4vInWVuaR6xgsZYiUZysnr_LAvcCJmOgFuBIOiJJQbyExaJy6cCtaI9WWTykAFYLJItQuTPwRtP50y-KbCvgQR50zuqPRK_Y6_BeBRQaEazEfTu4DPS57whlEJxMOFQsQpT_A1XxHU8vNDqvXDT5hrEAEdMmxs_Gd9vDog6oO-GPrn4GsaAapLdE6DYqhneErNPWls5wS0v2Ti9odbaOxN-pRreipRWibbHtGiMUHnwhVvlf4s2xw4oo2qo6QXDYF6DsCxTDFCx5XC0lRv98QBXPoHwj5xEgR2Mi4wGiBEMV3ThKsvBhF26MA4utTGrbgcoJPLL1ypTGZvw71wKA
+2025-10-15T16:16:20.341694+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.Cr8BiEshGIbVNmQgA2Sq9YSo2MxVOHH3zDPODpt98SqNWb0ZPKKNwKT9xYgNiDlC1oCttOZKr2H-AwJ7-u9VnU1vp5F7NGK4BoyMbF2brSCqqnFO7zhxXyXD38RmG2USwLxn4o8jmZoo19bi1igyFj9li9fugSw7slxQu0dEWl3wz4OQ3IrrMPvjwy5CcAIiXTGYRC-JNX2fzd6LRIzGPuUvpf94PysieRfq1zCh15qwgfM3Xm7K2kzYieeWHzBz-Y0SBHYyLjAaIFD3_Q2DxY3YEuHncojeIWjFXB0YcwWSglJtCO5xOd70" host=vagas.entregas-brasil.com request_id=dcf3feb7-7fce-4641-55b6-186a2f7f76de fwd="187.62.244.202" dyno=web.12 connect=0ms service=11ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:20.541248+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=08e4f33e-3afa-547b-3aad-be36ff59c993 fwd="187.62.244.202" dyno=web.12 connect=0ms service=3ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:20.549897+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=8f93aa39-e333-a098-47f7-08b0877c0a8c fwd="187.62.244.202" dyno=web.1 connect=0ms service=12ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:20.575097+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=ac5da399-5974-e257-73f5-278ae9e1db99 fwd="187.62.244.202" dyno=web.12 connect=0ms service=37ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:20.334508+00:00 app[web.12]: 2025-10-15T16:16:20.334Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.Cr8BiEshGIbVNmQgA2Sq9YSo2MxVOHH3zDPODpt98SqNWb0ZPKKNwKT9xYgNiDlC1oCttOZKr2H-AwJ7-u9VnU1vp5F7NGK4BoyMbF2brSCqqnFO7zhxXyXD38RmG2USwLxn4o8jmZoo19bi1igyFj9li9fugSw7slxQu0dEWl3wz4OQ3IrrMPvjwy5CcAIiXTGYRC-JNX2fzd6LRIzGPuUvpf94PysieRfq1zCh15qwgfM3Xm7K2kzYieeWHzBz-Y0SBHYyLjAaIFD3_Q2DxY3YEuHncojeIWjFXB0YcwWSglJtCO5xOd70
+2025-10-15T16:16:20.537976+00:00 app[web.12]: 2025-10-15T16:16:20.537Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:20.539603+00:00 app[web.12]: 2025-10-15T16:16:20.539Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:16:20.541235+00:00 app[web.1]: 2025-10-15T16:16:20.540Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:21.735290+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=vagas.entregas-brasil.com request_id=f72959df-a671-44d3-27fb-0c167f50a265 fwd="187.62.244.202" dyno=web.3 connect=0ms service=12ms status=200 bytes=401 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.737041+00:00 heroku[router]: at=info method=GET path="/sw.js" host=vagas.entregas-brasil.com request_id=f07c0f08-fea9-f269-c4e0-ed59c4259fb9 fwd="187.62.244.202" dyno=web.3 connect=0ms service=8ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.759466+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=vagas.entregas-brasil.com request_id=c043ab71-e037-add4-7880-4651983cf09e fwd="187.62.244.202" dyno=web.4 connect=0ms service=9ms status=200 bytes=79992 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.762522+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=vagas.entregas-brasil.com request_id=98ebecf4-c42a-5552-575a-cdf2b5884fbd fwd="187.62.244.202" dyno=web.1 connect=0ms service=3ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.759674+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=vagas.entregas-brasil.com request_id=b6327d85-0768-4a82-6746-67efa7dd099c fwd="187.62.244.202" dyno=web.8 connect=0ms service=10ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.762725+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=vagas.entregas-brasil.com request_id=efce209b-8a8b-7e1c-e0e1-4fcff10377a2 fwd="187.62.244.202" dyno=web.6 connect=0ms service=13ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.760996+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=313e05da-9f81-9125-7690-a7dd1d4657ee fwd="187.62.244.202" dyno=web.6 connect=0ms service=11ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:21.726628+00:00 app[web.3]: 2025-10-15T16:16:21.726Z - GET /data/regions.json
+2025-10-15T16:16:21.730267+00:00 app[web.3]: 2025-10-15T16:16:21.730Z - GET /sw.js
+2025-10-15T16:16:21.753221+00:00 app[web.4]: 2025-10-15T16:16:21.752Z - GET /fonts/rawline/rawline-900.woff2
+2025-10-15T16:16:21.753148+00:00 app[web.6]: 2025-10-15T16:16:21.752Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:16:21.756402+00:00 app[web.6]: 2025-10-15T16:16:21.756Z - GET /fonts/rawline/rawline-600.woff2
+2025-10-15T16:16:21.753300+00:00 app[web.8]: 2025-10-15T16:16:21.752Z - GET /fonts/rawline/rawline-700.woff2
+2025-10-15T16:16:21.759852+00:00 app[web.1]: 2025-10-15T16:16:21.759Z - GET /fonts/rawline/rawline-500.woff2
+2025-10-15T16:16:22.028168+00:00 heroku[router]: at=info method=GET path="/apple-touch-icon.png" host=vagas.entregas-brasil.com request_id=79b3dbc5-d66f-3e78-32ec-bc581083fd26 fwd="187.62.244.202" dyno=web.11 connect=0ms service=10ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.059516+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=vagas.entregas-brasil.com request_id=6513656c-e3e6-c9cf-eda0-bdb7147d62fc fwd="187.62.244.202" dyno=web.2 connect=0ms service=13ms status=200 bytes=669 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.028109+00:00 heroku[router]: at=info method=GET path="/icon-192x192.png" host=vagas.entregas-brasil.com request_id=5174bbe2-a7c7-2a00-992c-bd642d41634c fwd="187.62.244.202" dyno=web.9 connect=0ms service=10ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.061263+00:00 heroku[router]: at=info method=GET path="/instalar-app" host=vagas.entregas-brasil.com request_id=e5279ff2-9442-6ab5-5818-3e2ab8453598 fwd="187.62.244.202" dyno=web.2 connect=0ms service=11ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.040758+00:00 heroku[router]: at=info method=GET path="/" host=vagas.entregas-brasil.com request_id=69b3fb27-b001-2a82-269b-e8c038d84d9d fwd="187.62.244.202" dyno=web.3 connect=0ms service=2ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.021166+00:00 app[web.11]: 2025-10-15T16:16:22.020Z - GET /apple-touch-icon.png
+2025-10-15T16:16:22.021234+00:00 app[web.9]: 2025-10-15T16:16:22.020Z - GET /icon-192x192.png
+2025-10-15T16:16:22.038562+00:00 app[web.3]: 2025-10-15T16:16:22.038Z - GET /
+2025-10-15T16:16:22.049968+00:00 app[web.2]: 2025-10-15T16:16:22.049Z - GET /manifest.json
+2025-10-15T16:16:22.053425+00:00 app[web.2]: 2025-10-15T16:16:22.053Z - GET /instalar-app
+2025-10-15T16:16:22.775315+00:00 heroku[router]: at=info method=GET path="/cadastro" host=vagas.entregas-brasil.com request_id=6037de0f-279b-d48d-08c1-bb3606e6cf52 fwd="187.62.244.202" dyno=web.6 connect=0ms service=6ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.783769+00:00 heroku[router]: at=info method=GET path="/treinamento" host=vagas.entregas-brasil.com request_id=7a68632f-ec20-047e-e452-59b40efcb20a fwd="187.62.244.202" dyno=web.5 connect=0ms service=12ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.783412+00:00 heroku[router]: at=info method=GET path="/app" host=vagas.entregas-brasil.com request_id=8c1ec77a-2092-3b16-8ae3-b0cc2b6bb1ba fwd="187.62.244.202" dyno=web.10 connect=0ms service=11ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:22.770033+00:00 app[web.6]: 2025-10-15T16:16:22.769Z - GET /cadastro
+2025-10-15T16:16:22.775368+00:00 app[web.10]: 2025-10-15T16:16:22.775Z - GET /app
+2025-10-15T16:16:22.775457+00:00 app[web.5]: 2025-10-15T16:16:22.775Z - GET /treinamento
+2025-10-15T16:16:23.088816+00:00 heroku[router]: at=info method=GET path="/shopee-icon.jpg" host=vagas.entregas-brasil.com request_id=9276a167-c59d-b8c0-ffe9-9d9f5f867ba4 fwd="187.62.244.202" dyno=web.10 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:23.101159+00:00 heroku[router]: at=info method=GET path="/icon-512x512.png" host=vagas.entregas-brasil.com request_id=ece67568-2366-171d-a08f-1b09298c57f7 fwd="187.62.244.202" dyno=web.8 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:23.137324+00:00 heroku[router]: at=info method=GET path="/cadastro" host=vagas.entregas-brasil.com request_id=2bc95577-5448-3d31-5a02-4ff360e21d03 fwd="187.62.244.202" dyno=web.3 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:23.121476+00:00 heroku[router]: at=info method=GET path="/instalar-app" host=vagas.entregas-brasil.com request_id=5639b4e4-245d-260d-2d70-5447d332c38c fwd="187.62.244.202" dyno=web.12 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:23.119845+00:00 app[web.12]: 2025-10-15T16:16:23.119Z - GET /instalar-app
+2025-10-15T16:16:23.135784+00:00 app[web.3]: 2025-10-15T16:16:23.135Z - GET /cadastro
+2025-10-15T16:16:23.443604+00:00 heroku[router]: at=info method=GET path="/treinamento" host=vagas.entregas-brasil.com request_id=2a6163ac-06fc-e809-325a-f5c440ea84b2 fwd="187.62.244.202" dyno=web.6 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:23.653914+00:00 heroku[router]: at=info method=GET path="/app" host=vagas.entregas-brasil.com request_id=9681e323-848e-3c80-a9b8-c480618f23df fwd="187.62.244.202" dyno=web.12 connect=0ms service=1ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:23.442203+00:00 app[web.6]: 2025-10-15T16:16:23.442Z - GET /treinamento
+2025-10-15T16:16:23.653115+00:00 app[web.12]: 2025-10-15T16:16:23.653Z - GET /app
+2025-10-15T16:16:23.097609+00:00 app[web.8]: 2025-10-15T16:16:23.097Z - GET /icon-512x512.png
+2025-10-15T16:16:23.085103+00:00 app[web.10]: 2025-10-15T16:16:23.084Z - GET /shopee-icon.jpg
+2025-10-15T16:16:28.945356+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CswBROVJJHhOKhL-FXjEJDyiGZEZc-uULOyl4GIgslEE0wOFzSzOdhNgZqIc1rH-uBzqPEkwdnwQ2vtMu_OKEj9oPWp0ivUBE-nVxwbb2tfx9Sr2tgy-ZZx_kiNxZ0X-hZU-qnSmrUXJTRdEbJP7__PwR9wxMtwDiOW9cJ04QlUmKMr2ZQWEEL1H0hyMESg8lHK8BhNCcTqYH62CZ1ilv9p9CNJ13UKIxq72_GvM5iWzXY9YDKarxASzOamezqFejad7qTiwbOAu8lhdiZTgEgR2Mi4wGiDhyj1k9Ge0Ke8vAi_-O9Rzuh2awoEPoIrStPVdmZH2vg" host=vagas.entregas-brasil.com request_id=3568e2cc-8c7d-c2c4-1585-15ca6706a77e fwd="181.77.8.192" dyno=web.6 connect=0ms service=4ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:29.182881+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=e58b99b5-6867-98ce-bcbe-ec7d94e93024 fwd="181.77.8.192" dyno=web.12 connect=0ms service=4ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:29.223123+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=99d51360-253b-8a43-058a-98b67b31c243 fwd="181.77.8.192" dyno=web.2 connect=0ms service=44ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:29.183273+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=f12f2259-b189-e2d8-8fda-9e9e7d9dbb89 fwd="181.77.8.192" dyno=web.2 connect=0ms service=4ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:28.942698+00:00 app[web.6]: 2025-10-15T16:16:28.942Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CswBROVJJHhOKhL-FXjEJDyiGZEZc-uULOyl4GIgslEE0wOFzSzOdhNgZqIc1rH-uBzqPEkwdnwQ2vtMu_OKEj9oPWp0ivUBE-nVxwbb2tfx9Sr2tgy-ZZx_kiNxZ0X-hZU-qnSmrUXJTRdEbJP7__PwR9wxMtwDiOW9cJ04QlUmKMr2ZQWEEL1H0hyMESg8lHK8BhNCcTqYH62CZ1ilv9p9CNJ13UKIxq72_GvM5iWzXY9YDKarxASzOamezqFejad7qTiwbOAu8lhdiZTgEgR2Mi4wGiDhyj1k9Ge0Ke8vAi_-O9Rzuh2awoEPoIrStPVdmZH2vg
+2025-10-15T16:16:29.328428+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&show_landingpage=1&ttclid=E.C.P.Cr8B3xG7-TOi6QY8WHCrMjv9q2NJYT5LK-g26Q5gRYaqILf55B84Gei6VBhjJ6C61kmHBSf8-ANXl_Eo6BvThDAqkf-R6-V16N7JxwSXDbgEZUDvbSKNEpJJQfs_4az5sZ_3SLzp3dti_cD2ccQh1V2UHh18wXsxuI63rzEJVijhDyQK-nSPbN9r9kMph3eEZffvqLZhXQdkPZdYZdLXQVMLNP4hQAqO6wNFyBfWsPXi8o0KSy4ALduEBhiWyQzXQi4SBHYyLjAaIN8m_a6FHdh9F6ndVtHLcnWHqZEVJbogXeZQGFqQaonG&orientation=portrait&height=1246&width=576&aspect_ratio=100.0&is_pre_render=1" host=vagas.entregas-brasil.com request_id=36cbdc5b-d087-51a1-dd21-8ea78c7554e1 fwd="189.126.41.57" dyno=web.5 connect=0ms service=5ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:29.179134+00:00 app[web.12]: 2025-10-15T16:16:29.179Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:29.179762+00:00 app[web.2]: 2025-10-15T16:16:29.179Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:29.181040+00:00 app[web.2]: 2025-10-15T16:16:29.180Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:16:29.325204+00:00 app[web.5]: 2025-10-15T16:16:29.325Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&show_landingpage=1&ttclid=E.C.P.Cr8B3xG7-TOi6QY8WHCrMjv9q2NJYT5LK-g26Q5gRYaqILf55B84Gei6VBhjJ6C61kmHBSf8-ANXl_Eo6BvThDAqkf-R6-V16N7JxwSXDbgEZUDvbSKNEpJJQfs_4az5sZ_3SLzp3dti_cD2ccQh1V2UHh18wXsxuI63rzEJVijhDyQK-nSPbN9r9kMph3eEZffvqLZhXQdkPZdYZdLXQVMLNP4hQAqO6wNFyBfWsPXi8o0KSy4ALduEBhiWyQzXQi4SBHYyLjAaIN8m_a6FHdh9F6ndVtHLcnWHqZEVJbogXeZQGFqQaonG&orientation=portrait&height=1246&width=576&aspect_ratio=100.0&is_pre_render=1
+2025-10-15T16:16:30.481270+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=vagas.entregas-brasil.com request_id=688ef4b8-6ab1-1044-c30a-6f299034dcbd fwd="181.77.8.192" dyno=web.6 connect=0ms service=3ms status=200 bytes=401 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:30.491423+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=vagas.entregas-brasil.com request_id=8f397fe7-ef00-b553-c467-500ce18a7940 fwd="181.77.8.192" dyno=web.12 connect=0ms service=2ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:30.492362+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=vagas.entregas-brasil.com request_id=3d3c5276-f8e4-2d03-b514-844adbf04742 fwd="181.77.8.192" dyno=web.6 connect=0ms service=3ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:30.496682+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=vagas.entregas-brasil.com request_id=19bfad62-c049-bc13-39b4-616374224338 fwd="181.77.8.192" dyno=web.8 connect=0ms service=7ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:30.492545+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=999a3ab6-9563-02f5-7032-3b6eb6353de9 fwd="181.77.8.192" dyno=web.11 connect=0ms service=3ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:30.494731+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=vagas.entregas-brasil.com request_id=d5fab7c8-063b-3b39-977e-20e216bc6262 fwd="181.77.8.192" dyno=web.8 connect=0ms service=5ms status=200 bytes=79992 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:30.478704+00:00 app[web.6]: 2025-10-15T16:16:30.478Z - GET /data/regions.json
+2025-10-15T16:16:30.489744+00:00 app[web.6]: 2025-10-15T16:16:30.489Z - GET /fonts/rawline/rawline-500.woff2
+2025-10-15T16:16:30.489436+00:00 app[web.12]: 2025-10-15T16:16:30.489Z - GET /fonts/rawline/rawline-700.woff2
+2025-10-15T16:16:30.490150+00:00 app[web.11]: 2025-10-15T16:16:30.490Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:16:30.490767+00:00 app[web.8]: 2025-10-15T16:16:30.490Z - GET /fonts/rawline/rawline-900.woff2
+2025-10-15T16:16:30.492156+00:00 app[web.8]: 2025-10-15T16:16:30.492Z - GET /fonts/rawline/rawline-600.woff2
+2025-10-15T16:16:31.446677+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=d581f81d-8d69-5ee4-494f-8619a2cd77b3 fwd="189.126.41.57" dyno=web.4 connect=0ms service=5ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:31.447216+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=1280fb29-eb9a-8432-9f8d-0fb4c992e46b fwd="189.126.41.57" dyno=web.10 connect=0ms service=6ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:31.476676+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=e6306e3f-f88f-f269-8a3b-4fc12edf20cc fwd="189.126.41.57" dyno=web.3 connect=0ms service=35ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:31.442218+00:00 app[web.3]: 2025-10-15T16:16:31.442Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:16:31.442076+00:00 app[web.10]: 2025-10-15T16:16:31.441Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:31.442497+00:00 app[web.4]: 2025-10-15T16:16:31.442Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:35.062991+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&ttclid=E.C.P.CukB3m-2cVMmi2QPsfvZXmSs2VoBE71-73tiXT9X0LXlW9-qjhRzPcidi4uoyVbZ--3m0lrcyGA6upN8Ic4TZOXSGzkAxqmMcs6naX0CpfsG95Kv-_GsXqsT9NV8WrmKhT5fjxzSapYU9p5MG3yGNSgOxDE2PpJjlaclsEAt8AS1AOWcqpId1OIO2H-2nG3NuIKDFcWTxAN5V9Gmdydrbmq0k33pcf7EySgSkPN1Dmv2EiWL7YAaSoOQzNCGqoFpKCIozDmFaWeDg91V5M_XMXSyhLAzwCngiaboJBnlgGP7c1ZCRUmg_f3O-x4SBHYyLjAaIL1PUkAPVtsKkiNlNAoGE3Nqv0rUS5sLsxHXn4L88Vwq" host=vagas.entregas-brasil.com request_id=5afb4e4f-49b2-274f-7e87-703b794033bf fwd="149.19.175.252" dyno=web.4 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:35.302942+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=709e1b22-1cb7-9982-b232-1ffac2c06699 fwd="149.19.175.252" dyno=web.7 connect=0ms service=3ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:35.305036+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=a11f327f-2f11-8f02-157c-19e0efd59353 fwd="149.19.175.252" dyno=web.12 connect=0ms service=6ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:35.060732+00:00 app[web.4]: 2025-10-15T16:16:35.060Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&ttclid=E.C.P.CukB3m-2cVMmi2QPsfvZXmSs2VoBE71-73tiXT9X0LXlW9-qjhRzPcidi4uoyVbZ--3m0lrcyGA6upN8Ic4TZOXSGzkAxqmMcs6naX0CpfsG95Kv-_GsXqsT9NV8WrmKhT5fjxzSapYU9p5MG3yGNSgOxDE2PpJjlaclsEAt8AS1AOWcqpId1OIO2H-2nG3NuIKDFcWTxAN5V9Gmdydrbmq0k33pcf7EySgSkPN1Dmv2EiWL7YAaSoOQzNCGqoFpKCIozDmFaWeDg91V5M_XMXSyhLAzwCngiaboJBnlgGP7c1ZCRUmg_f3O-x4SBHYyLjAaIL1PUkAPVtsKkiNlNAoGE3Nqv0rUS5sLsxHXn4L88Vwq
+2025-10-15T16:16:35.336197+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=d489e71b-c006-5215-d063-52f8979ef729 fwd="149.19.175.252" dyno=web.12 connect=0ms service=37ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:35.299952+00:00 app[web.12]: 2025-10-15T16:16:35.299Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:16:35.300793+00:00 app[web.12]: 2025-10-15T16:16:35.300Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:35.300159+00:00 app[web.7]: 2025-10-15T16:16:35.300Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:35.653294+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=322d39d3-9e01-b495-9405-ed1843a8e9d6 fwd="149.19.175.252" dyno=web.10 connect=0ms service=4ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:35.649956+00:00 app[web.10]: 2025-10-15T16:16:35.649Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:16:40.738135+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&show_landingpage=1&ttclid=E.C.P.CtUBAFgf0tMBIar3f20M5qNNY_2wnaEPZzwZO7x8VhJzcwGwyT7fqkxlStUevnv7dbt6ZQoRd-kdynH3mTOpslDrmaaYqixqmO_kmY3zkEZA0oZSAkxsYrX9jZJwqW3b65g6DgmJo0X5BBCxAZ440px04mdSaD2KGujUHq3fjXEdL_i6CjPHNpHXV9t-xnrX8fIpCcuE_4pslI-IPoxmQm-N7UcirzvgRn1oaoohvaEtPH9sihMEKEk0j8YHIIms4SYM8m-qLUd4cD00ntSQ-jsrLLkTDdBqEgR2Mi4wGiA_bxfa6PQMNvtH0xMuDWEJ7BbgWcnDvAS7e1w66m4IkQ&orientation=portrait&height=833&width=384&aspect_rat..." host=vagas.entregas-brasil.com request_id=01ca21ea-050f-30de-6f2a-ef2658d2ffbe fwd="179.96.177.172" dyno=web.11 connect=0ms service=5ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:40.986872+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=f34fcafa-c498-c546-6d83-8b90c72651f0 fwd="179.96.177.172" dyno=web.7 connect=0ms service=2ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:40.734404+00:00 app[web.11]: 2025-10-15T16:16:40.734Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&show_landingpage=1&ttclid=E.C.P.CtUBAFgf0tMBIar3f20M5qNNY_2wnaEPZzwZO7x8VhJzcwGwyT7fqkxlStUevnv7dbt6ZQoRd-kdynH3mTOpslDrmaaYqixqmO_kmY3zkEZA0oZSAkxsYrX9jZJwqW3b65g6DgmJo0X5BBCxAZ440px04mdSaD2KGujUHq3fjXEdL_i6CjPHNpHXV9t-xnrX8fIpCcuE_4pslI-IPoxmQm-N7UcirzvgRn1oaoohvaEtPH9sihMEKEk0j8YHIIms4SYM8m-qLUd4cD00ntSQ-jsrLLkTDdBqEgR2Mi4wGiA_bxfa6PQMNvtH0xMuDWEJ7BbgWcnDvAS7e1w66m4IkQ&orientation=portrait&height=833&width=384&aspect_ratio=100.0&is_pre_render=1
+2025-10-15T16:16:40.984397+00:00 app[web.11]: 2025-10-15T16:16:40.984Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:40.990344+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=170cf321-e103-feaa-e85a-d8a182749287 fwd="179.96.177.172" dyno=web.11 connect=0ms service=6ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:41.020429+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=18e27cd5-d906-c0d9-6501-c673d7fcb386 fwd="179.96.177.172" dyno=web.4 connect=0ms service=36ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:40.985462+00:00 app[web.4]: 2025-10-15T16:16:40.985Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:16:40.984947+00:00 app[web.7]: 2025-10-15T16:16:40.984Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:41.866495+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtQBwbxoplG-UtXqQEd4zc44MQdHjHikF9Ys5vwgFvvXw9RTHrmGv4dv5UYRXV_TUJpWlWapnev-zxb67lMqVaFvD5gRxFqUuVnF5WGBCLfbNW6kVotOd73V9W1G1aT-_q7WxlyzNB0epnJ_Xt0-39LkGJKcSgX9gqleNZHuAyTOrrsUyLnaAYUqhsG9Ly1c32KwjmmzOJvbhHyGKToD7pI9JJtMsKm3qP7dsAjNtPtfb1TxT1X_E6R8SJNG7kIU52uMR-h5G2rw4xXPN-inG5lKJJ-A8lISBHYyLjAaIB3MxDC6uA2Lh-nPO8-3tIhqzVHkXgBhccC0ZgMkctnr" host=vagas.entregas-brasil.com request_id=13c26c82-a2c4-8d21-6c7c-795a3feb5b5e fwd="186.216.44.132" dyno=web.11 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:41.981517+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=vagas.entregas-brasil.com request_id=ceeae272-ffa2-55d6-46dc-101112a09b05 fwd="179.96.177.172" dyno=web.1 connect=0ms service=3ms status=200 bytes=401 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.008119+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=vagas.entregas-brasil.com request_id=620a2952-fa41-a9a4-94d9-171805d0c46f fwd="179.96.177.172" dyno=web.9 connect=0ms service=5ms status=200 bytes=79992 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.017620+00:00 heroku[router]: at=info method=GET path="/sw.js" host=vagas.entregas-brasil.com request_id=8016ab8a-9347-13a7-6785-ae13557e9db1 fwd="179.96.177.172" dyno=web.10 connect=0ms service=2ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.005341+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=vagas.entregas-brasil.com request_id=8270c56b-de02-d295-8e6e-6316dbb99eb3 fwd="179.96.177.172" dyno=web.12 connect=0ms service=2ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.007702+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=5ea8d913-ee41-814b-067d-7c29bb32a07a fwd="179.96.177.172" dyno=web.5 connect=0ms service=4ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.015127+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=vagas.entregas-brasil.com request_id=06eab6a9-1185-5ef6-8e07-8f53db999c28 fwd="179.96.177.172" dyno=web.11 connect=0ms service=2ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.108529+00:00 heroku[router]: at=info method=GET path="/icon-192x192.png" host=vagas.entregas-brasil.com request_id=72844199-e1be-ef6c-dc36-212700cf93b1 fwd="179.96.177.172" dyno=web.6 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.015767+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=vagas.entregas-brasil.com request_id=a62e77ea-1126-64fd-dfe7-3af834ccb56c fwd="179.96.177.172" dyno=web.5 connect=0ms service=2ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.121356+00:00 heroku[router]: at=info method=GET path="/shopee-icon.jpg" host=vagas.entregas-brasil.com request_id=6ff7ffaa-bc10-f823-d6fc-8a29e090d907 fwd="179.96.177.172" dyno=web.1 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.098429+00:00 heroku[router]: at=info method=GET path="/icon-512x512.png" host=vagas.entregas-brasil.com request_id=0b95a08f-5be1-3382-f7e7-675c928c30b2 fwd="179.96.177.172" dyno=web.4 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:41.864305+00:00 app[web.11]: 2025-10-15T16:16:41.864Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtQBwbxoplG-UtXqQEd4zc44MQdHjHikF9Ys5vwgFvvXw9RTHrmGv4dv5UYRXV_TUJpWlWapnev-zxb67lMqVaFvD5gRxFqUuVnF5WGBCLfbNW6kVotOd73V9W1G1aT-_q7WxlyzNB0epnJ_Xt0-39LkGJKcSgX9gqleNZHuAyTOrrsUyLnaAYUqhsG9Ly1c32KwjmmzOJvbhHyGKToD7pI9JJtMsKm3qP7dsAjNtPtfb1TxT1X_E6R8SJNG7kIU52uMR-h5G2rw4xXPN-inG5lKJJ-A8lISBHYyLjAaIB3MxDC6uA2Lh-nPO8-3tIhqzVHkXgBhccC0ZgMkctnr
+2025-10-15T16:16:42.013294+00:00 app[web.11]: 2025-10-15T16:16:42.013Z - GET /fonts/rawline/rawline-600.woff2
+2025-10-15T16:16:42.130637+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=vagas.entregas-brasil.com request_id=2a9ee484-337f-3770-22a4-aae603a81b5a fwd="179.96.177.172" dyno=web.8 connect=0ms service=13ms status=200 bytes=284745 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:41.979171+00:00 app[web.1]: 2025-10-15T16:16:41.978Z - GET /data/regions.json
+2025-10-15T16:16:42.117602+00:00 app[web.1]: 2025-10-15T16:16:42.117Z - GET /shopee-icon.jpg
+2025-10-15T16:16:42.003484+00:00 app[web.12]: 2025-10-15T16:16:42.003Z - GET /fonts/rawline/rawline-700.woff2
+2025-10-15T16:16:42.004455+00:00 app[web.9]: 2025-10-15T16:16:42.004Z - GET /fonts/rawline/rawline-900.woff2
+2025-10-15T16:16:42.004256+00:00 app[web.5]: 2025-10-15T16:16:42.004Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:16:42.014056+00:00 app[web.5]: 2025-10-15T16:16:42.013Z - GET /fonts/rawline/rawline-500.woff2
+2025-10-15T16:16:42.015621+00:00 app[web.10]: 2025-10-15T16:16:42.015Z - GET /sw.js
+2025-10-15T16:16:42.314839+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=11b8a1c3-7cb5-d4aa-4663-6eba1727022d fwd="186.216.44.132" dyno=web.11 connect=0ms service=2ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.357381+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=4ac2a6f9-d8e3-0f0a-ccbc-2a08a85b553c fwd="186.216.44.132" dyno=web.6 connect=0ms service=5ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.388892+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=93b0337a-c320-be02-0309-53b0ca202023 fwd="186.216.44.132" dyno=web.11 connect=0ms service=37ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.095064+00:00 app[web.4]: 2025-10-15T16:16:42.094Z - GET /icon-512x512.png
+2025-10-15T16:16:42.104710+00:00 app[web.6]: 2025-10-15T16:16:42.104Z - GET /icon-192x192.png
+2025-10-15T16:16:42.352908+00:00 app[web.6]: 2025-10-15T16:16:42.352Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:42.118775+00:00 app[web.8]: 2025-10-15T16:16:42.118Z - GET /favicon.ico
+2025-10-15T16:16:42.313051+00:00 app[web.11]: 2025-10-15T16:16:42.312Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:42.352130+00:00 app[web.11]: 2025-10-15T16:16:42.352Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:16:42.796603+00:00 heroku[router]: at=info method=GET path="/" host=vagas.entregas-brasil.com request_id=0aed4fbf-1105-af61-30c7-35a40ae13461 fwd="179.96.177.172" dyno=web.7 connect=0ms service=2ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.801749+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=vagas.entregas-brasil.com request_id=308c352b-0419-291e-f457-26e9c035448f fwd="179.96.177.172" dyno=web.9 connect=0ms service=4ms status=200 bytes=669 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.804133+00:00 heroku[router]: at=info method=GET path="/instalar-app" host=vagas.entregas-brasil.com request_id=630adbb8-d114-7f59-4357-2bdebd043e77 fwd="179.96.177.172" dyno=web.10 connect=0ms service=2ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:42.794562+00:00 app[web.7]: 2025-10-15T16:16:42.794Z - GET /
+2025-10-15T16:16:42.797946+00:00 app[web.9]: 2025-10-15T16:16:42.797Z - GET /manifest.json
+2025-10-15T16:16:42.801907+00:00 app[web.10]: 2025-10-15T16:16:42.801Z - GET /instalar-app
+2025-10-15T16:16:43.723824+00:00 heroku[router]: at=info method=GET path="/treinamento" host=vagas.entregas-brasil.com request_id=ad53b11e-f295-381e-bf77-79b8a446593a fwd="179.96.177.172" dyno=web.6 connect=0ms service=4ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.735425+00:00 heroku[router]: at=info method=GET path="/app" host=vagas.entregas-brasil.com request_id=6ae25746-44c5-f6d1-df8b-92774b660c6b fwd="179.96.177.172" dyno=web.2 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.723373+00:00 heroku[router]: at=info method=GET path="/cadastro" host=vagas.entregas-brasil.com request_id=52dd80c5-89cc-5b8f-c8a3-20aaecf790fc fwd="179.96.177.172" dyno=web.6 connect=0ms service=5ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.931230+00:00 heroku[router]: at=info method=GET path="/instalar-app" host=vagas.entregas-brasil.com request_id=a20b6002-cb38-75d8-d6de-b34e029b250c fwd="179.96.177.172" dyno=web.3 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.934528+00:00 heroku[router]: at=info method=GET path="/cadastro" host=vagas.entregas-brasil.com request_id=b56090d6-8d0d-1a51-fe2f-8940fe6dd319 fwd="179.96.177.172" dyno=web.10 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.933347+00:00 heroku[router]: at=info method=GET path="/treinamento" host=vagas.entregas-brasil.com request_id=37b322a1-0a21-3ee0-ff11-42fc2ecf280f fwd="179.96.177.172" dyno=web.10 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.719254+00:00 app[web.6]: 2025-10-15T16:16:43.719Z - GET /cadastro
+2025-10-15T16:16:43.720230+00:00 app[web.6]: 2025-10-15T16:16:43.720Z - GET /treinamento
+2025-10-15T16:16:43.733167+00:00 app[web.2]: 2025-10-15T16:16:43.733Z - GET /app
+2025-10-15T16:16:44.149824+00:00 heroku[router]: at=info method=GET path="/app" host=vagas.entregas-brasil.com request_id=eb83cff7-d190-82c3-befb-d0b328009b87 fwd="179.96.177.172" dyno=web.9 connect=0ms service=2ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:43.930064+00:00 app[web.3]: 2025-10-15T16:16:43.929Z - GET /instalar-app
+2025-10-15T16:16:43.931994+00:00 app[web.10]: 2025-10-15T16:16:43.931Z - GET /treinamento
+2025-10-15T16:16:43.933711+00:00 app[web.10]: 2025-10-15T16:16:43.933Z - GET /cadastro
+2025-10-15T16:16:44.147908+00:00 app[web.9]: 2025-10-15T16:16:44.147Z - GET /app
+2025-10-15T16:16:44.463236+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.Cs0BafUJ__XaDYEkudVWlvHltWHTiCZXtjaMbOSA3g6tXVsPpaPG6Y2qdZR46NiyiSi8kRkIH5LJArwRJ4w1_MNIUp6PJEVVm39MqQwTwQfuoRQ9SO2znlrDizX2IEP58SB4RCVCJ7oBbT1GlPQSBo8gVVfJWywdzbpD1cir98mUi16ObmIyzL-j8Q1aT1DWJmUditTHS8yBd2q96XGSRiXmhRHvqtTJEx9KIv3wZgwAzs77TfVueTXewr-7e5_pw2ev81tKo9bOjtifsZDF4RIEdjIuMBoga1bGSWtyEg4eNZVs-CuQbkIg4xaci-Hn2Wmsz0b4qOE" host=vagas.entregas-brasil.com request_id=80dcd411-c1e3-e5ed-8aa6-d8fe603586e4 fwd="45.166.57.12" dyno=web.5 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:44.461149+00:00 app[web.5]: 2025-10-15T16:16:44.461Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.Cs0BafUJ__XaDYEkudVWlvHltWHTiCZXtjaMbOSA3g6tXVsPpaPG6Y2qdZR46NiyiSi8kRkIH5LJArwRJ4w1_MNIUp6PJEVVm39MqQwTwQfuoRQ9SO2znlrDizX2IEP58SB4RCVCJ7oBbT1GlPQSBo8gVVfJWywdzbpD1cir98mUi16ObmIyzL-j8Q1aT1DWJmUditTHS8yBd2q96XGSRiXmhRHvqtTJEx9KIv3wZgwAzs77TfVueTXewr-7e5_pw2ev81tKo9bOjtifsZDF4RIEdjIuMBoga1bGSWtyEg4eNZVs-CuQbkIg4xaci-Hn2Wmsz0b4qOE
+2025-10-15T16:16:44.950651+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=vagas.entregas-brasil.com request_id=bcfd3113-bc06-31f6-7a88-37174e517bae fwd="186.216.44.132" dyno=web.1 connect=0ms service=2ms status=200 bytes=401 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:45.066822+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=vagas.entregas-brasil.com request_id=af865201-e784-4389-0ff8-77ccd83b3343 fwd="186.216.44.132" dyno=web.4 connect=0ms service=3ms status=200 bytes=79992 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:45.156070+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=vagas.entregas-brasil.com request_id=d3f6bcda-552f-e399-31fa-01a320040a10 fwd="186.216.44.132" dyno=web.3 connect=0ms service=3ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:45.185624+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=29a88a93-47af-ec4d-b36d-94ae9db2771a fwd="186.216.44.132" dyno=web.4 connect=0ms service=2ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:45.186893+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=vagas.entregas-brasil.com request_id=2c58cb01-6c92-3995-f268-5f1e5c03ca51 fwd="186.216.44.132" dyno=web.3 connect=0ms service=2ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:44.949145+00:00 app[web.1]: 2025-10-15T16:16:44.949Z - GET /data/regions.json
+2025-10-15T16:16:45.278847+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=vagas.entregas-brasil.com request_id=e1784a02-adbc-dd9f-6b7f-52d78037ec0d fwd="186.216.44.132" dyno=web.11 connect=0ms service=3ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:45.064446+00:00 app[web.4]: 2025-10-15T16:16:45.064Z - GET /fonts/rawline/rawline-900.woff2
+2025-10-15T16:16:45.183477+00:00 app[web.4]: 2025-10-15T16:16:45.183Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:16:45.153933+00:00 app[web.3]: 2025-10-15T16:16:45.153Z - GET /fonts/rawline/rawline-700.woff2
+2025-10-15T16:16:45.185522+00:00 app[web.3]: 2025-10-15T16:16:45.185Z - GET /fonts/rawline/rawline-600.woff2
+2025-10-15T16:16:45.275922+00:00 app[web.11]: 2025-10-15T16:16:45.275Z - GET /fonts/rawline/rawline-500.woff2
+2025-10-15T16:16:54.131408+00:00 heroku[router]: at=info method=POST path="/api/push-subscriptions" host=vagas.entregas-brasil.com request_id=00bb07cc-b629-6cb4-bd7f-021568918ad3 fwd="187.62.244.202" dyno=web.2 connect=0ms service=11ms status=500 bytes=36 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:54.128238+00:00 app[web.2]: 2025-10-15T16:16:54.128Z - POST /api/push-subscriptions
+2025-10-15T16:16:54.129525+00:00 app[web.2]: ❌ Erro ao salvar push subscription: Error: connect ECONNREFUSED 127.0.0.1:5432
+2025-10-15T16:16:54.129527+00:00 app[web.2]:     at /app/node_modules/pg-pool/index.js:45:11
+2025-10-15T16:16:54.129527+00:00 app[web.2]:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-15T16:16:54.129528+00:00 app[web.2]:     at async /app/heroku-simple-production.cjs:1099:28 {
+2025-10-15T16:16:54.129528+00:00 app[web.2]:   errno: -111,
+2025-10-15T16:16:54.129529+00:00 app[web.2]:   code: 'ECONNREFUSED',
+2025-10-15T16:16:54.129529+00:00 app[web.2]:   syscall: 'connect',
+2025-10-15T16:16:54.129530+00:00 app[web.2]:   address: '127.0.0.1',
+2025-10-15T16:16:54.129530+00:00 app[web.2]:   port: 5432
+2025-10-15T16:16:54.129530+00:00 app[web.2]: }
+2025-10-15T16:16:58.464087+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CuABkhrUIIxot5GeFT-GsiLKOa3sKrwmSycubrzaM10Y-MYRSk1jSWaji750PCty0EgXyM4DQIc6g-40eav3mp0gaILWFgoZotx_evvsJj-Tw9rHS-gfJyJvFusgjHeLVueLNqG0PNzJrbTKa7uy1cu4Vb31OhDKNonnKYCCLwr_jo-njyMTE_Bz7_8sgVGp6hfVNBsz_BnVn4y_kyXEKgCA6Jw5HyrOzKD8XtfsdVodcxMiqrdzllkpnlHW2_WIIi356HcdkTKEYke-WQT2Rv-SnhTeGEel_m-mYe751hHjTfASBHYyLjAaILBZ63c9FUUWQ9UoZqnanvuiRifDdF1whSzlqAwEArB8" host=vagas.entregas-brasil.com request_id=6a499696-5315-00b6-d352-d7d117c42c7f fwd="45.5.103.80" dyno=web.5 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:58.710028+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=8a607a21-7f2c-bdc7-00bf-fb1abb099fce fwd="45.5.103.80" dyno=web.6 connect=0ms service=3ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:58.462059+00:00 app[web.5]: 2025-10-15T16:16:58.461Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CuABkhrUIIxot5GeFT-GsiLKOa3sKrwmSycubrzaM10Y-MYRSk1jSWaji750PCty0EgXyM4DQIc6g-40eav3mp0gaILWFgoZotx_evvsJj-Tw9rHS-gfJyJvFusgjHeLVueLNqG0PNzJrbTKa7uy1cu4Vb31OhDKNonnKYCCLwr_jo-njyMTE_Bz7_8sgVGp6hfVNBsz_BnVn4y_kyXEKgCA6Jw5HyrOzKD8XtfsdVodcxMiqrdzllkpnlHW2_WIIi356HcdkTKEYke-WQT2Rv-SnhTeGEel_m-mYe751hHjTfASBHYyLjAaILBZ63c9FUUWQ9UoZqnanvuiRifDdF1whSzlqAwEArB8
+2025-10-15T16:16:58.711871+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=025c3554-d77e-597e-53f5-f08135748f82 fwd="45.5.103.80" dyno=web.6 connect=0ms service=5ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:58.752978+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=70eb42f2-1e92-75d1-66d7-d9ba82987805 fwd="45.5.103.80" dyno=web.6 connect=0ms service=39ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:16:58.707564+00:00 app[web.6]: 2025-10-15T16:16:58.707Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:16:58.708342+00:00 app[web.6]: 2025-10-15T16:16:58.708Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:16:58.714222+00:00 app[web.6]: 2025-10-15T16:16:58.714Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:17:00.052284+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=vagas.entregas-brasil.com request_id=8bd761d2-10d9-695e-1a5e-d91b4f6eea81 fwd="45.5.103.80" dyno=web.3 connect=0ms service=4ms status=200 bytes=401 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:00.082381+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=vagas.entregas-brasil.com request_id=8d3e2cf0-10e5-4082-8579-a86b30868f73 fwd="45.5.103.80" dyno=web.9 connect=0ms service=3ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:00.077053+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=vagas.entregas-brasil.com request_id=42543307-f026-a617-c225-35c8c20d6824 fwd="45.5.103.80" dyno=web.3 connect=0ms service=3ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:00.085825+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=vagas.entregas-brasil.com request_id=084586b6-afce-3d4b-5cb2-3884d7a9b50d fwd="45.5.103.80" dyno=web.10 connect=0ms service=1ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:00.077453+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=vagas.entregas-brasil.com request_id=9f9e697e-ab6c-c3c4-b574-77344c852f9c fwd="45.5.103.80" dyno=web.1 connect=0ms service=3ms status=200 bytes=79992 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:00.080104+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=7b9646f4-faf9-7879-d933-259cd016d890 fwd="45.5.103.80" dyno=web.10 connect=0ms service=3ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:00.049752+00:00 app[web.3]: 2025-10-15T16:17:00.049Z - GET /data/regions.json
+2025-10-15T16:17:00.074177+00:00 app[web.3]: 2025-10-15T16:17:00.074Z - GET /fonts/rawline/rawline-700.woff2
+2025-10-15T16:17:00.074865+00:00 app[web.1]: 2025-10-15T16:17:00.074Z - GET /fonts/rawline/rawline-900.woff2
+2025-10-15T16:17:00.077674+00:00 app[web.10]: 2025-10-15T16:17:00.077Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:17:00.084573+00:00 app[web.10]: 2025-10-15T16:17:00.084Z - GET /fonts/rawline/rawline-500.woff2
+2025-10-15T16:17:00.079736+00:00 app[web.9]: 2025-10-15T16:17:00.079Z - GET /fonts/rawline/rawline-600.woff2
+2025-10-15T16:17:04.497351+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtABvnuhlPDUvF0C-ggj8BWUP_0fpC9UsjimNaysR9zN_j5R3iNt342Ho67X5qZLb22Sxp2U5nb1OhNZANUSic3NHljrkXWfXf6LjR5VFtz1wbH-TXBNOztHF-IPt0r017qpVCNKSq0JeqSBW-uuaHJfCuuxyC5TAV_zAEhXIQmHGCTYVaylTBA-GNZfxchjU4Xs9HpV6q6EtxoJAOi3OKVZviWZI25adKyc7MtZxTiYao1JKJyZsDpcZ83zHDGVpdU5lSXeq0pssQea-3fzGzr7SxIEdjIuMBogjr1q-fxVfZnTROANw_fAn8OWQGCO41qIzuGxq-qF01Y" host=vagas.entregas-brasil.com request_id=3d94a14e-4389-e1c9-fa30-9d82ea454eda fwd="187.120.129.76" dyno=web.6 connect=0ms service=4ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.494853+00:00 app[web.6]: 2025-10-15T16:17:04.494Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtABvnuhlPDUvF0C-ggj8BWUP_0fpC9UsjimNaysR9zN_j5R3iNt342Ho67X5qZLb22Sxp2U5nb1OhNZANUSic3NHljrkXWfXf6LjR5VFtz1wbH-TXBNOztHF-IPt0r017qpVCNKSq0JeqSBW-uuaHJfCuuxyC5TAV_zAEhXIQmHGCTYVaylTBA-GNZfxchjU4Xs9HpV6q6EtxoJAOi3OKVZviWZI25adKyc7MtZxTiYao1JKJyZsDpcZ83zHDGVpdU5lSXeq0pssQea-3fzGzr7SxIEdjIuMBogjr1q-fxVfZnTROANw_fAn8OWQGCO41qIzuGxq-qF01Y
+2025-10-15T16:17:04.877797+00:00 heroku[router]: at=info method=GET path="/shopee-icon.jpg" host=vagas.entregas-brasil.com request_id=f4b44c53-af57-6264-94d1-ca7103d1987e fwd="45.5.103.80" dyno=web.3 connect=0ms service=3ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.877078+00:00 heroku[router]: at=info method=GET path="/sw.js" host=vagas.entregas-brasil.com request_id=465dc84c-5eae-ba31-1dd7-613d51b4b6b0 fwd="45.5.103.80" dyno=web.7 connect=0ms service=2ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.879017+00:00 heroku[router]: at=info method=GET path="/icon-192x192.png" host=vagas.entregas-brasil.com request_id=5aae8e07-8766-914c-1fdd-abf47f2463e2 fwd="45.5.103.80" dyno=web.5 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.886158+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=vagas.entregas-brasil.com request_id=cf715267-fb56-f15a-5e3c-3707e3022b30 fwd="45.5.103.80" dyno=web.2 connect=0ms service=11ms status=200 bytes=284745 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.879938+00:00 heroku[router]: at=info method=GET path="/icon-512x512.png" host=vagas.entregas-brasil.com request_id=c38607a2-9ea2-2bbc-b92e-39175eb4e80e fwd="45.5.103.80" dyno=web.2 connect=0ms service=6ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.994834+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=a12bd2a1-4aa5-c936-4082-11b5d470e9c1 fwd="187.120.129.76" dyno=web.10 connect=0ms service=2ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.874549+00:00 app[web.3]: 2025-10-15T16:17:04.874Z - GET /shopee-icon.jpg
+2025-10-15T16:17:04.875427+00:00 app[web.5]: 2025-10-15T16:17:04.875Z - GET /icon-192x192.png
+2025-10-15T16:17:04.875183+00:00 app[web.7]: 2025-10-15T16:17:04.875Z - GET /sw.js
+2025-10-15T16:17:04.875222+00:00 app[web.2]: 2025-10-15T16:17:04.875Z - GET /icon-512x512.png
+2025-10-15T16:17:04.875841+00:00 app[web.2]: 2025-10-15T16:17:04.875Z - GET /favicon.ico
+2025-10-15T16:17:05.145678+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=dfbe07e3-c2a6-be08-c93a-8d25691290e3 fwd="187.120.129.76" dyno=web.11 connect=0ms service=5ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:05.234492+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=ebc5eab5-1bdf-1986-f15b-2a80d8ef3b4a fwd="187.120.129.76" dyno=web.7 connect=0ms service=34ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:04.993402+00:00 app[web.10]: 2025-10-15T16:17:04.993Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:17:05.141413+00:00 app[web.11]: 2025-10-15T16:17:05.141Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:17:05.200545+00:00 app[web.7]: 2025-10-15T16:17:05.200Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:17:05.933949+00:00 heroku[router]: at=info method=GET path="/" host=vagas.entregas-brasil.com request_id=e798d65c-d3c6-2520-3135-85001498c185 fwd="45.5.103.80" dyno=web.6 connect=0ms service=2ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:05.934578+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=vagas.entregas-brasil.com request_id=1b68b279-c3be-034e-6ef9-460a2b8eaa77 fwd="45.5.103.80" dyno=web.11 connect=0ms service=3ms status=200 bytes=669 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:05.935816+00:00 heroku[router]: at=info method=GET path="/instalar-app" host=vagas.entregas-brasil.com request_id=d9bd0d46-4684-bc91-7bcd-64f1e0b8a9ab fwd="45.5.103.80" dyno=web.2 connect=0ms service=4ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:05.932319+00:00 app[web.6]: 2025-10-15T16:17:05.932Z - GET /
+2025-10-15T16:17:05.932688+00:00 app[web.2]: 2025-10-15T16:17:05.932Z - GET /instalar-app
+2025-10-15T16:17:05.932659+00:00 app[web.11]: 2025-10-15T16:17:05.932Z - GET /manifest.json
+2025-10-15T16:17:08.021356+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&show_landingpage=1&ttclid=E.C.P.CtUBb8DpWAmTTrMMtxhMgJbQlR9AHSg9i9RrDUc5Sd6lzwMqCqghe1flI2rR1rD1OeoA2c32S6X4IA4Rzw67PQQ_BKgL4dh-KrzJ_MVcMuWUl5XkXFIJAUmNEk4Z5TFYxAdPAb9QfrhSfTgg-VW-JWjdql6Io83Sg528X7q3HS5_2Hnh7530SCUKGbgrAr1WLa-rHvA1B0ywuW4FVGlesey2fBVBP1WD07en4a-lTHvhgj4xvBZYpps_M1cpe87jIwW4-Plrsi_B1DEG3mUZnL5Eqqam2ymyEgR2Mi4wGiCTGY0W5Di8WQu1d18I_sVuWUfgIft6cpGp9-eUOF6Cvg&orientation=portrait&height=887&width=411&aspect_rat..." host=vagas.entregas-brasil.com request_id=a4695d0c-fcb1-b685-0b4d-c295bda44b6b fwd="181.191.147.144" dyno=web.1 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:08.019572+00:00 app[web.1]: 2025-10-15T16:17:08.019Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&show_landingpage=1&ttclid=E.C.P.CtUBb8DpWAmTTrMMtxhMgJbQlR9AHSg9i9RrDUc5Sd6lzwMqCqghe1flI2rR1rD1OeoA2c32S6X4IA4Rzw67PQQ_BKgL4dh-KrzJ_MVcMuWUl5XkXFIJAUmNEk4Z5TFYxAdPAb9QfrhSfTgg-VW-JWjdql6Io83Sg528X7q3HS5_2Hnh7530SCUKGbgrAr1WLa-rHvA1B0ywuW4FVGlesey2fBVBP1WD07en4a-lTHvhgj4xvBZYpps_M1cpe87jIwW4-Plrsi_B1DEG3mUZnL5Eqqam2ymyEgR2Mi4wGiCTGY0W5Di8WQu1d18I_sVuWUfgIft6cpGp9-eUOF6Cvg&orientation=portrait&height=887&width=411&aspect_ratio=100.0&is_pre_render=1
+2025-10-15T16:17:12.216971+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=vagas.entregas-brasil.com request_id=27664eba-ba84-c25b-2462-4719a927b2dd fwd="181.191.147.144" dyno=web.1 connect=0ms service=2ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:12.219933+00:00 heroku[router]: at=info method=GET path="/assets/index-CMb59s5I.css" host=vagas.entregas-brasil.com request_id=37d5cef7-be76-80af-82d8-1ae1b017a7ed fwd="181.191.147.144" dyno=web.8 connect=0ms service=4ms status=200 bytes=15151 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:12.251783+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=a01b840a-b3fb-af7c-92ce-41de18326839 fwd="181.191.147.144" dyno=web.2 connect=0ms service=37ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:12.215598+00:00 app[web.1]: 2025-10-15T16:17:12.215Z - GET /fonts/rawline/rawline.css
+2025-10-15T16:17:12.215593+00:00 app[web.2]: 2025-10-15T16:17:12.215Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:17:12.216003+00:00 app[web.8]: 2025-10-15T16:17:12.215Z - GET /assets/index-CMb59s5I.css
+2025-10-15T16:17:12.844204+00:00 heroku[router]: at=info method=GET path="/?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtABHYcA5RtCgH6vctPAsBWTw7bQIqNhuw7YxnJtTDeuxGkeIUvQfBIwZikun67Zlc-QnvC8UUakIArFJQNZ7axB-uHX1RLXM8HUHoti8n-vDP6u9iOhvKYkZm8R8ytQnllZQYyPXE3VgxFfPbZJYv0XgjwVSIHv4OA2uIMZuxa1LlMtWPwOn8g0P5nTzvcKbEqbKwdtfYtpZneKDurXew08ClPmA3CWhjGl2kaK5lXVK0E850WzXqlVmddC-3lYSnoESxKvC8YcMrIBdVgekQt8dhIEdjIuMBogNXc3tEs9VJZEvSTTBeOGCBqF9S40Ch9Ispl4l3KK_N4" host=vagas.entregas-brasil.com request_id=82806eee-417e-820f-b1d8-3f336e68c3ee fwd="187.120.129.76" dyno=web.5 connect=0ms service=3ms status=200 bytes=2654 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:12.841951+00:00 app[web.5]: 2025-10-15T16:17:12.841Z - GET /?utm_source=tiktok&utm_medium=paid&utm_id=1846015925520689&utm_campaign=SHOPI&lpt=1&ttclid=E.C.P.CtABHYcA5RtCgH6vctPAsBWTw7bQIqNhuw7YxnJtTDeuxGkeIUvQfBIwZikun67Zlc-QnvC8UUakIArFJQNZ7axB-uHX1RLXM8HUHoti8n-vDP6u9iOhvKYkZm8R8ytQnllZQYyPXE3VgxFfPbZJYv0XgjwVSIHv4OA2uIMZuxa1LlMtWPwOn8g0P5nTzvcKbEqbKwdtfYtpZneKDurXew08ClPmA3CWhjGl2kaK5lXVK0E850WzXqlVmddC-3lYSnoESxKvC8YcMrIBdVgekQt8dhIEdjIuMBogNXc3tEs9VJZEvSTTBeOGCBqF9S40Ch9Ispl4l3KK_N4
+2025-10-15T16:17:13.102549+00:00 heroku[router]: at=info method=GET path="/assets/index-CWpPYGT7.js" host=vagas.entregas-brasil.com request_id=b11ef339-ad61-64a8-da10-fc08fcd29913 fwd="187.120.129.76" dyno=web.12 connect=0ms service=36ms status=200 bytes=393343 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.066803+00:00 app[web.12]: 2025-10-15T16:17:13.066Z - GET /assets/index-CWpPYGT7.js
+2025-10-15T16:17:13.336642+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=vagas.entregas-brasil.com request_id=43d99d75-3527-8545-04af-2bf886f6a6e2 fwd="181.191.147.144" dyno=web.4 connect=0ms service=2ms status=200 bytes=401 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.387346+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=vagas.entregas-brasil.com request_id=fb9c2666-e7b1-6c62-46e2-03dbbea77020 fwd="181.191.147.144" dyno=web.10 connect=0ms service=3ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.378173+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=vagas.entregas-brasil.com request_id=6f444e2f-287c-1a27-7498-a7d659a0a9c7 fwd="181.191.147.144" dyno=web.9 connect=0ms service=3ms status=200 bytes=79992 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.384147+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=vagas.entregas-brasil.com request_id=e30372b1-6f9e-a36b-b021-52b0539b2afc fwd="181.191.147.144" dyno=web.3 connect=0ms service=3ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.397080+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=vagas.entregas-brasil.com request_id=c00006a4-0a26-ce6a-19e1-f25c4c648550 fwd="181.191.147.144" dyno=web.8 connect=0ms service=2ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.397660+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=vagas.entregas-brasil.com request_id=f7492c5d-ca12-484e-da3a-52f53e149ff7 fwd="181.191.147.144" dyno=web.11 connect=0ms service=3ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.335066+00:00 app[web.4]: 2025-10-15T16:17:13.334Z - GET /data/regions.json
+2025-10-15T16:17:13.559999+00:00 heroku[router]: at=info method=GET path="/icon-512x512.png" host=vagas.entregas-brasil.com request_id=502dcff7-ae8f-eeab-7164-8e767269aff1 fwd="181.191.147.144" dyno=web.10 connect=0ms service=2ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.375855+00:00 app[web.9]: 2025-10-15T16:17:13.375Z - GET /fonts/rawline/rawline-900.woff2
+2025-10-15T16:17:13.381760+00:00 app[web.3]: 2025-10-15T16:17:13.381Z - GET /fonts/rawline/rawline-700.woff2
+2025-10-15T16:17:13.384605+00:00 app[web.10]: 2025-10-15T16:17:13.384Z - GET /fonts/rawline/rawline-400.woff2
+2025-10-15T16:17:13.557921+00:00 app[web.10]: 2025-10-15T16:17:13.557Z - GET /icon-512x512.png
+2025-10-15T16:17:13.395334+00:00 app[web.11]: 2025-10-15T16:17:13.395Z - GET /fonts/rawline/rawline-600.woff2
+2025-10-15T16:17:13.394910+00:00 app[web.8]: 2025-10-15T16:17:13.394Z - GET /fonts/rawline/rawline-500.woff2
+2025-10-15T16:17:13.644779+00:00 heroku[router]: at=info method=GET path="/icon-192x192.png" host=vagas.entregas-brasil.com request_id=c3e3d0b5-f025-8f9a-9cbb-384795e25c30 fwd="181.191.147.144" dyno=web.5 connect=0ms service=4ms status=200 bytes=303063 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.652198+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=vagas.entregas-brasil.com request_id=7b2873ad-d524-9716-4811-10b5fbc6e6ea fwd="181.191.147.144" dyno=web.5 connect=0ms service=11ms status=200 bytes=284745 protocol=http2.0 tls=true tls_version=tls1.3
+2025-10-15T16:17:13.641427+00:00 app[web.5]: 2025-10-15T16:17:13.641Z - GET /icon-192x192.png
+2025-10-15T16:17:13.642876+00:00 app[web.5]: 2025-10-15T16:17:13.642Z - GET /favicon.ico

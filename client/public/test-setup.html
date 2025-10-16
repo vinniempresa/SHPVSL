@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Dropdown Estado</title>
+</head>
+<body>
+    <h1>Preparando dados de teste...</h1>
+    <script>
+        // Adicionar dados de teste no localStorage
+        localStorage.setItem('candidato_data', JSON.stringify({
+            nome: 'João Silva',
+            cpf: '12345678900',
+            email: 'joao@teste.com',
+            telefone: '11999999999'
+        }));
+        
+        localStorage.setItem('shopee_delivery_cep_data', JSON.stringify({
+            cep: '01310-100',
+            city: 'São Paulo',
+            state: 'SP'
+        }));
+        
+        // Redirecionar para a página de entrega
+        setTimeout(() => {
+            window.location.href = '/entrega';
+        }, 500);
+    </script>
+</body>
+</html>

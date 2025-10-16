@@ -1,0 +1,331 @@
+2025-09-19T23:00:57.077783+00:00 app[web.29]: 🌐 Ambiente: production
+2025-09-19T23:00:57.077824+00:00 app[web.29]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.077918+00:00 app[web.29]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.085765+00:00 heroku[web.5]: State changed from starting to up
+2025-09-19T23:00:57.134781+00:00 app[web.51]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.150769+00:00 heroku[web.51]: State changed from starting to up
+2025-09-19T23:00:57.221583+00:00 app[web.29]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.361155+00:00 heroku[web.57]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:57.419073+00:00 heroku[web.53]: State changed from starting to up
+2025-09-19T23:00:57.449108+00:00 heroku[web.29]: State changed from starting to up
+2025-09-19T23:00:57.289991+00:00 app[web.68]: ✅ Servidor Heroku rodando na porta 4963
+2025-09-19T23:00:57.290274+00:00 app[web.68]: 🌐 Ambiente: production
+2025-09-19T23:00:57.290300+00:00 app[web.68]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.290380+00:00 app[web.68]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.441063+00:00 app[web.68]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.571646+00:00 heroku[web.68]: State changed from starting to up
+2025-09-19T23:00:57.351355+00:00 app[web.18]: ✅ Servidor Heroku rodando na porta 4977
+2025-09-19T23:00:57.351649+00:00 app[web.18]: 🌐 Ambiente: production
+2025-09-19T23:00:57.351691+00:00 app[web.18]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.351804+00:00 app[web.18]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.552535+00:00 app[web.18]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.354791+00:00 app[web.42]: ✅ Servidor Heroku rodando na porta 30959
+2025-09-19T23:00:57.355508+00:00 app[web.42]: 🌐 Ambiente: production
+2025-09-19T23:00:57.355510+00:00 app[web.42]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.355510+00:00 app[web.42]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.549404+00:00 app[web.42]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.356672+00:00 app[web.53]: ✅ Servidor Heroku rodando na porta 7833
+2025-09-19T23:00:57.357062+00:00 app[web.53]: 🌐 Ambiente: production
+2025-09-19T23:00:57.357063+00:00 app[web.53]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.357092+00:00 app[web.53]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.529202+00:00 app[web.53]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.646796+00:00 heroku[web.25]: State changed from starting to up
+2025-09-19T23:00:57.731242+00:00 heroku[router]: at=info method=GET path="/entrega" host=shopee.cadastroentregadores.com request_id=f81c5e2b-0122-86c1-2df0-e58f96407cd4 fwd="201.87.252.51" dyno=web.6 connect=12002ms service=14ms status=200 bytes=2667 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:57.453296+00:00 app[web.2]: ✅ Servidor Heroku rodando na porta 53873
+2025-09-19T23:00:57.453322+00:00 app[web.2]: 🌐 Ambiente: production
+2025-09-19T23:00:57.453322+00:00 app[web.2]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.453323+00:00 app[web.2]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.639985+00:00 app[web.2]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.469302+00:00 app[web.25]: ✅ Servidor Heroku rodando na porta 48089
+2025-09-19T23:00:57.469624+00:00 app[web.25]: 🌐 Ambiente: production
+2025-09-19T23:00:57.469772+00:00 app[web.25]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.469902+00:00 app[web.25]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.673960+00:00 app[web.25]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.745963+00:00 heroku[web.67]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:57.756354+00:00 heroku[web.7]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:57.811301+00:00 heroku[web.9]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:57.826636+00:00 heroku[web.8]: State changed from starting to up
+2025-09-19T23:00:57.907906+00:00 heroku[web.69]: State changed from starting to up
+2025-09-19T23:00:57.816784+00:00 heroku[web.28]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:57.601736+00:00 app[web.8]: ✅ Servidor Heroku rodando na porta 15470
+2025-09-19T23:00:57.601965+00:00 app[web.8]: 🌐 Ambiente: production
+2025-09-19T23:00:57.601989+00:00 app[web.8]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.602081+00:00 app[web.8]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.731779+00:00 app[web.8]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.898993+00:00 heroku[web.54]: State changed from starting to up
+2025-09-19T23:00:57.648644+00:00 app[web.69]: ✅ Servidor Heroku rodando na porta 23291
+2025-09-19T23:00:57.648858+00:00 app[web.69]: 🌐 Ambiente: production
+2025-09-19T23:00:57.648884+00:00 app[web.69]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.648965+00:00 app[web.69]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.789224+00:00 app[web.69]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.927139+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=shopee.cadastroentregadores.com request_id=c03de477-1433-dfc0-8ddf-cc5de6d7f939 fwd="201.87.252.51" dyno=web.14 connect=0ms service=10ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:57.929495+00:00 heroku[router]: at=info method=GET path="/assets/index-Df8EuAtx.css" host=shopee.cadastroentregadores.com request_id=421b6efc-eba2-f58a-e027-7b1cd69a928b fwd="201.87.252.51" dyno=web.64 connect=0ms service=12ms status=200 bytes=15022 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:57.968265+00:00 heroku[router]: at=info method=GET path="/assets/index-j2rs3Z7K.js" host=shopee.cadastroentregadores.com request_id=e866c0c6-1fe1-a7d1-d721-6f76cdb9685d fwd="201.87.252.51" dyno=web.13 connect=0ms service=51ms status=200 bytes=396958 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:57.659701+00:00 app[web.31]: ✅ Servidor Heroku rodando na porta 23905
+2025-09-19T23:00:57.661413+00:00 app[web.31]: 🌐 Ambiente: production
+2025-09-19T23:00:57.661414+00:00 app[web.31]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.661414+00:00 app[web.31]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.880751+00:00 app[web.31]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.673772+00:00 app[web.33]: ✅ Servidor Heroku rodando na porta 5448
+2025-09-19T23:00:57.673973+00:00 app[web.33]: 🌐 Ambiente: production
+2025-09-19T23:00:57.673998+00:00 app[web.33]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.674077+00:00 app[web.33]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.891774+00:00 app[web.33]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.721596+00:00 app[web.6]: 2025-09-19T23:00:57.721Z - GET /entrega
+2025-09-19T23:00:58.000080+00:00 heroku[web.77]: State changed from starting to up
+2025-09-19T23:00:58.075238+00:00 heroku[web.1]: State changed from starting to up
+2025-09-19T23:00:57.732870+00:00 app[web.54]: ✅ Servidor Heroku rodando na porta 44826
+2025-09-19T23:00:57.732893+00:00 app[web.54]: 🌐 Ambiente: production
+2025-09-19T23:00:57.732893+00:00 app[web.54]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.732894+00:00 app[web.54]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.849676+00:00 app[web.54]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.741763+00:00 app[web.66]: ✅ Servidor Heroku rodando na porta 33767
+2025-09-19T23:00:57.742063+00:00 app[web.66]: 🌐 Ambiente: production
+2025-09-19T23:00:57.742126+00:00 app[web.66]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.742257+00:00 app[web.66]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.936500+00:00 app[web.66]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.009715+00:00 heroku[web.2]: State changed from starting to up
+2025-09-19T23:00:57.749951+00:00 app[web.77]: ✅ Servidor Heroku rodando na porta 55460
+2025-09-19T23:00:57.750147+00:00 app[web.77]: 🌐 Ambiente: production
+2025-09-19T23:00:57.750172+00:00 app[web.77]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.750251+00:00 app[web.77]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:57.885406+00:00 app[web.77]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:57.863825+00:00 app[web.1]: ✅ Servidor Heroku rodando na porta 33403
+2025-09-19T23:00:57.864095+00:00 app[web.1]: 🌐 Ambiente: production
+2025-09-19T23:00:57.864127+00:00 app[web.1]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:57.864224+00:00 app[web.1]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:58.003559+00:00 app[web.1]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.156933+00:00 heroku[web.33]: State changed from starting to up
+2025-09-19T23:00:58.235950+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=shopee.cadastroentregadores.com request_id=8003bc0d-5328-fb23-b398-fd59800d0949 fwd="201.87.252.51" dyno=web.75 connect=0ms service=9ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.167693+00:00 heroku[web.73]: State changed from starting to up
+2025-09-19T23:00:57.920569+00:00 app[web.64]: 2025-09-19T23:00:57.920Z - GET /assets/index-Df8EuAtx.css
+2025-09-19T23:00:57.920718+00:00 app[web.13]: 2025-09-19T23:00:57.920Z - GET /assets/index-j2rs3Z7K.js
+2025-09-19T23:00:57.920377+00:00 app[web.14]: 2025-09-19T23:00:57.920Z - GET /fonts/rawline/rawline.css
+2025-09-19T23:00:58.179106+00:00 heroku[web.31]: State changed from starting to up
+2025-09-19T23:00:58.223247+00:00 heroku[router]: at=info method=GET path="/" host=shopee.cadastroentregadores.com request_id=2df5c30b-f48a-7f0d-750c-42e4bf690a70 fwd="35.223.159.77" dyno=web.47 connect=0ms service=10ms status=200 bytes=2754 protocol=http1.1 tls=false
+2025-09-19T23:00:58.253818+00:00 heroku[web.11]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:58.289688+00:00 heroku[web.4]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:58.303333+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=shopee.cadastroentregadores.com request_id=bcb270f1-db5d-3a26-68c3-c503581f61c1 fwd="35.223.159.77" dyno=web.43 connect=0ms service=14ms status=200 bytes=202 protocol=http1.1 tls=false
+2025-09-19T23:00:58.361292+00:00 heroku[router]: at=info method=GET path="/assets/index-Df8EuAtx.css" host=shopee.cadastroentregadores.com request_id=270b8b92-92ee-a419-d938-e3c02812ebb3 fwd="35.223.159.77" dyno=web.5 connect=0ms service=18ms status=200 bytes=15043 protocol=http1.1 tls=false
+2025-09-19T23:00:58.403255+00:00 heroku[router]: at=info method=GET path="/assets/index-j2rs3Z7K.js" host=shopee.cadastroentregadores.com request_id=c86cc657-5634-c5ac-6c20-07b961d83191 fwd="35.223.159.77" dyno=web.45 connect=0ms service=59ms status=200 bytes=408817 protocol=http1.1 tls=false
+2025-09-19T23:00:58.147978+00:00 app[web.73]: ✅ Servidor Heroku rodando na porta 57919
+2025-09-19T23:00:58.148100+00:00 app[web.73]: 🌐 Ambiente: production
+2025-09-19T23:00:58.148135+00:00 app[web.73]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:58.148267+00:00 app[web.73]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:58.302806+00:00 app[web.73]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.131668+00:00 app[web.17]: ✅ Servidor Heroku rodando na porta 31521
+2025-09-19T23:00:58.132833+00:00 app[web.17]: 🌐 Ambiente: production
+2025-09-19T23:00:58.132834+00:00 app[web.17]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:58.132835+00:00 app[web.17]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:58.310573+00:00 app[web.17]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.216195+00:00 app[web.47]: 2025-09-19T23:00:58.215Z - GET /
+2025-09-19T23:00:58.471187+00:00 heroku[web.66]: State changed from starting to up
+2025-09-19T23:00:58.230001+00:00 app[web.75]: 2025-09-19T23:00:58.229Z - GET /fonts/rawline/rawline-400.woff2
+2025-09-19T23:00:58.294095+00:00 app[web.43]: 2025-09-19T23:00:58.293Z - GET /fonts/rawline/rawline.css
+2025-09-19T23:00:58.565773+00:00 heroku[web.17]: State changed from starting to up
+2025-09-19T23:00:58.569954+00:00 heroku[web.57]: State changed from starting to up
+2025-09-19T23:00:58.348090+00:00 app[web.45]: 2025-09-19T23:00:58.347Z - GET /assets/index-j2rs3Z7K.js
+2025-09-19T23:00:58.347328+00:00 app[web.5]: 2025-09-19T23:00:58.347Z - GET /assets/index-Df8EuAtx.css
+2025-09-19T23:00:58.366416+00:00 app[web.57]: ✅ Servidor Heroku rodando na porta 42071
+2025-09-19T23:00:58.366682+00:00 app[web.57]: 🌐 Ambiente: production
+2025-09-19T23:00:58.366713+00:00 app[web.57]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:58.366790+00:00 app[web.57]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:58.503463+00:00 app[web.57]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.649519+00:00 heroku[web.20]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:58.716875+00:00 heroku[router]: at=info method=GET path="/assets/kit-epi-new-Du3wJUxp.webp" host=shopee.cadastroentregadores.com request_id=1d2d8505-d063-b32b-9bbc-a9a2cc6422da fwd="201.87.252.51" dyno=web.12 connect=0ms service=9ms status=200 bytes=48216 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.719533+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=shopee.cadastroentregadores.com request_id=c8b75590-8f6a-a59b-addc-9842beb8bc3e fwd="201.87.252.51" dyno=web.39 connect=0ms service=11ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.716362+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=shopee.cadastroentregadores.com request_id=8d9785c4-36d6-623d-7253-ab320afde984 fwd="201.87.252.51" dyno=web.81 connect=0ms service=9ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.717701+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400i.woff2" host=shopee.cadastroentregadores.com request_id=07d55089-64ad-95e7-6d24-3824f8dc6665 fwd="201.87.252.51" dyno=web.47 connect=0ms service=3ms status=200 bytes=85084 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.718394+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=shopee.cadastroentregadores.com request_id=798ce0d8-7d80-1fa0-cc9d-db7df52d462c fwd="201.87.252.51" dyno=web.14 connect=0ms service=4ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.724819+00:00 heroku[router]: at=info method=POST path="/api/app-users/reached-delivery" host=shopee.cadastroentregadores.com request_id=cfee3c82-2e7e-d11e-e2b8-021b13dbc5ab fwd="201.87.252.51" dyno=web.46 connect=0ms service=14ms status=404 bytes=75 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.717056+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=2998c4a5-be5d-c2b8-0220-4827bb4e3b08 fwd="201.87.252.51" dyno=web.76 connect=0ms service=6ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.760388+00:00 heroku[router]: at=info method=GET path="/api/admin/check-ip-banned" host=shopee.cadastroentregadores.com request_id=279d65f7-1bc3-7620-792e-92c8c8119f37 fwd="201.87.252.51" dyno=web.22 connect=0ms service=8ms status=404 bytes=70 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.770037+00:00 heroku[router]: at=info method=GET path="/entrega" host=shopee.cadastroentregadores.com request_id=4624597b-e67f-7e4b-57f7-ba210738c655 fwd="201.87.252.51" dyno=web.81 connect=0ms service=5ms status=200 bytes=2667 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.841498+00:00 heroku[router]: at=info method=GET path="/data/regions.json" host=shopee.cadastroentregadores.com request_id=901b7f40-4d02-fdfa-ba17-071db3094d30 fwd="35.223.159.77" dyno=web.38 connect=0ms service=10ms status=200 bytes=419 protocol=http1.1 tls=false
+2025-09-19T23:00:58.882626+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=6e32bf3f-fd83-0cd5-84a4-307499a46b4c fwd="35.223.159.77" dyno=web.5 connect=0ms service=3ms status=200 bytes=116 protocol=http1.1 tls=false
+2025-09-19T23:00:58.895088+00:00 heroku[router]: at=info method=GET path="/sw.js" host=shopee.cadastroentregadores.com request_id=fc2f1d07-91f3-d7fd-f4dd-cb9dfa54967c fwd="201.87.252.51" dyno=web.80 connect=0ms service=10ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.917765+00:00 heroku[router]: at=info method=GET path="/assets/index-Df8EuAtx.css" host=shopee.cadastroentregadores.com request_id=c5dbbd63-cabe-f971-62aa-b6126d0d4c40 fwd="201.87.252.51" dyno=web.19 connect=0ms service=5ms status=200 bytes=15022 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.970743+00:00 heroku[router]: at=info method=GET path="/assets/index-j2rs3Z7K.js" host=shopee.cadastroentregadores.com request_id=fa8756f8-95cc-7fd7-a21c-9ee077de7183 fwd="201.87.252.51" dyno=web.1 connect=0ms service=58ms status=200 bytes=396958 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.897427+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-900.woff2" host=shopee.cadastroentregadores.com request_id=a302d9ad-7af0-1735-074a-e70806bab05d fwd="35.223.159.77" dyno=web.16 connect=0ms service=8ms status=200 bytes=79992 protocol=http1.1 tls=false
+2025-09-19T23:00:58.904791+00:00 heroku[web.67]: State changed from starting to up
+2025-09-19T23:00:58.954984+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=shopee.cadastroentregadores.com request_id=65b2476d-d628-7f67-4bb3-45cece9fb2b2 fwd="35.223.159.77" dyno=web.33 connect=0ms service=15ms status=200 bytes=80524 protocol=http1.1 tls=false
+2025-09-19T23:00:58.899935+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=shopee.cadastroentregadores.com request_id=df8615c5-e02c-92fa-9bc1-bad88235e0d8 fwd="35.223.159.77" dyno=web.39 connect=0ms service=4ms status=200 bytes=82580 protocol=http1.1 tls=false
+2025-09-19T23:00:58.916793+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=shopee.cadastroentregadores.com request_id=905140c1-17d4-8d74-8736-ebd50179d19d fwd="201.87.252.51" dyno=web.40 connect=0ms service=4ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.947362+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=shopee.cadastroentregadores.com request_id=e836724c-9eb8-e354-d92b-dcd7a34da86d fwd="35.223.159.77" dyno=web.60 connect=0ms service=9ms status=200 bytes=83564 protocol=http1.1 tls=false
+2025-09-19T23:00:58.949811+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=shopee.cadastroentregadores.com request_id=fa010a96-c7ec-5463-4876-df0fc43d9215 fwd="35.223.159.77" dyno=web.74 connect=0ms service=13ms status=200 bytes=81280 protocol=http1.1 tls=false
+2025-09-19T23:00:58.712147+00:00 app[web.39]: 2025-09-19T23:00:58.711Z - GET /fonts/rawline/rawline-500.woff2
+2025-09-19T23:00:58.897158+00:00 app[web.39]: 2025-09-19T23:00:58.897Z - GET /fonts/rawline/rawline-700.woff2
+2025-09-19T23:00:58.711355+00:00 app[web.12]: 2025-09-19T23:00:58.711Z - GET /assets/kit-epi-new-Du3wJUxp.webp
+2025-09-19T23:00:58.710770+00:00 app[web.81]: 2025-09-19T23:00:58.710Z - GET /fonts/rawline/rawline-700.woff2
+2025-09-19T23:00:58.765017+00:00 app[web.81]: 2025-09-19T23:00:58.764Z - GET /entrega
+2025-09-19T23:00:58.713890+00:00 app[web.76]: 2025-09-19T23:00:58.713Z - GET /api/check-ip-status
+2025-09-19T23:00:58.714755+00:00 app[web.14]: 2025-09-19T23:00:58.714Z - GET /fonts/rawline/rawline-600.woff2
+2025-09-19T23:00:58.715332+00:00 app[web.47]: 2025-09-19T23:00:58.715Z - GET /fonts/rawline/rawline-400i.woff2
+2025-09-19T23:00:58.720517+00:00 app[web.46]: 2025-09-19T23:00:58.720Z - POST /api/app-users/reached-delivery
+2025-09-19T23:00:59.014041+00:00 heroku[web.7]: State changed from starting to up
+2025-09-19T23:00:58.755972+00:00 app[web.22]: 2025-09-19T23:00:58.755Z - GET /api/admin/check-ip-banned
+2025-09-19T23:00:59.036348+00:00 heroku[web.28]: State changed from starting to up
+2025-09-19T23:00:58.782861+00:00 app[web.28]: ✅ Servidor Heroku rodando na porta 43472
+2025-09-19T23:00:58.783078+00:00 app[web.28]: 🌐 Ambiente: production
+2025-09-19T23:00:58.783104+00:00 app[web.28]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:58.783178+00:00 app[web.28]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:58.940529+00:00 app[web.28]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:59.077663+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=shopee.cadastroentregadores.com request_id=7169914f-0cc8-af19-2a60-376fc089eed8 fwd="201.87.252.51" dyno=web.3 connect=0ms service=15ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:59.177554+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-700.woff2" host=shopee.cadastroentregadores.com request_id=db9e51ee-6ac8-9ae0-6ee7-781b6e485825 fwd="201.87.252.51" dyno=web.35 connect=0ms service=10ms status=200 bytes=82580 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.834279+00:00 app[web.38]: 2025-09-19T23:00:58.834Z - GET /data/regions.json
+2025-09-19T23:00:58.816201+00:00 app[web.7]: ✅ Servidor Heroku rodando na porta 29034
+2025-09-19T23:00:58.816528+00:00 app[web.7]: 🌐 Ambiente: production
+2025-09-19T23:00:58.816576+00:00 app[web.7]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:58.816690+00:00 app[web.7]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:58.998537+00:00 app[web.7]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.882637+00:00 app[web.5]: 2025-09-19T23:00:58.879Z - GET /api/check-ip-status
+2025-09-19T23:00:58.888108+00:00 app[web.80]: 2025-09-19T23:00:58.887Z - GET /sw.js
+2025-09-19T23:00:58.879090+00:00 app[web.67]: ✅ Servidor Heroku rodando na porta 38655
+2025-09-19T23:00:58.879102+00:00 app[web.67]: 🌐 Ambiente: production
+2025-09-19T23:00:58.879102+00:00 app[web.67]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:58.879103+00:00 app[web.67]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:59.053265+00:00 app[web.67]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:58.892123+00:00 app[web.16]: 2025-09-19T23:00:58.891Z - GET /fonts/rawline/rawline-900.woff2
+2025-09-19T23:00:58.913773+00:00 app[web.40]: 2025-09-19T23:00:58.913Z - GET /fonts/rawline/rawline.css
+2025-09-19T23:00:58.913648+00:00 app[web.19]: 2025-09-19T23:00:58.913Z - GET /assets/index-Df8EuAtx.css
+2025-09-19T23:00:59.172538+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400i.woff2" host=shopee.cadastroentregadores.com request_id=3999809a-3e6e-7926-2eea-0d11b4d3498a fwd="201.87.252.51" dyno=web.45 connect=0ms service=4ms status=200 bytes=85084 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:59.174419+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=shopee.cadastroentregadores.com request_id=64c87d06-02bd-3237-71fc-5afcb064eb74 fwd="201.87.252.51" dyno=web.48 connect=0ms service=5ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:59.179597+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-500.woff2" host=shopee.cadastroentregadores.com request_id=e64ad2cc-d345-9ec4-22cf-be0d61f11915 fwd="201.87.252.51" dyno=web.41 connect=0ms service=11ms status=200 bytes=80524 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.917956+00:00 app[web.1]: 2025-09-19T23:00:58.917Z - GET /assets/index-j2rs3Z7K.js
+2025-09-19T23:00:59.179247+00:00 heroku[router]: at=info method=GET path="/assets/kit-epi-new-Du3wJUxp.webp" host=shopee.cadastroentregadores.com request_id=6df35c5a-2949-bc85-3ba6-84085a735787 fwd="201.87.252.51" dyno=web.29 connect=0ms service=11ms status=200 bytes=48216 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:59.183236+00:00 heroku[router]: at=info method=POST path="/api/app-users/reached-delivery" host=shopee.cadastroentregadores.com request_id=73464eed-473a-d27c-a4d4-51a261bc5ee4 fwd="201.87.252.51" dyno=web.18 connect=0ms service=15ms status=404 bytes=75 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:59.177809+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=4f414656-d72a-c731-59d1-5ce70c7f6ab7 fwd="201.87.252.51" dyno=web.53 connect=0ms service=10ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:58.941009+00:00 app[web.60]: 2025-09-19T23:00:58.940Z - GET /fonts/rawline/rawline-600.woff2
+2025-09-19T23:00:58.941325+00:00 app[web.74]: 2025-09-19T23:00:58.940Z - GET /fonts/rawline/rawline-400.woff2
+2025-09-19T23:00:58.943669+00:00 app[web.33]: 2025-09-19T23:00:58.943Z - GET /fonts/rawline/rawline-500.woff2
+2025-09-19T23:00:59.068065+00:00 app[web.3]: 2025-09-19T23:00:59.067Z - GET /fonts/rawline/rawline-400.woff2
+2025-09-19T23:00:59.410134+00:00 heroku[web.52]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:00:59.169656+00:00 app[web.48]: 2025-09-19T23:00:59.169Z - GET /fonts/rawline/rawline-600.woff2
+2025-09-19T23:00:59.171503+00:00 app[web.35]: 2025-09-19T23:00:59.171Z - GET /fonts/rawline/rawline-700.woff2
+2025-09-19T23:00:59.169084+00:00 app[web.45]: 2025-09-19T23:00:59.168Z - GET /fonts/rawline/rawline-400i.woff2
+2025-09-19T23:00:59.172316+00:00 app[web.41]: 2025-09-19T23:00:59.172Z - GET /fonts/rawline/rawline-500.woff2
+2025-09-19T23:00:59.172621+00:00 app[web.29]: 2025-09-19T23:00:59.172Z - GET /assets/kit-epi-new-Du3wJUxp.webp
+2025-09-19T23:00:59.173084+00:00 app[web.53]: 2025-09-19T23:00:59.172Z - GET /api/check-ip-status
+2025-09-19T23:00:59.179004+00:00 app[web.18]: 2025-09-19T23:00:59.178Z - POST /api/app-users/reached-delivery
+2025-09-19T23:00:59.466436+00:00 heroku[web.11]: State changed from starting to up
+2025-09-19T23:00:59.313889+00:00 app[web.9]: ✅ Servidor Heroku rodando na porta 17481
+2025-09-19T23:00:59.315688+00:00 app[web.9]: 🌐 Ambiente: production
+2025-09-19T23:00:59.315802+00:00 app[web.9]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:59.315970+00:00 app[web.9]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:59.530189+00:00 app[web.9]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:59.365630+00:00 app[web.11]: ✅ Servidor Heroku rodando na porta 34409
+2025-09-19T23:00:59.365915+00:00 app[web.11]: 🌐 Ambiente: production
+2025-09-19T23:00:59.366168+00:00 app[web.11]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:59.366293+00:00 app[web.11]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:59.524667+00:00 app[web.11]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:59.487581+00:00 app[web.20]: ✅ Servidor Heroku rodando na porta 52556
+2025-09-19T23:00:59.487930+00:00 app[web.20]: 🌐 Ambiente: production
+2025-09-19T23:00:59.487935+00:00 app[web.20]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:59.488019+00:00 app[web.20]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:00:59.631140+00:00 app[web.20]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:59.779072+00:00 heroku[web.9]: State changed from starting to up
+2025-09-19T23:00:59.791806+00:00 heroku[web.20]: State changed from starting to up
+2025-09-19T23:00:59.919521+00:00 heroku[router]: at=info method=GET path="/sw.js" host=shopee.cadastroentregadores.com request_id=47c64eba-e325-05be-1663-658706444663 fwd="201.87.252.51" dyno=web.12 connect=0ms service=9ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:00:59.843003+00:00 app[web.4]: ✅ Servidor Heroku rodando na porta 15855
+2025-09-19T23:00:59.849383+00:00 app[web.4]: 🌐 Ambiente: production
+2025-09-19T23:00:59.849404+00:00 app[web.4]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:00:59.849538+00:00 app[web.4]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:00.057551+00:00 app[web.4]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:00:59.911103+00:00 app[web.12]: 2025-09-19T23:00:59.910Z - GET /sw.js
+2025-09-19T23:01:00.291506+00:00 heroku[web.49]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:01:00.304397+00:00 heroku[web.4]: State changed from starting to up
+2025-09-19T23:01:00.325758+00:00 heroku[web.23]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:01:00.583668+00:00 heroku[web.58]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:01:01.079774+00:00 app[web.52]: ✅ Servidor Heroku rodando na porta 42564
+2025-09-19T23:01:01.079793+00:00 app[web.52]: 🌐 Ambiente: production
+2025-09-19T23:01:01.079794+00:00 app[web.52]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:01:01.079796+00:00 app[web.52]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:01.269577+00:00 app[web.52]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:01:01.405494+00:00 heroku[web.52]: State changed from starting to up
+2025-09-19T23:01:01.617406+00:00 app[web.49]: ✅ Servidor Heroku rodando na porta 17460
+2025-09-19T23:01:01.617421+00:00 app[web.49]: 🌐 Ambiente: production
+2025-09-19T23:01:01.617421+00:00 app[web.49]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:01:01.617422+00:00 app[web.49]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:01.765677+00:00 app[web.49]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:01:01.954341+00:00 heroku[web.49]: State changed from starting to up
+2025-09-19T23:01:02.332531+00:00 heroku[web.23]: State changed from starting to up
+2025-09-19T23:01:02.333273+00:00 heroku[web.78]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:01:02.082831+00:00 app[web.23]: ✅ Servidor Heroku rodando na porta 56310
+2025-09-19T23:01:02.082845+00:00 app[web.23]: 🌐 Ambiente: production
+2025-09-19T23:01:02.082845+00:00 app[web.23]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:01:02.082846+00:00 app[web.23]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:02.246994+00:00 app[web.23]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:01:02.270995+00:00 app[web.58]: ✅ Servidor Heroku rodando na porta 15177
+2025-09-19T23:01:02.271472+00:00 app[web.58]: 🌐 Ambiente: production
+2025-09-19T23:01:02.271527+00:00 app[web.58]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:01:02.271722+00:00 app[web.58]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:02.487832+00:00 app[web.58]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:01:02.634676+00:00 heroku[web.58]: State changed from starting to up
+2025-09-19T23:01:03.660721+00:00 app[web.78]: ✅ Servidor Heroku rodando na porta 45759
+2025-09-19T23:01:03.660954+00:00 app[web.78]: 🌐 Ambiente: production
+2025-09-19T23:01:03.660988+00:00 app[web.78]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:01:03.661086+00:00 app[web.78]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:03.837166+00:00 app[web.78]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:01:04.250075+00:00 heroku[web.78]: State changed from starting to up
+2025-09-19T23:01:04.706675+00:00 heroku[router]: at=info method=GET path="/sw.js" host=shopee.cadastroentregadores.com request_id=b2e4fc30-34a6-2aef-4962-5ad86cada2fa fwd="177.30.171.178" dyno=web.4 connect=0ms service=28ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:01:04.691070+00:00 app[web.4]: 2025-09-19T23:01:04.690Z - GET /sw.js
+2025-09-19T23:01:06.839806+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=87abf601-fc47-fa4e-da83-4f57091a719d fwd="69.166.232.198" dyno=web.5 connect=0ms service=2ms status=200 bytes=117 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:01:06.838893+00:00 app[web.5]: 2025-09-19T23:01:06.838Z - GET /api/check-ip-status
+2025-09-19T23:01:07.377544+00:00 app[web.59]: 2025-09-19T23:01:07.377Z - POST /api/proxy/for4payments/pix
+2025-09-19T23:01:07.378327+00:00 app[web.59]: [GATEWAY PROD] Usando gateway: 4MPAGAMENTOS
+2025-09-19T23:01:07.378616+00:00 app[web.59]: Dados recebidos: { name: 'Marina Souza', cpf: '065***77', amount: 64.9 }
+2025-09-19T23:01:07.378639+00:00 app[web.59]: Iniciando transação 4Mpagamentos no Heroku...
+2025-09-19T23:01:07.378735+00:00 app[web.59]: [4MPAGAMENTOS PROD] Usando CPF do usuário: 065***77
+2025-09-19T23:01:07.378772+00:00 app[web.59]: Enviando payload para 4Mpagamentos API: {
+2025-09-19T23:01:07.378774+00:00 app[web.59]:   "amount": "64.9",
+2025-09-19T23:01:07.378774+00:00 app[web.59]:   "customer_name": "Marina Souza",
+2025-09-19T23:01:07.378775+00:00 app[web.59]:   "customer_email": "emailsuporte55@gmail.com",
+2025-09-19T23:01:07.378775+00:00 app[web.59]:   "customer_cpf": "06537080177",
+2025-09-19T23:01:07.378775+00:00 app[web.59]:   "customer_phone": "61982132613",
+2025-09-19T23:01:07.378776+00:00 app[web.59]:   "description": "Kit de Segurança Shopee Delivery"
+2025-09-19T23:01:07.378777+00:00 app[web.59]: }
+2025-09-19T23:01:09.909296+00:00 heroku[web.62]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T23:01:10.300003+00:00 heroku[router]: at=info method=POST path="/api/proxy/for4payments/pix" host=shopee.cadastroentregadores.com request_id=eda47dc8-cc9c-cb1a-7143-ec95466da6ad fwd="201.87.252.51" dyno=web.59 connect=0ms service=2934ms status=200 bytes=2496 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:01:10.499116+00:00 heroku[router]: at=info method=GET path="/assets/pix-logo-CwXylA4y.png" host=shopee.cadastroentregadores.com request_id=69508fa1-3cbc-7ef4-833c-65fd72723c7f fwd="201.87.252.51" dyno=web.66 connect=0ms service=14ms status=200 bytes=89014 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:01:10.497835+00:00 heroku[router]: at=info method=GET path="/assets/kit-epi-new-Du3wJUxp.webp" host=shopee.cadastroentregadores.com request_id=377cf016-1885-6264-1b7f-5d642925e41b fwd="201.87.252.51" dyno=web.57 connect=1ms service=12ms status=200 bytes=48216 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T23:01:10.292983+00:00 app[web.59]: Response status da 4Mpagamentos: 201
+2025-09-19T23:01:10.295393+00:00 app[web.59]: Response data da 4Mpagamentos: {
+2025-09-19T23:01:10.295394+00:00 app[web.59]:   "success": true,
+2025-09-19T23:01:10.295395+00:00 app[web.59]:   "data": {
+2025-09-19T23:01:10.295395+00:00 app[web.59]:     "id": 644,
+2025-09-19T23:01:10.295396+00:00 app[web.59]:     "transaction_id": "4M926101",
+2025-09-19T23:01:10.295396+00:00 app[web.59]:     "pix_code": "00020101021226840014br.gov.bcb.pix2562qrcode.owempay.com.br/pix/16d87e78-e072-42ac-82fd-38a04e90f0115204000053039865802BR5915TRANSACAOSEGURA6008SaoPaulo62070503***6304D6E2",
+2025-09-19T23:01:10.295408+00:00 app[web.59]:     "pix_qr_code": "data:image/png;base64,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",
+2025-09-19T23:01:10.295409+00:00 app[web.59]:     "customer_name": "Marina Souza",
+2025-09-19T23:01:10.295409+00:00 app[web.59]:     "customer_email": "emailsuporte55@gmail.com",
+2025-09-19T23:01:10.295410+00:00 app[web.59]:     "customer_cpf": "06537080177",
+2025-09-19T23:01:10.295410+00:00 app[web.59]:     "customer_phone": "61982132613",
+2025-09-19T23:01:10.295411+00:00 app[web.59]:     "amount": "64.9",
+2025-09-19T23:01:10.295411+00:00 app[web.59]:     "net_amount": "64.9",
+2025-09-19T23:01:10.295411+00:00 app[web.59]:     "fee_amount": "0",
+2025-09-19T23:01:10.295412+00:00 app[web.59]:     "status": "pending",
+2025-09-19T23:01:10.295412+00:00 app[web.59]:     "expires_at": null,
+2025-09-19T23:01:10.295412+00:00 app[web.59]:     "created_at": "2025-09-19T23:01:10.267Z"
+2025-09-19T23:01:10.295412+00:00 app[web.59]:   },
+2025-09-19T23:01:10.295413+00:00 app[web.59]:   "timestamp": "2025-09-19T23:01:10.267Z",
+2025-09-19T23:01:10.295413+00:00 app[web.59]:   "request_id": "req_1758322867585_x4etdmvb9"
+2025-09-19T23:01:10.295413+00:00 app[web.59]: }
+2025-09-19T23:01:10.295443+00:00 app[web.59]: Transaction ID extraído (4M): 4M926101
+2025-09-19T23:01:10.295460+00:00 app[web.59]: PIX Code extraído (4M): ENCONTRADO
+2025-09-19T23:01:10.295493+00:00 app[web.59]: ✅ Transação 4Mpagamentos criada com sucesso: 4M926101
+2025-09-19T23:01:10.295524+00:00 app[web.59]: Enviando resposta para frontend: {
+2025-09-19T23:01:10.295524+00:00 app[web.59]:   "id": "4M926101",
+2025-09-19T23:01:10.295525+00:00 app[web.59]:   "pixCode": "00020101021226840014br.gov.bcb.pix2562qrcode.owempay.com.br/pix/16d87e78-e072-42ac-82fd-38a04e90f0115204000053039865802BR5915TRANSACAOSEGURA6008SaoPaulo62070503***6304D6E2",
+2025-09-19T23:01:10.295532+00:00 app[web.59]:   "pixQrCode": "data:image/png;base64,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",
+2025-09-19T23:01:10.295532+00:00 app[web.59]:   "status": "pending",
+2025-09-19T23:01:10.295533+00:00 app[web.59]:   "emailSent": false
+2025-09-19T23:01:10.295533+00:00 app[web.59]: }
+2025-09-19T23:01:10.490705+00:00 app[web.57]: 2025-09-19T23:01:10.490Z - GET /assets/kit-epi-new-Du3wJUxp.webp
+2025-09-19T23:01:10.490772+00:00 app[web.66]: 2025-09-19T23:01:10.490Z - GET /assets/pix-logo-CwXylA4y.png
+2025-09-19T23:01:11.328771+00:00 app[web.62]: ✅ Servidor Heroku rodando na porta 6212
+2025-09-19T23:01:11.328782+00:00 app[web.62]: 🌐 Ambiente: production
+2025-09-19T23:01:11.328782+00:00 app[web.62]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T23:01:11.328783+00:00 app[web.62]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T23:01:11.502446+00:00 app[web.62]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T23:01:11.700074+00:00 heroku[web.62]: State changed from starting to up
+2025-09-19T23:01:21.283322+00:00 heroku[router]: at=info method=POST path="/api/app-users/login" host=shopee.cadastroentregadores.com request_id=529aca06-8853-6066-81b9-4cc9a9e3eede fwd="177.30.171.178" dyno=web.61 connect=0ms service=125ms status=404 bytes=77 protocol=http2.0 tls=true tls_version=tls1.3

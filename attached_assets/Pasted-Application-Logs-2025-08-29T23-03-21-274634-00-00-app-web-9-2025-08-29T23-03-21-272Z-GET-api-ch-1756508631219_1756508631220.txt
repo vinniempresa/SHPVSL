@@ -1,0 +1,15 @@
+Application Logs
+2025-08-29T23:03:21.274634+00:00 app[web.9]: 2025-08-29T23:03:21.272Z - GET /api/check-ip-status
+2025-08-29T23:03:21.275167+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=756b7d5a-cbd2-8996-7e20-205459467b3f fwd="149.78.234.5" dyno=web.9 connect=0ms service=4ms status=200 bytes=115 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:21.473763+00:00 app[web.9]: 2025-08-29T23:03:21.473Z - GET /vehicle-api/KWF1B60
+2025-08-29T23:03:21.477803+00:00 heroku[router]: at=info method=GET path="/vehicle-api/KWF1B60" host=shopee.cadastrodoentregador.com request_id=1da370f5-c7e8-aa51-d8f8-d7ac82caedf7 fwd="168.196.91.252" dyno=web.9 connect=0ms service=5ms status=200 bytes=1965 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:23.946641+00:00 app[web.4]: 2025-08-29T23:03:23.946Z - GET /api/check-ip-status
+2025-08-29T23:03:23.948852+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=f3b03e3e-f618-fc85-729c-6c10d789b484 fwd="201.87.252.51" dyno=web.4 connect=0ms service=3ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:24.771629+00:00 app[web.23]: 2025-08-29T23:03:24.771Z - GET /api/check-ip-status
+2025-08-29T23:03:24.776008+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=7d6fd8e7-cd22-0d4c-35a4-343bac33d69a fwd="201.71.42.166" dyno=web.23 connect=0ms service=9ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:26.097840+00:00 app[web.22]: 2025-08-29T23:03:26.097Z - GET /vehicle-api/RIV61C1
+2025-08-29T23:03:26.103696+00:00 heroku[router]: at=info method=GET path="/vehicle-api/RIV61C1" host=shopee.cadastrodoentregador.com request_id=8f741bf6-7f90-6c2c-da67-521c8f5f8514 fwd="177.26.84.101" dyno=web.22 connect=0ms service=7ms status=200 bytes=1965 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:26.708422+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shopee.cadastrodoentregador.com request_id=0737b86c-ee83-3cfa-8e3c-90e9e31af1e7 fwd="152.249.170.241" dyno=web.7 connect=0ms service=6ms status=200 bytes=1965 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:26.703924+00:00 app[web.7]: 2025-08-29T23:03:26.703Z - GET /favicon.ico
+2025-08-29T23:03:27.611030+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=d1efb395-a9b9-fc67-2f9c-1ecc38057745 fwd="168.194.174.86" dyno=web.5 connect=0ms service=4ms status=200 bytes=117 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-29T23:03:27.608326+00:00 app[web.5]: 2025-08-29T23:03:27.608Z - GET /api/check-ip-status

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="24" fill="#E83D22"/>
+  <path d="M96 40C71.9 40 52 59.9 52 84C52 108.1 71.9 128 96 128C120.1 128 140 108.1 140 84C140 59.9 120.1 40 96 40ZM96 116C78.3 116 64 101.7 64 84C64 66.3 78.3 52 96 52C113.7 52 128 66.3 128 84C128 101.7 113.7 116 96 116Z" fill="white"/>
+  <path d="M96 68C87.2 68 80 75.2 80 84C80 92.8 87.2 100 96 100C104.8 100 112 92.8 112 84C112 75.2 104.8 68 96 68Z" fill="white"/>
+  <text x="96" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">SHOPEE</text>
+  <text x="96" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">DELIVERY</text>
+</svg>

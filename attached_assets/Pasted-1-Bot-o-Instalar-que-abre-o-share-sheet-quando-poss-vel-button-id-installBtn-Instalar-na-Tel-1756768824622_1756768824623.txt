@@ -1,0 +1,80 @@
+1) Botão “Instalar” que abre o share sheet (quando possível)
+<button id="installBtn">Instalar na Tela Inicial</button>
+<script>
+  const isiOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+
+  const openHowTo = () => {
+    // Mostre um modal com instruções (fallback) se não houver Web Share
+    alert('No iPhone/iPad: toque no ícone de compartilhar (quadrado com seta) e depois em "Adicionar à Tela de Início".');
+  };
+
+  document.getElementById('installBtn').addEventListener('click', async () => {
+    if (isStandalone) return; // já instalado
+    if (isiOS && navigator.share) {
+      try {
+        // Abre o share sheet do iOS; “Adicionar à Tela de Início” fica lá dentro (2 toques no total)
+        await navigator.share({ title: document.title, url: location.href });
+      } catch (e) { openHowTo(); }
+    } else {
+      openHowTo();
+    }
+  });
+</script>
+
+2) Transforme o site em PWA (para o iOS sugerir mais claramente)
+
+<head> do HTML
+
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon-180.png">
+<meta name="theme-color" content="#0ea5e9">
+
+
+/manifest.webmanifest
+
+{
+  "name": "Seu App",
+  "short_name": "SeuApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
+
+
+Service Worker básico (/sw.js)
+
+self.addEventListener('install', e => {
+  e.waitUntil(caches.open('v1').then(c => c.addAll(['/','/styles.css','/script.js'])));
+});
+self.addEventListener('fetch', e => {
+  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request)));
+});
+
+
+Registrar o SW
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+
+3) UX que ajuda (sem “burlar” regras)
+
+Detectar se já está instalado (display-mode: standalone / navigator.standalone) e esconder o CTA.
+
+Banner/tooltip contextual ensinando: “Toque em Compartilhar → Adicionar à Tela de Início”.
+
+Ícones corretos (mín. 180×180 em /icons/apple-touch-icon-180.png) para o iOS mostrar um ícone bonito.
+
+HTTPS obrigatório e service worker ativo para o PWA se comportar como app.
+
+Para Android implemente o beforeinstallprompt para um fluxo de 1 clique (lá funciona).

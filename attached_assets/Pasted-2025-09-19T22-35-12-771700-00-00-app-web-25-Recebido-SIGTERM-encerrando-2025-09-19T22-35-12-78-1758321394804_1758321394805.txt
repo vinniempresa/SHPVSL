@@ -1,0 +1,625 @@
+2025-09-19T22:35:12.771700+00:00 app[web.25]: Recebido SIGTERM, encerrando...
+2025-09-19T22:35:12.786582+00:00 app[web.76]: Recebido SIGTERM, encerrando...
+2025-09-19T22:35:12.791901+00:00 heroku[web.50]: Stopping all processes with SIGTERM
+2025-09-19T22:35:12.804387+00:00 heroku[web.69]: Process exited with status 0
+2025-09-19T22:35:12.810040+00:00 heroku[web.66]: Process exited with status 0
+2025-09-19T22:35:12.811165+00:00 app[web.50]: Recebido SIGTERM, encerrando...
+2025-09-19T22:35:12.835472+00:00 heroku[web.25]: Process exited with status 0
+2025-09-19T22:35:12.849064+00:00 heroku[web.76]: Process exited with status 0
+2025-09-19T22:35:12.861044+00:00 heroku[web.50]: Process exited with status 0
+2025-09-19T22:35:13.000000+00:00 app[api]: Build succeeded
+2025-09-19T22:35:19.631874+00:00 heroku[web.53]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.730279+00:00 heroku[web.45]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.768646+00:00 heroku[web.75]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.790570+00:00 heroku[web.30]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.799867+00:00 heroku[web.26]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.831811+00:00 heroku[web.57]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.866735+00:00 heroku[web.51]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.897362+00:00 heroku[web.18]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.898045+00:00 heroku[web.52]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.976260+00:00 heroku[web.81]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.988551+00:00 heroku[web.23]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:19.995248+00:00 heroku[web.40]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.034131+00:00 heroku[web.14]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.038167+00:00 heroku[web.67]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.042338+00:00 heroku[web.41]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.110952+00:00 heroku[web.11]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.135282+00:00 heroku[web.54]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.172777+00:00 heroku[web.4]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.195705+00:00 heroku[web.47]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.212921+00:00 heroku[web.29]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.218658+00:00 heroku[web.74]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.224202+00:00 heroku[web.10]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.229816+00:00 heroku[web.1]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.243026+00:00 heroku[web.36]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.250021+00:00 heroku[web.77]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.259616+00:00 heroku[web.44]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.263276+00:00 heroku[web.59]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.281233+00:00 heroku[web.7]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.329993+00:00 heroku[web.56]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.337309+00:00 heroku[web.5]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.342065+00:00 heroku[web.58]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.351001+00:00 heroku[web.49]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.385629+00:00 heroku[web.35]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.388168+00:00 heroku[web.76]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.389571+00:00 heroku[web.13]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.415690+00:00 heroku[web.21]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.425919+00:00 heroku[web.78]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.448507+00:00 heroku[web.24]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.461246+00:00 heroku[web.31]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.472096+00:00 heroku[web.32]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.537821+00:00 heroku[web.70]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.552217+00:00 heroku[web.72]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.573456+00:00 heroku[web.80]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.580161+00:00 heroku[web.62]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.597294+00:00 heroku[web.48]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.629718+00:00 heroku[web.64]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.442318+00:00 app[web.53]: ✅ Servidor Heroku rodando na porta 31131
+2025-09-19T22:35:20.442485+00:00 app[web.53]: 🌐 Ambiente: production
+2025-09-19T22:35:20.442507+00:00 app[web.53]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.442579+00:00 app[web.53]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.579044+00:00 app[web.53]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.695934+00:00 heroku[web.3]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.718248+00:00 heroku[web.8]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.541744+00:00 app[web.75]: ✅ Servidor Heroku rodando na porta 9298
+2025-09-19T22:35:20.541941+00:00 app[web.75]: 🌐 Ambiente: production
+2025-09-19T22:35:20.541966+00:00 app[web.75]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.542037+00:00 app[web.75]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.684503+00:00 app[web.75]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.796100+00:00 heroku[web.42]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.814608+00:00 heroku[web.53]: State changed from starting to up
+2025-09-19T22:35:20.815836+00:00 heroku[web.6]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.841103+00:00 heroku[web.28]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.847580+00:00 heroku[web.61]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.878592+00:00 heroku[web.60]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.891904+00:00 heroku[web.33]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.639006+00:00 app[web.30]: ✅ Servidor Heroku rodando na porta 22767
+2025-09-19T22:35:20.639253+00:00 app[web.30]: 🌐 Ambiente: production
+2025-09-19T22:35:20.639283+00:00 app[web.30]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.639380+00:00 app[web.30]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.782452+00:00 app[web.30]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.643414+00:00 app[web.45]: ✅ Servidor Heroku rodando na porta 49211
+2025-09-19T22:35:20.643667+00:00 app[web.45]: 🌐 Ambiente: production
+2025-09-19T22:35:20.643698+00:00 app[web.45]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.643796+00:00 app[web.45]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.797551+00:00 app[web.45]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.642924+00:00 app[web.26]: ✅ Servidor Heroku rodando na porta 25504
+2025-09-19T22:35:20.642938+00:00 app[web.26]: 🌐 Ambiente: production
+2025-09-19T22:35:20.642938+00:00 app[web.26]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.642939+00:00 app[web.26]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.822903+00:00 app[web.26]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.898792+00:00 heroku[web.55]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.925209+00:00 heroku[web.69]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.670524+00:00 app[web.57]: ✅ Servidor Heroku rodando na porta 43937
+2025-09-19T22:35:20.670724+00:00 app[web.57]: 🌐 Ambiente: production
+2025-09-19T22:35:20.670745+00:00 app[web.57]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.670818+00:00 app[web.57]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.796468+00:00 app[web.57]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.950117+00:00 heroku[web.45]: State changed from starting to up
+2025-09-19T22:35:20.945497+00:00 heroku[web.71]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.973817+00:00 heroku[web.26]: State changed from starting to up
+2025-09-19T22:35:20.974300+00:00 heroku[web.39]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.725113+00:00 app[web.52]: ✅ Servidor Heroku rodando na porta 44684
+2025-09-19T22:35:20.725369+00:00 app[web.52]: 🌐 Ambiente: production
+2025-09-19T22:35:20.725395+00:00 app[web.52]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.725474+00:00 app[web.52]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.854595+00:00 app[web.52]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.003719+00:00 heroku[web.52]: State changed from starting to up
+2025-09-19T22:35:21.013393+00:00 heroku[web.68]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.759801+00:00 app[web.18]: ✅ Servidor Heroku rodando na porta 48785
+2025-09-19T22:35:20.760026+00:00 app[web.18]: 🌐 Ambiente: production
+2025-09-19T22:35:20.760049+00:00 app[web.18]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.760127+00:00 app[web.18]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.898240+00:00 app[web.18]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.767039+00:00 app[web.51]: ✅ Servidor Heroku rodando na porta 56123
+2025-09-19T22:35:20.767217+00:00 app[web.51]: 🌐 Ambiente: production
+2025-09-19T22:35:20.767247+00:00 app[web.51]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.767322+00:00 app[web.51]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.908590+00:00 app[web.51]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.035525+00:00 heroku[web.51]: State changed from starting to up
+2025-09-19T22:35:21.040160+00:00 heroku[web.18]: State changed from starting to up
+2025-09-19T22:35:20.774229+00:00 app[web.81]: ✅ Servidor Heroku rodando na porta 33476
+2025-09-19T22:35:20.774470+00:00 app[web.81]: 🌐 Ambiente: production
+2025-09-19T22:35:20.774495+00:00 app[web.81]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.774583+00:00 app[web.81]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.911261+00:00 app[web.81]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.806431+00:00 app[web.14]: ✅ Servidor Heroku rodando na porta 31977
+2025-09-19T22:35:20.806606+00:00 app[web.14]: 🌐 Ambiente: production
+2025-09-19T22:35:20.806631+00:00 app[web.14]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.806702+00:00 app[web.14]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.943598+00:00 app[web.14]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.071103+00:00 heroku[web.15]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.829283+00:00 app[web.40]: ✅ Servidor Heroku rodando na porta 9661
+2025-09-19T22:35:20.829516+00:00 app[web.40]: 🌐 Ambiente: production
+2025-09-19T22:35:20.829541+00:00 app[web.40]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.829613+00:00 app[web.40]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.963928+00:00 app[web.40]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.102298+00:00 heroku[web.40]: State changed from starting to up
+2025-09-19T22:35:20.856152+00:00 app[web.23]: ✅ Servidor Heroku rodando na porta 11208
+2025-09-19T22:35:20.856347+00:00 app[web.23]: 🌐 Ambiente: production
+2025-09-19T22:35:20.856372+00:00 app[web.23]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.856459+00:00 app[web.23]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.987106+00:00 app[web.23]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:20.865706+00:00 app[web.41]: ✅ Servidor Heroku rodando na porta 4907
+2025-09-19T22:35:20.865966+00:00 app[web.41]: 🌐 Ambiente: production
+2025-09-19T22:35:20.865993+00:00 app[web.41]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.866083+00:00 app[web.41]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:20.996982+00:00 app[web.41]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.149642+00:00 heroku[web.79]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.162224+00:00 heroku[web.23]: State changed from starting to up
+2025-09-19T22:35:20.908435+00:00 app[web.67]: ✅ Servidor Heroku rodando na porta 6465
+2025-09-19T22:35:20.908703+00:00 app[web.67]: 🌐 Ambiente: production
+2025-09-19T22:35:20.908720+00:00 app[web.67]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.908810+00:00 app[web.67]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.047709+00:00 app[web.67]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.178487+00:00 heroku[web.19]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.210788+00:00 heroku[web.2]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.194105+00:00 heroku[web.67]: State changed from starting to up
+2025-09-19T22:35:21.189940+00:00 heroku[web.46]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.953643+00:00 app[web.11]: ✅ Servidor Heroku rodando na porta 18855
+2025-09-19T22:35:20.953853+00:00 app[web.11]: 🌐 Ambiente: production
+2025-09-19T22:35:20.953879+00:00 app[web.11]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.953955+00:00 app[web.11]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.095849+00:00 app[web.11]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.225907+00:00 heroku[web.20]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.231812+00:00 heroku[web.63]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:20.986163+00:00 app[web.54]: ✅ Servidor Heroku rodando na porta 56709
+2025-09-19T22:35:20.986509+00:00 app[web.54]: 🌐 Ambiente: production
+2025-09-19T22:35:20.986550+00:00 app[web.54]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:20.986674+00:00 app[web.54]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.107044+00:00 app[web.54]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.266965+00:00 heroku[web.73]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.283348+00:00 heroku[web.11]: State changed from starting to up
+2025-09-19T22:35:21.030231+00:00 app[web.1]: ✅ Servidor Heroku rodando na porta 41273
+2025-09-19T22:35:21.030474+00:00 app[web.1]: 🌐 Ambiente: production
+2025-09-19T22:35:21.030498+00:00 app[web.1]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.030578+00:00 app[web.1]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.173067+00:00 app[web.1]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.031061+00:00 app[web.29]: ✅ Servidor Heroku rodando na porta 17077
+2025-09-19T22:35:21.031252+00:00 app[web.29]: 🌐 Ambiente: production
+2025-09-19T22:35:21.031277+00:00 app[web.29]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.031349+00:00 app[web.29]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.165673+00:00 app[web.29]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.041511+00:00 app[web.4]: ✅ Servidor Heroku rodando na porta 58873
+2025-09-19T22:35:21.041718+00:00 app[web.4]: 🌐 Ambiente: production
+2025-09-19T22:35:21.041745+00:00 app[web.4]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.041822+00:00 app[web.4]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.177339+00:00 app[web.4]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.056819+00:00 app[web.47]: ✅ Servidor Heroku rodando na porta 37926
+2025-09-19T22:35:21.057025+00:00 app[web.47]: 🌐 Ambiente: production
+2025-09-19T22:35:21.057051+00:00 app[web.47]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.057130+00:00 app[web.47]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.211485+00:00 app[web.47]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.329036+00:00 heroku[web.54]: State changed from starting to up
+2025-09-19T22:35:21.396779+00:00 heroku[web.44]: State changed from starting to up
+2025-09-19T22:35:21.067401+00:00 app[web.77]: ✅ Servidor Heroku rodando na porta 23423
+2025-09-19T22:35:21.067608+00:00 app[web.77]: 🌐 Ambiente: production
+2025-09-19T22:35:21.067645+00:00 app[web.77]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.067723+00:00 app[web.77]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.216216+00:00 app[web.77]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.067926+00:00 app[web.36]: ✅ Servidor Heroku rodando na porta 13631
+2025-09-19T22:35:21.068134+00:00 app[web.36]: 🌐 Ambiente: production
+2025-09-19T22:35:21.068158+00:00 app[web.36]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.068230+00:00 app[web.36]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.212334+00:00 app[web.36]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.336310+00:00 heroku[web.36]: State changed from starting to up
+2025-09-19T22:35:21.398148+00:00 heroku[web.7]: State changed from starting to up
+2025-09-19T22:35:21.344719+00:00 heroku[web.1]: State changed from starting to up
+2025-09-19T22:35:21.412828+00:00 heroku[web.75]: State changed from starting to up
+2025-09-19T22:35:21.081486+00:00 app[web.5]: ✅ Servidor Heroku rodando na porta 18864
+2025-09-19T22:35:21.081681+00:00 app[web.5]: 🌐 Ambiente: production
+2025-09-19T22:35:21.081707+00:00 app[web.5]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.081784+00:00 app[web.5]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.220186+00:00 app[web.5]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.356955+00:00 heroku[web.29]: State changed from starting to up
+2025-09-19T22:35:21.363388+00:00 heroku[web.4]: State changed from starting to up
+2025-09-19T22:35:21.365829+00:00 heroku[web.59]: State changed from starting to up
+2025-09-19T22:35:21.108504+00:00 app[web.7]: ✅ Servidor Heroku rodando na porta 11646
+2025-09-19T22:35:21.108685+00:00 app[web.7]: 🌐 Ambiente: production
+2025-09-19T22:35:21.108707+00:00 app[web.7]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.108779+00:00 app[web.7]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.241044+00:00 app[web.7]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.110997+00:00 app[web.44]: ✅ Servidor Heroku rodando na porta 3895
+2025-09-19T22:35:21.111208+00:00 app[web.44]: 🌐 Ambiente: production
+2025-09-19T22:35:21.111233+00:00 app[web.44]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.111304+00:00 app[web.44]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.248068+00:00 app[web.44]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.123850+00:00 app[web.59]: ✅ Servidor Heroku rodando na porta 43563
+2025-09-19T22:35:21.124101+00:00 app[web.59]: 🌐 Ambiente: production
+2025-09-19T22:35:21.124135+00:00 app[web.59]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.124232+00:00 app[web.59]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.285403+00:00 app[web.59]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.388936+00:00 heroku[web.47]: State changed from starting to up
+2025-09-19T22:35:21.395903+00:00 heroku[web.74]: State changed from starting to up
+2025-09-19T22:35:21.467999+00:00 heroku[web.30]: State changed from starting to up
+2025-09-19T22:35:21.133585+00:00 app[web.10]: ✅ Servidor Heroku rodando na porta 58934
+2025-09-19T22:35:21.133766+00:00 app[web.10]: 🌐 Ambiente: production
+2025-09-19T22:35:21.133791+00:00 app[web.10]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.133863+00:00 app[web.10]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.259731+00:00 app[web.10]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.408839+00:00 heroku[web.10]: State changed from starting to up
+2025-09-19T22:35:21.148169+00:00 app[web.74]: ✅ Servidor Heroku rodando na porta 6190
+2025-09-19T22:35:21.148416+00:00 app[web.74]: 🌐 Ambiente: production
+2025-09-19T22:35:21.148446+00:00 app[web.74]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.148551+00:00 app[web.74]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.318961+00:00 app[web.74]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.182069+00:00 app[web.76]: ✅ Servidor Heroku rodando na porta 38775
+2025-09-19T22:35:21.182298+00:00 app[web.76]: 🌐 Ambiente: production
+2025-09-19T22:35:21.182326+00:00 app[web.76]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.182435+00:00 app[web.76]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.322236+00:00 app[web.76]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.456841+00:00 heroku[web.77]: State changed from starting to up
+2025-09-19T22:35:21.545343+00:00 heroku[web.78]: State changed from starting to up
+2025-09-19T22:35:21.206084+00:00 app[web.35]: ✅ Servidor Heroku rodando na porta 41217
+2025-09-19T22:35:21.206338+00:00 app[web.35]: 🌐 Ambiente: production
+2025-09-19T22:35:21.206365+00:00 app[web.35]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.206445+00:00 app[web.35]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.333090+00:00 app[web.35]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.219960+00:00 app[web.58]: ✅ Servidor Heroku rodando na porta 32345
+2025-09-19T22:35:21.220167+00:00 app[web.58]: 🌐 Ambiente: production
+2025-09-19T22:35:21.220194+00:00 app[web.58]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.220280+00:00 app[web.58]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.370650+00:00 app[web.58]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.221377+00:00 app[web.49]: ✅ Servidor Heroku rodando na porta 7756
+2025-09-19T22:35:21.221558+00:00 app[web.49]: 🌐 Ambiente: production
+2025-09-19T22:35:21.221600+00:00 app[web.49]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.221687+00:00 app[web.49]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.370891+00:00 app[web.49]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.241393+00:00 app[web.24]: ✅ Servidor Heroku rodando na porta 56884
+2025-09-19T22:35:21.241566+00:00 app[web.24]: 🌐 Ambiente: production
+2025-09-19T22:35:21.241591+00:00 app[web.24]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.241664+00:00 app[web.24]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.378003+00:00 app[web.24]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.509178+00:00 heroku[web.57]: State changed from starting to up
+2025-09-19T22:35:21.582302+00:00 heroku[web.13]: State changed from starting to up
+2025-09-19T22:35:21.519101+00:00 heroku[web.76]: State changed from starting to up
+2025-09-19T22:35:21.522298+00:00 heroku[web.58]: State changed from starting to up
+2025-09-19T22:35:21.600965+00:00 heroku[web.21]: State changed from starting to up
+2025-09-19T22:35:21.261878+00:00 app[web.21]: ✅ Servidor Heroku rodando na porta 7620
+2025-09-19T22:35:21.262070+00:00 app[web.21]: 🌐 Ambiente: production
+2025-09-19T22:35:21.262097+00:00 app[web.21]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.262171+00:00 app[web.21]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.391600+00:00 app[web.21]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.527909+00:00 heroku[web.56]: State changed from starting to up
+2025-09-19T22:35:21.535531+00:00 heroku[web.35]: State changed from starting to up
+2025-09-19T22:35:21.268886+00:00 app[web.78]: ✅ Servidor Heroku rodando na porta 43066
+2025-09-19T22:35:21.269089+00:00 app[web.78]: 🌐 Ambiente: production
+2025-09-19T22:35:21.269117+00:00 app[web.78]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.269196+00:00 app[web.78]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.414635+00:00 app[web.78]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.279748+00:00 app[web.56]: ✅ Servidor Heroku rodando na porta 49549
+2025-09-19T22:35:21.279982+00:00 app[web.56]: 🌐 Ambiente: production
+2025-09-19T22:35:21.280010+00:00 app[web.56]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.280102+00:00 app[web.56]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.438876+00:00 app[web.56]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.545919+00:00 heroku[web.22]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.560417+00:00 heroku[web.49]: State changed from starting to up
+2025-09-19T22:35:21.625149+00:00 heroku[web.81]: State changed from starting to up
+2025-09-19T22:35:21.326469+00:00 app[web.13]: ✅ Servidor Heroku rodando na porta 44019
+2025-09-19T22:35:21.326755+00:00 app[web.13]: 🌐 Ambiente: production
+2025-09-19T22:35:21.326791+00:00 app[web.13]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.326893+00:00 app[web.13]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.472847+00:00 app[web.13]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.625906+00:00 heroku[web.32]: State changed from starting to up
+2025-09-19T22:35:21.627243+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.acesso.inc request_id=0845db73-de18-8c3c-41e8-8cb48f6297e7 fwd="201.77.100.54" dyno=web.67 connect=8001ms service=8ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:21.368329+00:00 app[web.32]: ✅ Servidor Heroku rodando na porta 47451
+2025-09-19T22:35:21.368544+00:00 app[web.32]: 🌐 Ambiente: production
+2025-09-19T22:35:21.368571+00:00 app[web.32]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.368648+00:00 app[web.32]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.501829+00:00 app[web.32]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.381106+00:00 app[web.70]: ✅ Servidor Heroku rodando na porta 34940
+2025-09-19T22:35:21.381308+00:00 app[web.70]: 🌐 Ambiente: production
+2025-09-19T22:35:21.381327+00:00 app[web.70]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.381399+00:00 app[web.70]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.530803+00:00 app[web.70]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.662610+00:00 heroku[web.14]: State changed from starting to up
+2025-09-19T22:35:21.659771+00:00 heroku[web.27]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.683335+00:00 heroku[web.50]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.696054+00:00 heroku[web.31]: State changed from starting to up
+2025-09-19T22:35:21.429530+00:00 app[web.72]: ✅ Servidor Heroku rodando na porta 40279
+2025-09-19T22:35:21.429791+00:00 app[web.72]: 🌐 Ambiente: production
+2025-09-19T22:35:21.429821+00:00 app[web.72]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.429899+00:00 app[web.72]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.571231+00:00 app[web.72]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.708017+00:00 heroku[web.70]: State changed from starting to up
+2025-09-19T22:35:21.711210+00:00 heroku[web.41]: State changed from starting to up
+2025-09-19T22:35:21.450646+00:00 app[web.31]: ✅ Servidor Heroku rodando na porta 19691
+2025-09-19T22:35:21.450946+00:00 app[web.31]: 🌐 Ambiente: production
+2025-09-19T22:35:21.450985+00:00 app[web.31]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.451081+00:00 app[web.31]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.604228+00:00 app[web.31]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.730980+00:00 heroku[web.72]: State changed from starting to up
+2025-09-19T22:35:21.755563+00:00 heroku[web.80]: State changed from starting to up
+2025-09-19T22:35:21.776787+00:00 heroku[web.62]: State changed from starting to up
+2025-09-19T22:35:21.509564+00:00 app[web.80]: ✅ Servidor Heroku rodando na porta 40256
+2025-09-19T22:35:21.509841+00:00 app[web.80]: 🌐 Ambiente: production
+2025-09-19T22:35:21.509869+00:00 app[web.80]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.509968+00:00 app[web.80]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.664840+00:00 app[web.80]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.515082+00:00 app[web.64]: ✅ Servidor Heroku rodando na porta 36839
+2025-09-19T22:35:21.515324+00:00 app[web.64]: 🌐 Ambiente: production
+2025-09-19T22:35:21.515360+00:00 app[web.64]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.515453+00:00 app[web.64]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.644836+00:00 app[web.64]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.803047+00:00 heroku[web.48]: State changed from starting to up
+2025-09-19T22:35:21.587353+00:00 app[web.62]: ✅ Servidor Heroku rodando na porta 17967
+2025-09-19T22:35:21.588372+00:00 app[web.62]: 🌐 Ambiente: production
+2025-09-19T22:35:21.588373+00:00 app[web.62]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.588374+00:00 app[web.62]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.750899+00:00 app[web.62]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.854830+00:00 heroku[web.8]: State changed from starting to up
+2025-09-19T22:35:21.601562+00:00 app[web.8]: ✅ Servidor Heroku rodando na porta 26263
+2025-09-19T22:35:21.601874+00:00 app[web.8]: 🌐 Ambiente: production
+2025-09-19T22:35:21.601879+00:00 app[web.8]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.601955+00:00 app[web.8]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.718357+00:00 app[web.8]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.873438+00:00 heroku[router]: at=info method=GET path="/apple-app-site-association" host=shopee.cadastroentregadores.com request_id=b04b9ae2-1ca8-f49d-dae4-5c5b6ab10c8e fwd="66.220.149.1" dyno=web.59 connect=7001ms service=9ms status=200 bytes=8009 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:21.623187+00:00 app[web.67]: 2025-09-19T22:35:21.622Z - GET /api/check-ip-status
+2025-09-19T22:35:21.635006+00:00 app[web.61]: ✅ Servidor Heroku rodando na porta 37559
+2025-09-19T22:35:21.635208+00:00 app[web.61]: 🌐 Ambiente: production
+2025-09-19T22:35:21.635232+00:00 app[web.61]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.635304+00:00 app[web.61]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.761130+00:00 app[web.61]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.632951+00:00 app[web.48]: ✅ Servidor Heroku rodando na porta 21645
+2025-09-19T22:35:21.633175+00:00 app[web.48]: 🌐 Ambiente: production
+2025-09-19T22:35:21.633211+00:00 app[web.48]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.633286+00:00 app[web.48]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.803224+00:00 app[web.48]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.895820+00:00 heroku[web.17]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:21.929407+00:00 heroku[web.3]: State changed from starting to up
+2025-09-19T22:35:21.949169+00:00 heroku[web.5]: State changed from starting to up
+2025-09-19T22:35:21.685400+00:00 app[web.6]: ✅ Servidor Heroku rodando na porta 56358
+2025-09-19T22:35:21.685747+00:00 app[web.6]: 🌐 Ambiente: production
+2025-09-19T22:35:21.685788+00:00 app[web.6]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.685884+00:00 app[web.6]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.827597+00:00 app[web.6]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.954276+00:00 heroku[web.61]: State changed from starting to up
+2025-09-19T22:35:21.972650+00:00 heroku[web.42]: State changed from starting to up
+2025-09-19T22:35:21.991791+00:00 heroku[web.6]: State changed from starting to up
+2025-09-19T22:35:21.730336+00:00 app[web.60]: ✅ Servidor Heroku rodando na porta 43519
+2025-09-19T22:35:21.730548+00:00 app[web.60]: 🌐 Ambiente: production
+2025-09-19T22:35:21.730574+00:00 app[web.60]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.730656+00:00 app[web.60]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.841735+00:00 app[web.60]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.004855+00:00 heroku[web.60]: State changed from starting to up
+2025-09-19T22:35:21.761343+00:00 app[web.3]: ✅ Servidor Heroku rodando na porta 29036
+2025-09-19T22:35:21.769773+00:00 app[web.3]: 🌐 Ambiente: production
+2025-09-19T22:35:21.769834+00:00 app[web.3]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.770030+00:00 app[web.3]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.944666+00:00 app[web.3]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.038621+00:00 heroku[web.28]: State changed from starting to up
+2025-09-19T22:35:22.105230+00:00 heroku[web.69]: State changed from starting to up
+2025-09-19T22:35:21.782387+00:00 app[web.28]: ✅ Servidor Heroku rodando na porta 48473
+2025-09-19T22:35:21.782676+00:00 app[web.28]: 🌐 Ambiente: production
+2025-09-19T22:35:21.782719+00:00 app[web.28]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.783641+00:00 app[web.28]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.928242+00:00 app[web.28]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.786168+00:00 app[web.42]: ✅ Servidor Heroku rodando na porta 21717
+2025-09-19T22:35:21.786591+00:00 app[web.42]: 🌐 Ambiente: production
+2025-09-19T22:35:21.786635+00:00 app[web.42]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.786770+00:00 app[web.42]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.925654+00:00 app[web.42]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.055679+00:00 heroku[web.71]: State changed from starting to up
+2025-09-19T22:35:22.139364+00:00 heroku[web.33]: State changed from starting to up
+2025-09-19T22:35:21.796709+00:00 app[web.71]: ✅ Servidor Heroku rodando na porta 35155
+2025-09-19T22:35:21.796984+00:00 app[web.71]: 🌐 Ambiente: production
+2025-09-19T22:35:21.797020+00:00 app[web.71]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.797139+00:00 app[web.71]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.939628+00:00 app[web.71]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.811706+00:00 app[web.69]: ✅ Servidor Heroku rodando na porta 38887
+2025-09-19T22:35:21.811932+00:00 app[web.69]: 🌐 Ambiente: production
+2025-09-19T22:35:21.811956+00:00 app[web.69]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.812032+00:00 app[web.69]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.952204+00:00 app[web.69]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.808496+00:00 app[web.55]: ✅ Servidor Heroku rodando na porta 47586
+2025-09-19T22:35:21.808748+00:00 app[web.55]: 🌐 Ambiente: production
+2025-09-19T22:35:21.808776+00:00 app[web.55]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.808874+00:00 app[web.55]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:21.973665+00:00 app[web.55]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.082531+00:00 heroku[web.24]: State changed from starting to up
+2025-09-19T22:35:22.104248+00:00 heroku[web.39]: State changed from starting to up
+2025-09-19T22:35:22.115081+00:00 heroku[web.55]: State changed from starting to up
+2025-09-19T22:35:21.867591+00:00 app[web.59]: 2025-09-19T22:35:21.867Z - GET /apple-app-site-association
+2025-09-19T22:35:22.172204+00:00 heroku[web.68]: State changed from starting to up
+2025-09-19T22:35:21.894435+00:00 app[web.33]: ✅ Servidor Heroku rodando na porta 8663
+2025-09-19T22:35:21.894634+00:00 app[web.33]: 🌐 Ambiente: production
+2025-09-19T22:35:21.894656+00:00 app[web.33]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.894732+00:00 app[web.33]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.052557+00:00 app[web.33]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:21.929525+00:00 app[web.68]: ✅ Servidor Heroku rodando na porta 21765
+2025-09-19T22:35:21.929736+00:00 app[web.68]: 🌐 Ambiente: production
+2025-09-19T22:35:21.929766+00:00 app[web.68]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:21.929844+00:00 app[web.68]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.062405+00:00 app[web.68]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.193732+00:00 heroku[web.12]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.230721+00:00 heroku[web.15]: State changed from starting to up
+2025-09-19T22:35:22.034870+00:00 app[web.15]: ✅ Servidor Heroku rodando na porta 18435
+2025-09-19T22:35:22.035279+00:00 app[web.15]: 🌐 Ambiente: production
+2025-09-19T22:35:22.035280+00:00 app[web.15]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.035301+00:00 app[web.15]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.187081+00:00 app[web.15]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.031317+00:00 app[web.39]: ✅ Servidor Heroku rodando na porta 6873
+2025-09-19T22:35:22.032607+00:00 app[web.39]: 🌐 Ambiente: production
+2025-09-19T22:35:22.032608+00:00 app[web.39]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.032608+00:00 app[web.39]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.183142+00:00 app[web.39]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.313262+00:00 heroku[web.19]: State changed from starting to up
+2025-09-19T22:35:22.337857+00:00 heroku[web.64]: State changed from starting to up
+2025-09-19T22:35:22.353800+00:00 heroku[web.46]: State changed from starting to up
+2025-09-19T22:35:22.379241+00:00 heroku[web.63]: State changed from starting to up
+2025-09-19T22:35:22.124405+00:00 app[web.20]: ✅ Servidor Heroku rodando na porta 12279
+2025-09-19T22:35:22.124674+00:00 app[web.20]: 🌐 Ambiente: production
+2025-09-19T22:35:22.124696+00:00 app[web.20]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.124784+00:00 app[web.20]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.260635+00:00 app[web.20]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.166231+00:00 app[web.63]: ✅ Servidor Heroku rodando na porta 16025
+2025-09-19T22:35:22.166546+00:00 app[web.63]: 🌐 Ambiente: production
+2025-09-19T22:35:22.166570+00:00 app[web.63]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.166668+00:00 app[web.63]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.319662+00:00 app[web.63]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.402472+00:00 heroku[web.20]: State changed from starting to up
+2025-09-19T22:35:22.413243+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.acesso.inc request_id=b45e8927-9e54-9bd1-99f2-ba823bbfadf7 fwd="189.6.232.81" dyno=web.47 connect=1000ms service=7ms status=200 bytes=115 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:22.144514+00:00 app[web.2]: ✅ Servidor Heroku rodando na porta 18577
+2025-09-19T22:35:22.144802+00:00 app[web.2]: 🌐 Ambiente: production
+2025-09-19T22:35:22.144845+00:00 app[web.2]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.144951+00:00 app[web.2]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.286129+00:00 app[web.2]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.412439+00:00 heroku[web.66]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.433413+00:00 heroku[web.2]: State changed from starting to up
+2025-09-19T22:35:22.419058+00:00 heroku[web.16]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.446390+00:00 heroku[web.73]: State changed from starting to up
+2025-09-19T22:35:22.187093+00:00 app[web.46]: ✅ Servidor Heroku rodando na porta 34750
+2025-09-19T22:35:22.187427+00:00 app[web.46]: 🌐 Ambiente: production
+2025-09-19T22:35:22.187466+00:00 app[web.46]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.187566+00:00 app[web.46]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.323616+00:00 app[web.46]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.214477+00:00 app[web.19]: ✅ Servidor Heroku rodando na porta 40473
+2025-09-19T22:35:22.214696+00:00 app[web.19]: 🌐 Ambiente: production
+2025-09-19T22:35:22.214721+00:00 app[web.19]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.214807+00:00 app[web.19]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.358168+00:00 app[web.19]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.518483+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=3423e211-4e37-0099-f77a-39d725ed7b52 fwd="201.87.252.51" dyno=web.47 connect=8001ms service=2ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:22.348125+00:00 app[web.79]: ✅ Servidor Heroku rodando na porta 48116
+2025-09-19T22:35:22.348139+00:00 app[web.79]: 🌐 Ambiente: production
+2025-09-19T22:35:22.348139+00:00 app[web.79]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.348140+00:00 app[web.79]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.495461+00:00 app[web.79]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.370488+00:00 app[web.73]: ✅ Servidor Heroku rodando na porta 4235
+2025-09-19T22:35:22.370751+00:00 app[web.73]: 🌐 Ambiente: production
+2025-09-19T22:35:22.370779+00:00 app[web.73]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.370879+00:00 app[web.73]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.535341+00:00 app[web.73]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.409961+00:00 app[web.47]: 2025-09-19T22:35:22.409Z - GET /api/check-ip-status
+2025-09-19T22:35:22.517571+00:00 app[web.47]: 2025-09-19T22:35:22.517Z - GET /api/check-ip-status
+2025-09-19T22:35:22.683714+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=e2121eb0-e00a-97e0-2613-0cf59b7a4768 fwd="181.232.131.43" dyno=web.67 connect=2001ms service=2ms status=200 bytes=117 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:22.688683+00:00 heroku[web.65]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.765002+00:00 heroku[web.22]: State changed from starting to up
+2025-09-19T22:35:22.804529+00:00 heroku[web.79]: State changed from starting to up
+2025-09-19T22:35:22.580740+00:00 app[web.22]: ✅ Servidor Heroku rodando na porta 44910
+2025-09-19T22:35:22.581105+00:00 app[web.22]: 🌐 Ambiente: production
+2025-09-19T22:35:22.581199+00:00 app[web.22]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.581316+00:00 app[web.22]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.734685+00:00 app[web.22]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.873746+00:00 heroku[web.38]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.882663+00:00 heroku[web.27]: State changed from starting to up
+2025-09-19T22:35:22.876345+00:00 heroku[web.34]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.682642+00:00 app[web.67]: 2025-09-19T22:35:22.682Z - GET /api/check-ip-status
+2025-09-19T22:35:22.667465+00:00 app[web.27]: ✅ Servidor Heroku rodando na porta 42936
+2025-09-19T22:35:22.667835+00:00 app[web.27]: 🌐 Ambiente: production
+2025-09-19T22:35:22.667856+00:00 app[web.27]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.667978+00:00 app[web.27]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.830860+00:00 app[web.27]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.679188+00:00 app[web.50]: ✅ Servidor Heroku rodando na porta 45282
+2025-09-19T22:35:22.679403+00:00 app[web.50]: 🌐 Ambiente: production
+2025-09-19T22:35:22.679436+00:00 app[web.50]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.679513+00:00 app[web.50]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:22.835157+00:00 app[web.50]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:22.945094+00:00 heroku[web.50]: State changed from starting to up
+2025-09-19T22:35:23.124629+00:00 heroku[web.17]: State changed from starting to up
+2025-09-19T22:35:23.128306+00:00 heroku[web.43]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:22.918872+00:00 app[web.17]: ✅ Servidor Heroku rodando na porta 23246
+2025-09-19T22:35:22.921689+00:00 app[web.17]: 🌐 Ambiente: production
+2025-09-19T22:35:22.921747+00:00 app[web.17]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:22.921907+00:00 app[web.17]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:23.112175+00:00 app[web.17]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:23.416106+00:00 heroku[web.12]: State changed from starting to up
+2025-09-19T22:35:23.447237+00:00 heroku[web.9]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:23.270356+00:00 app[web.12]: ✅ Servidor Heroku rodando na porta 57534
+2025-09-19T22:35:23.270378+00:00 app[web.12]: 🌐 Ambiente: production
+2025-09-19T22:35:23.270378+00:00 app[web.12]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:23.270379+00:00 app[web.12]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:23.440520+00:00 app[web.12]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:23.645041+00:00 heroku[web.16]: State changed from starting to up
+2025-09-19T22:35:23.679781+00:00 heroku[web.66]: State changed from starting to up
+2025-09-19T22:35:23.523519+00:00 app[web.16]: ✅ Servidor Heroku rodando na porta 20007
+2025-09-19T22:35:23.523793+00:00 app[web.16]: 🌐 Ambiente: production
+2025-09-19T22:35:23.523825+00:00 app[web.16]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:23.523936+00:00 app[web.16]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:23.680346+00:00 app[web.16]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:23.522643+00:00 app[web.66]: ✅ Servidor Heroku rodando na porta 52033
+2025-09-19T22:35:23.522912+00:00 app[web.66]: 🌐 Ambiente: production
+2025-09-19T22:35:23.522945+00:00 app[web.66]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:23.523051+00:00 app[web.66]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:23.681103+00:00 app[web.66]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:23.808189+00:00 heroku[web.65]: State changed from starting to up
+2025-09-19T22:35:23.756171+00:00 app[web.65]: ✅ Servidor Heroku rodando na porta 47471
+2025-09-19T22:35:23.756392+00:00 app[web.65]: 🌐 Ambiente: production
+2025-09-19T22:35:23.756426+00:00 app[web.65]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:23.756525+00:00 app[web.65]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:23.910611+00:00 app[web.65]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:24.124725+00:00 heroku[web.38]: State changed from starting to up
+2025-09-19T22:35:24.131698+00:00 heroku[web.37]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:24.163833+00:00 heroku[web.34]: State changed from starting to up
+2025-09-19T22:35:23.907657+00:00 app[web.38]: ✅ Servidor Heroku rodando na porta 10255
+2025-09-19T22:35:23.907893+00:00 app[web.38]: 🌐 Ambiente: production
+2025-09-19T22:35:23.907922+00:00 app[web.38]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:23.908019+00:00 app[web.38]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:24.084912+00:00 app[web.38]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:24.017733+00:00 app[web.34]: ✅ Servidor Heroku rodando na porta 35945
+2025-09-19T22:35:24.018163+00:00 app[web.34]: 🌐 Ambiente: production
+2025-09-19T22:35:24.018210+00:00 app[web.34]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:24.018322+00:00 app[web.34]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:24.209352+00:00 app[web.34]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:24.691195+00:00 heroku[web.9]: State changed from starting to up
+2025-09-19T22:35:24.480139+00:00 app[web.43]: ✅ Servidor Heroku rodando na porta 12500
+2025-09-19T22:35:24.480932+00:00 app[web.43]: 🌐 Ambiente: production
+2025-09-19T22:35:24.480933+00:00 app[web.43]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:24.480933+00:00 app[web.43]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:24.687711+00:00 app[web.43]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:24.806346+00:00 heroku[web.43]: State changed from starting to up
+2025-09-19T22:35:24.641910+00:00 app[web.9]: ✅ Servidor Heroku rodando na porta 13008
+2025-09-19T22:35:24.641947+00:00 app[web.9]: 🌐 Ambiente: production
+2025-09-19T22:35:24.641951+00:00 app[web.9]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:24.641955+00:00 app[web.9]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:24.811962+00:00 app[web.9]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:25.513819+00:00 heroku[router]: at=info method=GET path="/entrega" host=shopee.cadastroentregadores.com request_id=4fb01254-db0b-ac58-e22e-f22d1f34c9e1 fwd="201.87.252.51" dyno=web.39 connect=0ms service=11ms status=200 bytes=2668 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:25.685468+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=shopee.cadastroentregadores.com request_id=a7ce01f9-4baa-44b3-123d-3da21cf93829 fwd="201.87.252.51" dyno=web.46 connect=0ms service=14ms status=200 bytes=669 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:25.750951+00:00 heroku[router]: at=info method=POST path="/api/app-users/reached-delivery" host=shopee.cadastroentregadores.com request_id=3cfca72a-69b8-d5a6-7eae-d81dd9e50b54 fwd="201.87.252.51" dyno=web.1 connect=0ms service=12ms status=404 bytes=75 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:25.747512+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=0d598662-5f59-b08f-f95b-d45bb4010018 fwd="201.87.252.51" dyno=web.10 connect=0ms service=8ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:25.506173+00:00 app[web.39]: 2025-09-19T22:35:25.505Z - GET /entrega
+2025-09-19T22:35:25.592209+00:00 app[web.37]: ✅ Servidor Heroku rodando na porta 20857
+2025-09-19T22:35:25.592464+00:00 app[web.37]: 🌐 Ambiente: production
+2025-09-19T22:35:25.593112+00:00 app[web.37]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:25.593250+00:00 app[web.37]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:25.784401+00:00 app[web.37]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:25.913361+00:00 heroku[web.25]: Starting process with command `node heroku-simple-production.cjs`
+2025-09-19T22:35:25.676047+00:00 app[web.46]: 2025-09-19T22:35:25.675Z - GET /manifest.json
+2025-09-19T22:35:25.989205+00:00 heroku[web.37]: State changed from starting to up
+2025-09-19T22:35:25.743703+00:00 app[web.10]: 2025-09-19T22:35:25.743Z - GET /api/check-ip-status
+2025-09-19T22:35:25.747524+00:00 app[web.1]: 2025-09-19T22:35:25.747Z - POST /api/app-users/reached-delivery
+2025-09-19T22:35:27.188413+00:00 heroku[web.25]: State changed from starting to up
+2025-09-19T22:35:27.284977+00:00 heroku[router]: at=info method=GET path="/entrega" host=shopee.cadastroentregadores.com request_id=94297555-674b-b48f-b033-b4c4674ac5c4 fwd="201.87.252.51" dyno=web.48 connect=0ms service=12ms status=200 bytes=2668 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:27.093992+00:00 app[web.25]: ✅ Servidor Heroku rodando na porta 49831
+2025-09-19T22:35:27.095200+00:00 app[web.25]: 🌐 Ambiente: production
+2025-09-19T22:35:27.095201+00:00 app[web.25]: 🎯 Gateway escolhido: 4MPAGAMENTOS
+2025-09-19T22:35:27.095202+00:00 app[web.25]: 📦 Servindo arquivos estáticos de: /app/dist/public
+2025-09-19T22:35:27.243874+00:00 app[web.25]: ✅ Tabela app_users verificada/criada no PostgreSQL
+2025-09-19T22:35:27.451905+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=shopee.cadastroentregadores.com request_id=98cc42e0-3199-65a6-1479-b369147105c5 fwd="201.87.252.51" dyno=web.75 connect=0ms service=10ms status=200 bytes=669 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:27.513578+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=bfa36966-1fa5-9750-8ee5-91a0eb854c65 fwd="201.87.252.51" dyno=web.4 connect=0ms service=8ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:27.520970+00:00 heroku[router]: at=info method=POST path="/api/app-users/reached-delivery" host=shopee.cadastroentregadores.com request_id=abcac524-3a87-7505-0bef-39dc2b0d648d fwd="201.87.252.51" dyno=web.12 connect=0ms service=15ms status=404 bytes=75 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:27.276871+00:00 app[web.48]: 2025-09-19T22:35:27.276Z - GET /entrega
+2025-09-19T22:35:27.445134+00:00 app[web.75]: 2025-09-19T22:35:27.444Z - GET /manifest.json
+2025-09-19T22:35:27.510259+00:00 app[web.4]: 2025-09-19T22:35:27.510Z - GET /api/check-ip-status
+2025-09-19T22:35:27.517008+00:00 app[web.12]: 2025-09-19T22:35:27.516Z - POST /api/app-users/reached-delivery
+2025-09-19T22:35:47.897586+00:00 heroku[router]: at=info method=POST path="/api/proxy/for4payments/pix" host=shopee.cadastroentregadores.com request_id=4a55e5c8-9ca8-4b8e-436c-5c3dc2caa617 fwd="201.87.252.51" dyno=web.59 connect=0ms service=10ms status=500 bytes=86 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:48.045580+00:00 heroku[router]: at=info method=POST path="/api/proxy/for4payments/pix" host=shopee.cadastroentregadores.com request_id=df1a3578-53b6-5219-5db1-87830f82f21b fwd="201.87.252.51" dyno=web.54 connect=0ms service=14ms status=500 bytes=86 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:47.895011+00:00 app[web.59]: 2025-09-19T22:35:47.894Z - POST /api/proxy/for4payments/pix
+2025-09-19T22:35:47.895620+00:00 app[web.59]: [GATEWAY PROD] Usando gateway: 4MPAGAMENTOS
+2025-09-19T22:35:47.895963+00:00 app[web.59]: Dados recebidos: { name: 'PEDRO HENRIQUE DOS SANTOS', cpf: '065***77', amount: 64.9 }
+2025-09-19T22:35:47.895999+00:00 app[web.59]: ERRO: FOUR_M_PAG_BEARER_TOKEN não configurada no Heroku
+2025-09-19T22:35:48.041627+00:00 app[web.54]: 2025-09-19T22:35:48.041Z - POST /api/proxy/for4payments/pix
+2025-09-19T22:35:48.042445+00:00 app[web.54]: [GATEWAY PROD] Usando gateway: 4MPAGAMENTOS
+2025-09-19T22:35:48.042736+00:00 app[web.54]: Dados recebidos: { name: 'PEDRO HENRIQUE DOS SANTOS', cpf: '065***77', amount: 64.9 }
+2025-09-19T22:35:48.042782+00:00 app[web.54]: ERRO: FOUR_M_PAG_BEARER_TOKEN não configurada no Heroku
+2025-09-19T22:35:53.109006+00:00 heroku[router]: at=info method=GET path="/assets/index-BdO2I9EY.css" host=shopee.cadastroentregadores.com request_id=dcd79300-c6db-3960-8d90-4f99571e1cdf fwd="190.102.53.109" dyno=web.65 connect=0ms service=12ms status=200 bytes=2668 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:53.114734+00:00 heroku[router]: at=info method=GET path="/assets/index-BesIB6DX.js" host=shopee.cadastroentregadores.com request_id=d6aa7857-d8f0-40cf-64e7-4aca022d99e9 fwd="190.102.53.109" dyno=web.49 connect=0ms service=12ms status=200 bytes=2668 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:53.100755+00:00 app[web.65]: 2025-09-19T22:35:53.100Z - GET /assets/index-BdO2I9EY.css
+2025-09-19T22:35:53.106315+00:00 app[web.49]: 2025-09-19T22:35:53.106Z - GET /assets/index-BesIB6DX.js
+2025-09-19T22:35:54.929841+00:00 heroku[router]: at=info method=GET path="/sw.js" host=shopee.cadastroentregadores.com request_id=01dfc184-41ef-c227-d2b8-21d9d1462d5c fwd="190.102.53.109" dyno=web.48 connect=0ms service=5ms status=200 bytes=2410 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:35:54.925938+00:00 app[web.48]: 2025-09-19T22:35:54.925Z - GET /sw.js
+2025-09-19T22:36:05.546136+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=01b9d2d7-7b8c-2c35-c830-d170f56ccbf1 fwd="177.44.135.249" dyno=web.49 connect=0ms service=3ms status=200 bytes=117 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:36:05.544123+00:00 app[web.49]: 2025-09-19T22:36:05.543Z - GET /api/check-ip-status
+2025-09-19T22:36:09.783376+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=0334d794-c9c8-7c9c-b647-e56435fe0bdb fwd="177.72.85.209" dyno=web.79 connect=0ms service=9ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:36:09.778694+00:00 app[web.79]: 2025-09-19T22:36:09.778Z - GET /api/check-ip-status
+2025-09-19T22:36:11.695277+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastroentregadores.com request_id=5761779c-83e7-de08-d68e-3274c8f692a4 fwd="69.166.232.198" dyno=web.44 connect=0ms service=7ms status=200 bytes=117 protocol=http2.0 tls=true tls_version=tls1.3
+2025-09-19T22:36:11.691952+00:00 app[web.44]: 2025-09-19T22:36:11.691Z - GET /api/check-ip-status

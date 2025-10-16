@@ -1,0 +1,103 @@
+Ambiente de desenvolvimento detectado. Bloqueio instantâneo desativado.
+client:536 WebSocket connection to 'wss://8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev/?token=DRIjsnzSCyxc' failed: 
+setupWebSocket @ client:536
+(anonymous) @ client:531
+client:536 Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=DRIjsnzSCyxc' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+setupWebSocket @ client:536
+fallback @ client:509
+(anonymous) @ client:555
+chunk-RPCDYKBN.js?v=697b5d50:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+Entrega.tsx:133 🔍 [ENTREGA] Estado do formulário - errors: {}
+Entrega.tsx:134 🔍 [ENTREGA] acceptedTerms: false
+facebook-pixel.ts:20 [PIXEL] Inicializando Facebook Pixels
+facebook-pixel.ts:64 [PIXEL] 3 Facebook Pixels inicializados com sucesso.
+FacebookPixelInitializer.tsx:12 [PIXEL] Inicializado globalmente via componente FacebookPixelInitializer
+ClarityInitializer.tsx:35 [CLARITY] Microsoft Clarity inicializado com sucesso
+ServiceWorker.tsx:5 🔧 Iniciando registro do Service Worker...
+ServiceWorker.tsx:6 🌐 Hostname: 8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev
+ServiceWorker.tsx:7 🔒 Protocol: https:
+ServiceWorker.tsx:8 🔧 ServiceWorker supported: true
+PWANotification.tsx:175 🔍 PWANotification: Iniciando verificação...
+PWANotification.tsx:184 📱 Detecção PWA: {isStandalone: false, isIOSStandalone: undefined, isAndroidApp: false, isPWA: false, isAndroid: false}
+PWANotification.tsx:188 💾 Notificação já mostrada: true
+PWANotification.tsx:191 🔔 Preparando registro de push notifications...
+facebook-pixel.ts:20 [PIXEL] Inicializando Facebook Pixels
+Entrega.tsx:99 [ENTREGA] Encontrado pagamento em andamento: 4M883035
+Entrega.tsx:164 CEP recuperado do localStorage: 72760-136
+Entrega.tsx:182 [ENTREGA] Dados do candidato recuperados: {cpf: '065.370.801-77', nome: 'PEDRO HENRIQUE DOS SANTOS', dataNascimento: '26/12/1998', telefone: '(61) 99911-4066', email: 'pedrolove1298@gmail.com', …}
+Entrega.tsx:228 🚚 Marcando que usuário chegou na página de entrega...
+WhatsAppDetector.tsx:63 TikTok Chrome Detection: {userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb…KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', referrer: '', isTikTokInAppBrowser: false, isSocialMediaWebView: undefined, isFromTikTokAd: false, …}
+Entrega.tsx:133 🔍 [ENTREGA] Estado do formulário - errors: {}
+Entrega.tsx:134 🔍 [ENTREGA] acceptedTerms: false
+Entrega.tsx:133 🔍 [ENTREGA] Estado do formulário - errors: {}
+Entrega.tsx:134 🔍 [ENTREGA] acceptedTerms: false
+Entrega.tsx:240 ✅ Status de entrega atualizado no banco
+ServiceWorker.tsx:13 📝 Registrando Service Worker em /sw.js...
+ServiceWorker.tsx:18 ✅ Service Worker registrado com sucesso: ServiceWorkerRegistration {installing: null, waiting: null, active: ServiceWorker, navigationPreload: NavigationPreloadManager, scope: 'https://8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev/', …}
+ServiceWorker.tsx:19 📍 Scope: https://8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev/
+ServiceWorker.tsx:20 🔄 Installing: null
+ServiceWorker.tsx:21 ⏳ Waiting: null
+ServiceWorker.tsx:22 🟢 Active: ServiceWorker {scriptURL: 'https://8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev/sw.js', state: 'activated', onstatechange: null, onerror: null}
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 1/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+PWANotification.tsx:197 ⏰ Timer executado, iniciando registro...
+PWANotification.tsx:13 🔔 Iniciando registro de push notifications...
+PWANotification.tsx:19 📱 Plataforma detectada: {isAndroid: false, isiOS: false, userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb…KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'}
+PWANotification.tsx:175 🔍 PWANotification: Iniciando verificação...
+PWANotification.tsx:184 📱 Detecção PWA: {isStandalone: false, isIOSStandalone: undefined, isAndroidApp: false, isPWA: false, isAndroid: false}
+PWANotification.tsx:188 💾 Notificação já mostrada: true
+PWANotification.tsx:191 🔔 Preparando registro de push notifications...
+PWANotification.tsx:30 ✅ Service Worker pronto: ServiceWorkerRegistration {installing: null, waiting: null, active: ServiceWorker, navigationPreload: NavigationPreloadManager, scope: 'https://8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev/', …}
+PWANotification.tsx:34 🔐 Permissão atual: granted
+PWANotification.tsx:66 🔐 Permissão final: granted
+PWANotification.tsx:69 ✅ Permissão concedida! Configurando push subscription...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 2/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+PWANotification.tsx:197 ⏰ Timer executado, iniciando registro...
+PWANotification.tsx:13 🔔 Iniciando registro de push notifications...
+PWANotification.tsx:19 📱 Plataforma detectada: {isAndroid: false, isiOS: false, userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb…KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'}
+PWANotification.tsx:30 ✅ Service Worker pronto: ServiceWorkerRegistration {installing: null, waiting: null, active: ServiceWorker, navigationPreload: NavigationPreloadManager, scope: 'https://8318b5e7-b7f4-4fa3-8fbb-0e1982219cf2-00-un2km5o6c2f5.riker.replit.dev/', …}
+PWANotification.tsx:34 🔐 Permissão atual: granted
+PWANotification.tsx:66 🔐 Permissão final: granted
+PWANotification.tsx:69 ✅ Permissão concedida! Configurando push subscription...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 3/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 4/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 5/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 6/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 7/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 8/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 9/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 10/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 11/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 12/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 13/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...
+Entrega.tsx:699 [ENTREGA] 🔍 Verificando status do pagamento 4MPAGAMENTOS: 4M883035 (tentativa 14/30)
+Entrega.tsx:717 [ENTREGA] ✅ Status obtido da 4MPAGAMENTOS: {status: 'pending', transaction_id: '4M883035', amount: 64.9, paid_at: null, created_at: '2025-09-27T13:47:03.084Z'}
+Entrega.tsx:741 [ENTREGA] ⏳ Status ainda pendente: pending. Tentando novamente em 2s...

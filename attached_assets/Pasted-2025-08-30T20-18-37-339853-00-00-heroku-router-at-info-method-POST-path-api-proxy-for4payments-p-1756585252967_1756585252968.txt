@@ -1,0 +1,110 @@
+2025-08-30T20:18:37.339853+00:00 heroku[router]: at=info method=POST path="/api/proxy/for4payments/pix" host=shopee.cadastrodoentregador.com request_id=e688954c-bd7e-b325-0e41-5f5a97f75c49 fwd="201.87.252.51" dyno=web.15 connect=0ms service=4353ms status=200 bytes=502 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:37.334885+00:00 app[web.15]: Response status da Pagnet: 200
+2025-08-30T20:18:37.338603+00:00 app[web.15]: Response data da Pagnet: {
+2025-08-30T20:18:37.338608+00:00 app[web.15]:   "id": 15843951,
+2025-08-30T20:18:37.338608+00:00 app[web.15]:   "tenantId": "c3025a97-5887-4de6-94ba-b042e52e227b",
+2025-08-30T20:18:37.338609+00:00 app[web.15]:   "companyId": 21065,
+2025-08-30T20:18:37.338609+00:00 app[web.15]:   "amount": 9700,
+2025-08-30T20:18:37.338609+00:00 app[web.15]:   "currency": "BRL",
+2025-08-30T20:18:37.338609+00:00 app[web.15]:   "paymentMethod": "pix",
+2025-08-30T20:18:37.338610+00:00 app[web.15]:   "status": "waiting_payment",
+2025-08-30T20:18:37.338610+00:00 app[web.15]:   "installments": 1,
+2025-08-30T20:18:37.338610+00:00 app[web.15]:   "paidAt": null,
+2025-08-30T20:18:37.338610+00:00 app[web.15]:   "paidAmount": 0,
+2025-08-30T20:18:37.338611+00:00 app[web.15]:   "refundedAt": null,
+2025-08-30T20:18:37.338611+00:00 app[web.15]:   "refundedAmount": 0,
+2025-08-30T20:18:37.338611+00:00 app[web.15]:   "redirectUrl": null,
+2025-08-30T20:18:37.338611+00:00 app[web.15]:   "returnUrl": null,
+2025-08-30T20:18:37.338612+00:00 app[web.15]:   "postbackUrl": null,
+2025-08-30T20:18:37.338612+00:00 app[web.15]:   "metadata": null,
+2025-08-30T20:18:37.338612+00:00 app[web.15]:   "ip": null,
+2025-08-30T20:18:37.338612+00:00 app[web.15]:   "externalRef": null,
+2025-08-30T20:18:37.338613+00:00 app[web.15]:   "secureId": "7abfdcbe-78a5-4b72-b299-156f80db4310",
+2025-08-30T20:18:37.338613+00:00 app[web.15]:   "secureUrl": "7abfdcbe-78a5-4b72-b299-156f80db4310",
+2025-08-30T20:18:37.338613+00:00 app[web.15]:   "createdAt": "2025-08-30T20:18:37.198Z",
+2025-08-30T20:18:37.338613+00:00 app[web.15]:   "updatedAt": "2025-08-30T20:18:37.198Z",
+2025-08-30T20:18:37.338614+00:00 app[web.15]:   "payer": null,
+2025-08-30T20:18:37.338614+00:00 app[web.15]:   "traceable": false,
+2025-08-30T20:18:37.338614+00:00 app[web.15]:   "authorizationCode": null,
+2025-08-30T20:18:37.338614+00:00 app[web.15]:   "basePrice": null,
+2025-08-30T20:18:37.338614+00:00 app[web.15]:   "interestRate": null,
+2025-08-30T20:18:37.338615+00:00 app[web.15]:   "items": [
+2025-08-30T20:18:37.338615+00:00 app[web.15]:     {
+2025-08-30T20:18:37.338615+00:00 app[web.15]:       "title": "Kit de Segurança Shopee",
+2025-08-30T20:18:37.338615+00:00 app[web.15]:       "quantity": 1,
+2025-08-30T20:18:37.338615+00:00 app[web.15]:       "tangible": false,
+2025-08-30T20:18:37.338616+00:00 app[web.15]:       "unitPrice": 9700,
+2025-08-30T20:18:37.338616+00:00 app[web.15]:       "externalRef": ""
+2025-08-30T20:18:37.338616+00:00 app[web.15]:     }
+2025-08-30T20:18:37.338616+00:00 app[web.15]:   ],
+2025-08-30T20:18:37.338616+00:00 app[web.15]:   "customer": {
+2025-08-30T20:18:37.338617+00:00 app[web.15]:     "id": 16087255,
+2025-08-30T20:18:37.338617+00:00 app[web.15]:     "name": "Marina Souza",
+2025-08-30T20:18:37.338617+00:00 app[web.15]:     "email": "compradecurso@gmail.com",
+2025-08-30T20:18:37.338617+00:00 app[web.15]:     "phone": "11998346572",
+2025-08-30T20:18:37.338617+00:00 app[web.15]:     "birthdate": null,
+2025-08-30T20:18:37.338618+00:00 app[web.15]:     "createdAt": "2025-08-30T05:54:51.465Z",
+2025-08-30T20:18:37.338618+00:00 app[web.15]:     "externalRef": null,
+2025-08-30T20:18:37.338618+00:00 app[web.15]:     "document": {
+2025-08-30T20:18:37.338618+00:00 app[web.15]:       "type": "cpf",
+2025-08-30T20:18:37.338618+00:00 app[web.15]:       "number": "83054235149"
+2025-08-30T20:18:37.338618+00:00 app[web.15]:     },
+2025-08-30T20:18:37.338619+00:00 app[web.15]:     "address": null
+2025-08-30T20:18:37.338619+00:00 app[web.15]:   },
+2025-08-30T20:18:37.338619+00:00 app[web.15]:   "fee": {
+2025-08-30T20:18:37.338619+00:00 app[web.15]:     "netAmount": 9650,
+2025-08-30T20:18:37.338619+00:00 app[web.15]:     "estimatedFee": 50,
+2025-08-30T20:18:37.338619+00:00 app[web.15]:     "fixedAmount": 50,
+2025-08-30T20:18:37.338620+00:00 app[web.15]:     "spreadPercent": 0,
+2025-08-30T20:18:37.338620+00:00 app[web.15]:     "currency": "BRL"
+2025-08-30T20:18:37.338620+00:00 app[web.15]:   },
+2025-08-30T20:18:37.338620+00:00 app[web.15]:   "splits": [
+2025-08-30T20:18:37.338620+00:00 app[web.15]:     {
+2025-08-30T20:18:37.338620+00:00 app[web.15]:       "amount": 9700,
+2025-08-30T20:18:37.338621+00:00 app[web.15]:       "netAmount": 9650,
+2025-08-30T20:18:37.338621+00:00 app[web.15]:       "recipientId": 21065,
+2025-08-30T20:18:37.338621+00:00 app[web.15]:       "chargeProcessingFee": false
+2025-08-30T20:18:37.338621+00:00 app[web.15]:     }
+2025-08-30T20:18:37.338621+00:00 app[web.15]:   ],
+2025-08-30T20:18:37.338621+00:00 app[web.15]:   "refunds": [],
+2025-08-30T20:18:37.338622+00:00 app[web.15]:   "pix": {
+2025-08-30T20:18:37.338623+00:00 app[web.15]:     "qrcode": "00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/ff54d06c-3d13-4189-b00f-5ec552339f2a5204000053039865802BR5925TECHTRUST_SOLUCOES_TECNOL6009ARAPONGAS62070503***6304A71B",
+2025-08-30T20:18:37.338623+00:00 app[web.15]:     "end2EndId": null,
+2025-08-30T20:18:37.338624+00:00 app[web.15]:     "receiptUrl": null,
+2025-08-30T20:18:37.338624+00:00 app[web.15]:     "expirationDate": "2025-09-02"
+2025-08-30T20:18:37.338624+00:00 app[web.15]:   },
+2025-08-30T20:18:37.338624+00:00 app[web.15]:   "boleto": null,
+2025-08-30T20:18:37.338624+00:00 app[web.15]:   "card": null,
+2025-08-30T20:18:37.338625+00:00 app[web.15]:   "refusedReason": null,
+2025-08-30T20:18:37.338625+00:00 app[web.15]:   "shipping": null,
+2025-08-30T20:18:37.338625+00:00 app[web.15]:   "delivery": null,
+2025-08-30T20:18:37.338625+00:00 app[web.15]:   "threeDS": null
+2025-08-30T20:18:37.338625+00:00 app[web.15]: }
+2025-08-30T20:18:37.338694+00:00 app[web.15]: Transaction ID extraído: 15843951
+2025-08-30T20:18:37.338724+00:00 app[web.15]: PIX Code extraído: ENCONTRADO
+2025-08-30T20:18:37.338789+00:00 app[web.15]: ✅ Transação Pagnet criada com sucesso: 15843951
+2025-08-30T20:18:37.338815+00:00 app[web.15]: Enviando resposta para frontend: {
+2025-08-30T20:18:37.338832+00:00 app[web.15]:   "id": 15843951,
+2025-08-30T20:18:37.338832+00:00 app[web.15]:   "pixCode": "00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br/qr/v3/at/ff54d06c-3d13-4189-b00f-5ec552339f2a5204000053039865802BR5925TECHTRUST_SOLUCOES_TECNOL6009ARAPONGAS62070503***6304A71B",
+2025-08-30T20:18:37.338833+00:00 app[web.15]:   "pixQrCode": "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=00020126860014br.gov.bcb.pix2564pix.ecomovi.com.br%2Fqr%2Fv3%2Fat%2Fff54d06c-3d13-4189-b00f-5ec552339f2a5204000053039865802BR5925TECHTRUST_SOLUCOES_TECNOL6009ARAPONGAS62070503***6304A71B",
+2025-08-30T20:18:37.338834+00:00 app[web.15]:   "status": "pending",
+2025-08-30T20:18:37.338834+00:00 app[web.15]:   "emailSent": false
+2025-08-30T20:18:37.338834+00:00 app[web.15]: }
+2025-08-30T20:18:43.363906+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=6a6e701e-d189-716a-de1d-08045097a26a fwd="201.71.131.58" dyno=web.45 connect=0ms service=3ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:43.361676+00:00 app[web.45]: 2025-08-30T20:18:43.361Z - GET /api/check-ip-status
+2025-08-30T20:18:44.582364+00:00 heroku[router]: at=info method=GET path="/00214066002" host=shopee.acesso.inc request_id=4341698d-47c0-58bb-6692-87a79b28e30f fwd="186.250.215.133" dyno=web.83 connect=0ms service=3ms status=200 bytes=2185 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:44.579824+00:00 app[web.83]: 2025-08-30T20:18:44.579Z - GET /00214066002
+2025-08-30T20:18:44.892997+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline.css" host=shopee.acesso.inc request_id=82e0f4f6-2c01-7599-c1d7-a38c4f9204ec fwd="186.250.215.133" dyno=web.2 connect=0ms service=2ms status=200 bytes=175 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:45.010495+00:00 heroku[router]: at=info method=GET path="/assets/index-egAa2V_y.css" host=shopee.acesso.inc request_id=c48a6a13-2266-f010-3a26-136c7baff1e7 fwd="186.250.215.133" dyno=web.59 connect=0ms service=5ms status=200 bytes=14162 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:45.050578+00:00 heroku[router]: at=info method=GET path="/assets/index-DPjLzPhJ.js" host=shopee.acesso.inc request_id=fc7dd657-7adf-3f78-3d33-7f11dca23a6f fwd="186.250.215.133" dyno=web.42 connect=0ms service=44ms status=200 bytes=360660 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:44.891265+00:00 app[web.2]: 2025-08-30T20:18:44.891Z - GET /fonts/rawline/rawline.css
+2025-08-30T20:18:45.006939+00:00 app[web.42]: 2025-08-30T20:18:45.006Z - GET /assets/index-DPjLzPhJ.js
+2025-08-30T20:18:45.006344+00:00 app[web.59]: 2025-08-30T20:18:45.006Z - GET /assets/index-egAa2V_y.css
+2025-08-30T20:18:46.271681+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.acesso.inc request_id=5fee4bfc-a6b6-29b4-c2ee-bd133754ce31 fwd="186.250.215.133" dyno=web.27 connect=0ms service=1ms status=200 bytes=118 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:46.391074+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-600.woff2" host=shopee.acesso.inc request_id=d5243a44-24ef-4522-be69-23e448fb9505 fwd="186.250.215.133" dyno=web.23 connect=0ms service=3ms status=200 bytes=83564 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:46.390796+00:00 heroku[router]: at=info method=GET path="/fonts/rawline/rawline-400.woff2" host=shopee.acesso.inc request_id=f961dc3d-bd8c-ebd6-b710-c06318609923 fwd="186.250.215.133" dyno=web.8 connect=0ms service=3ms status=200 bytes=81280 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:46.270817+00:00 app[web.27]: 2025-08-30T20:18:46.270Z - GET /api/check-ip-status
+2025-08-30T20:18:46.623933+00:00 heroku[router]: at=info method=GET path="/api/check-ip-status" host=shopee.cadastrodoentregador.com request_id=cbf76e4b-07ab-2d78-6ec6-3329539f153e fwd="186.207.28.55" dyno=web.21 connect=0ms service=1ms status=200 bytes=116 protocol=http2.0 tls=true tls_version=tls1.3
+2025-08-30T20:18:46.388365+00:00 app[web.8]: 2025-08-30T20:18:46.388Z - GET /fonts/rawline/rawline-400.woff2
+2025-08-30T20:18:46.388567+00:00 app[web.23]: 2025-08-30T20:18:46.388Z - GET /fonts/rawline/rawline-600.woff2
+2025-08-30T20:18:46.653601+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shopee.cadastrodoentregador.com request_id=c8fe27c0-f99c-a407-b2f4-8bd1443b8c14 fwd="187.90.149.6" dyno=web.23 connect=0ms service=4ms status=304 bytes=0 protocol=http2.0 tls=true tls_version=tls1.3
