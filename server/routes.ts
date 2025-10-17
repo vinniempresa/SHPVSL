@@ -1483,7 +1483,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.MPAG_API_KEY}`,
+          'Authorization': `Bearer ${process.env.MPAG_API_KEY_NEW}`,
           'Cache-Control': 'no-cache',
           'Pragma': 'no-cache'
         }
@@ -1609,7 +1609,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.MPAG_API_KEY}`
+            'Authorization': `Bearer ${process.env.MPAG_API_KEY_NEW}`
           }
         });
 
