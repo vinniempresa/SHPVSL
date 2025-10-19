@@ -3,12 +3,23 @@
  * Implementação priorizada para execução no frontend (Netlify)
  */
 
-// Lista de todos os Facebook Pixel IDs a serem utilizados
-const FACEBOOK_PIXEL_IDS = [
-  '1477492966772259',   // Pixel principal
-  '2469467843432128',   // Pixel adicional 1
-  '365683214887886'     // Pixel adicional 2
-];
+// Obter Facebook Pixel IDs das variáveis de ambiente
+const FACEBOOK_PIXEL_IDS = (() => {
+  const ids: string[] = [];
+  
+  // Suporta múltiplos pixels através de variáveis de ambiente
+  if (import.meta.env.VITE_FB_PIXEL_ID) {
+    ids.push(import.meta.env.VITE_FB_PIXEL_ID);
+  }
+  if (import.meta.env.VITE_FB_PIXEL_ID_2) {
+    ids.push(import.meta.env.VITE_FB_PIXEL_ID_2);
+  }
+  if (import.meta.env.VITE_FB_PIXEL_ID_3) {
+    ids.push(import.meta.env.VITE_FB_PIXEL_ID_3);
+  }
+  
+  return ids;
+})();
 
 // Mantemos o ID original como referência para compatibilidade com código existente
 const FACEBOOK_PIXEL_ID = FACEBOOK_PIXEL_IDS[0];
@@ -17,7 +28,12 @@ const FACEBOOK_PIXEL_ID = FACEBOOK_PIXEL_IDS[0];
  * Inicializa o Facebook Pixel
  */
 export function initFacebookPixel(): void {
-  console.log('[PIXEL] Inicializando Facebook Pixels');
+  if (FACEBOOK_PIXEL_IDS.length === 0) {
+    console.warn('[FB-PIXEL] Nenhum Pixel ID configurado. Configure VITE_FB_PIXEL_ID nas variáveis de ambiente.');
+    return;
+  }
+
+  console.log('[FB-PIXEL] Inicializando Facebook Pixels');
   
   // Adicionar o script do Facebook Pixel à página
   if (typeof window !== 'undefined' && !window.fbq) {
@@ -61,7 +77,7 @@ export function initFacebookPixel(): void {
       head.appendChild(noscript);
     });
     
-    console.log(`[PIXEL] ${FACEBOOK_PIXEL_IDS.length} Facebook Pixels inicializados com sucesso.`);
+    console.log(`[FB-PIXEL] ${FACEBOOK_PIXEL_IDS.length} Facebook Pixels inicializados com sucesso.`);
   }
 }
 
@@ -71,6 +87,11 @@ export function initFacebookPixel(): void {
  * @param eventData Dados do evento (opcional)
  */
 export function trackEvent(eventName: string, eventData?: Record<string, any>): void {
+  if (FACEBOOK_PIXEL_IDS.length === 0) {
+    console.warn('[FB-PIXEL] Nenhum Pixel ID configurado. Evento não será rastreado.');
+    return;
+  }
+
   if (typeof window !== 'undefined') {
     // Inicializar o Pixel se ainda não estiver inicializado
     if (!window.fbq) {
@@ -79,19 +100,19 @@ export function trackEvent(eventName: string, eventData?: Record<string, any>): 
       // Aguardar a inicialização do pixel
       setTimeout(() => {
         if (window.fbq) {
-          console.log(`[PIXEL] Rastreando evento após inicialização: ${eventName}`, eventData || '');
+          console.log(`[FB-PIXEL] Rastreando evento após inicialização: ${eventName}`, eventData || '');
           window.fbq('track', eventName, eventData);
         } else {
-          console.warn('[PIXEL] Falha ao inicializar o Facebook Pixel para rastrear evento.');
+          console.warn('[FB-PIXEL] Falha ao inicializar o Facebook Pixel para rastrear evento.');
         }
       }, 500);
       return;
     }
     
-    console.log(`[PIXEL] Rastreando evento: ${eventName}`, eventData || '');
+    console.log(`[FB-PIXEL] Rastreando evento: ${eventName}`, eventData || '');
     window.fbq('track', eventName, eventData);
   } else {
-    console.warn('[PIXEL] Ambiente sem janela detectado, não é possível rastrear evento.');
+    console.warn('[FB-PIXEL] Ambiente sem janela detectado, não é possível rastrear evento.');
   }
 }
 
@@ -108,16 +129,21 @@ export function trackPurchase(
   currency: string = 'BRL',
   itemName: string = 'Kit de Segurança Shopee'
 ): boolean {
+  if (FACEBOOK_PIXEL_IDS.length === 0) {
+    console.warn('[FB-PIXEL] Nenhum Pixel ID configurado. Purchase não será rastreado.');
+    return false;
+  }
+
   // Verificar se esta conversão já foi rastreada
   const conversionKey = `fb_conversion_${transactionId}`;
   const alreadyTracked = localStorage.getItem(conversionKey);
   
   if (alreadyTracked) {
-    console.log(`[PIXEL] Conversão ${transactionId} já foi rastreada anteriormente. Ignorando duplicata.`);
+    console.log(`[FB-PIXEL] Conversão ${transactionId} já foi rastreada anteriormente. Ignorando duplicata.`);
     return false;
   }
   
-  console.log('[PIXEL] Rastreando compra aprovada:', { transactionId, amount });
+  console.log('[FB-PIXEL] Rastreando compra aprovada:', { transactionId, amount });
   
   const eventData = {
     value: amount,
