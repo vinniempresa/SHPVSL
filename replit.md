@@ -117,6 +117,12 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 19, 2025 (Facebook Pixel 1141319457465997 Instalado)**:
+  - Configurado novo Facebook Pixel ID: 1141319457465997
+  - Sistema atualizado para usar variáveis de ambiente (VITE_FB_PIXEL_ID)
+  - Facebook Pixel já estava integrado globalmente via FacebookPixelInitializer em App.tsx
+  - Sistema anti-duplicata garante que cada venda é rastreada apenas uma vez
+  - Suporta múltiplos pixels simultaneamente (VITE_FB_PIXEL_ID, VITE_FB_PIXEL_ID_2, etc.)
 - **October 16, 2025 (Chave API 4M Pagamentos Atualizada)**:
   - Atualizada chave secreta do gateway 4M Pagamentos
   - Nova chave: 3mpag_l04cmpzhx_mgtzhwuq (armazenada em MPAG_API_KEY_NEW)
