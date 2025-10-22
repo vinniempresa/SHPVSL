@@ -13,14 +13,9 @@ declare global {
  */
 export const ClarityInitializer: React.FC = () => {
   useEffect(() => {
-    // Obter Clarity ID da variável de ambiente
-    const clarityId = import.meta.env.VITE_CLARITY_ID;
+    // Obter Clarity ID da variável de ambiente ou usar valor padrão
+    const clarityId = import.meta.env.VITE_CLARITY_ID || 'ttxphy7a8o';
     
-    if (!clarityId) {
-      console.warn('[CLARITY] Clarity ID não configurado. Configure VITE_CLARITY_ID nas variáveis de ambiente.');
-      return;
-    }
-
     // Verificar se o script já foi carregado para evitar duplicação
     if (window.clarity) {
       console.log('[CLARITY] Microsoft Clarity já foi inicializado');

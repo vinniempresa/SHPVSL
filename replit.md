@@ -117,6 +117,11 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 22, 2025 (Microsoft Clarity ttxphy7a8o Instalado)**:
+  - Configurado Microsoft Clarity ID: ttxphy7a8o
+  - Clarity já estava integrado globalmente via ClarityInitializer em App.tsx
+  - Rastreia comportamento dos usuários, gravações de sessões e mapas de calor
+  - Sistema carrega automaticamente em todas as páginas
 - **October 19, 2025 (Facebook Pixel 1141319457465997 Instalado)**:
   - Configurado novo Facebook Pixel ID: 1141319457465997
   - Sistema atualizado para usar variáveis de ambiente (VITE_FB_PIXEL_ID)
