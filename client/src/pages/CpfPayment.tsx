@@ -8,7 +8,9 @@ import QRCodeGenerator from '@/components/QRCodeGenerator';
 import { Spinner } from '@/components/ui/spinner';
 import { createPixPayment } from '@/lib/payments-api';
 import { trackEvent, trackPurchase } from '@/lib/facebook-pixel';
+import { trackKwaiPurchase } from '@/lib/kwai-pixel';
 import { useLocation } from 'wouter';
+import KwaiPixelHead from '@/components/KwaiPixelHead';
 
 import kitEpiImage from '../assets/kit-epi-new.webp';
 import pixLogo from '../assets/pix-logo.png';
@@ -193,8 +195,9 @@ const CpfPayment: React.FC = () => {
         if (statusData.status === 'approved') {
           console.log('[CPF-PAYMENT] Pagamento APROVADO! Redirecionando para treinamento...');
           
-          // Rastrear o evento de compra no Facebook Pixel
+          // Rastrear o evento de compra no Facebook Pixel e Kwai Pixel
           trackPurchase(paymentId, 64.97);
+          trackKwaiPurchase(paymentId, 64.97);
           
           // Limpar o ID do pagamento do localStorage
           localStorage.removeItem('current_payment_id');
@@ -325,6 +328,7 @@ const CpfPayment: React.FC = () => {
   // Renderização principal - cópia exata da estrutura do modal de pagamento
   return (
     <div className="min-h-screen bg-gray-50">
+      <KwaiPixelHead />
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-md mx-auto">
           {/* Card principal com a mesma estrutura do modal */}

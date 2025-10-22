@@ -13,6 +13,7 @@ import Footer from '@/components/Footer';
 import CepModal from '@/components/CepModal';
 import { useAppContext } from '@/contexts/AppContext';
 import { useScrollTop } from '@/hooks/use-scroll-top';
+import KwaiPixelHead from '@/components/KwaiPixelHead';
 
 const Home = () => {
   // Força o scroll para o topo quando a página carrega
@@ -61,6 +62,7 @@ const Home = () => {
 
   return (
     <div className="bg-white">
+      <KwaiPixelHead />
       <CepModal 
         isOpen={showCepModal} 
         onClose={handleCepModalClose}

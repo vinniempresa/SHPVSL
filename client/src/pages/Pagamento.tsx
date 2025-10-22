@@ -8,8 +8,10 @@ import { useToast } from '@/hooks/use-toast';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import { API_BASE_URL } from '../lib/api-config';
 import { initFacebookPixel, trackPurchase } from '@/lib/facebook-pixel';
+import { trackKwaiPurchase } from '@/lib/kwai-pixel';
 import ConversionTracker from '@/components/ConversionTracker';
 import QRCodeGenerator from '@/components/QRCodeGenerator';
+import KwaiPixelHead from '@/components/KwaiPixelHead';
 
 import pixLogo from '../assets/pix-logo.png';
 import kitEpiImage from '../assets/kit-epi-new.webp';
@@ -198,10 +200,11 @@ const Payment: React.FC = () => {
           if (['PAID', 'APPROVED', 'COMPLETED', 'CONFIRMED', 'SUCCESS'].includes(statusUpper)) {
             console.log(`🎉 [BACKEND-POLL] PAGAMENTO APROVADO! Redirecionando para /treinamento`);
             
-            // Track conversion no Facebook Pixel
+            // Track conversion no Facebook Pixel e Kwai Pixel
             if (typeof trackPurchase === 'function') {
               trackPurchase(transactionId, 64.97, 'BRL');
             }
+            trackKwaiPurchase(transactionId, 64.97, 'BRL');
             
             // Mostrar toast de sucesso
             toast({
@@ -288,6 +291,7 @@ const Payment: React.FC = () => {
 
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <KwaiPixelHead />
       {/* Componente de rastreamento de conversão que não renderiza nada visualmente */}
       {isApproved && (
         <ConversionTracker 

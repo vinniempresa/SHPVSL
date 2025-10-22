@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/button';
 import { CheckCircle } from 'lucide-react';
 import TreinamentoModal from '../components/TreinamentoModal';
 import { trackTikTokPurchase } from '@/lib/tiktok-pixel';
+import { trackKwaiPurchase } from '@/lib/kwai-pixel';
+import KwaiPixelHead from '@/components/KwaiPixelHead';
 
 // Declaração de tipos para gtag
 declare global {
@@ -64,8 +66,38 @@ const Treinamento: FC = () => {
     }
   }, []);
   
+  // Kwai Pixel - Evento Purchase (APENAS UMA VEZ por sessão)
+  useEffect(() => {
+    // Verificar se já disparou nesta sessão (proteção contra recargas de página)
+    const sessionKey = 'kwai_treinamento_tracked';
+    const alreadyTracked = sessionStorage.getItem(sessionKey);
+    
+    if (alreadyTracked) {
+      console.log('⏭️ Kwai Pixel: Purchase já foi registrado nesta sessão. Ignorando duplicata.');
+      return;
+    }
+    
+    // Gerar ID único para esta conversão baseado em timestamp + random
+    const pageConversionId = `treinamento_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    
+    // Disparar evento Purchase usando a biblioteca centralizada
+    const tracked = trackKwaiPurchase(
+      pageConversionId,
+      64.97,
+      'BRL',
+      'Kit de Segurança Shopee'
+    );
+    
+    if (tracked) {
+      // Marcar como rastreado nesta sessão
+      sessionStorage.setItem(sessionKey, 'true');
+      console.log('✅ Kwai Pixel: Evento Purchase registrado na página de treinamento');
+    }
+  }, []);
+  
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <KwaiPixelHead />
       <Header />
       
       <div className="w-full bg-[#EE4E2E] py-1 px-6 flex items-center relative overflow-hidden">

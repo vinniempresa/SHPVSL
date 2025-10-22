@@ -4,6 +4,7 @@ import { useRoute } from 'wouter';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import { QRCodeSVG } from 'qrcode.react';
 import { createPixPayment } from '@/lib/payments-api';
+import KwaiPixelHead from '@/components/KwaiPixelHead';
 
 interface Cliente {
   id: number;
@@ -188,6 +189,7 @@ const Pay = () => {
 
   return (
     <div className="font-['Roboto',sans-serif] bg-[#F5F5F5] text-sm min-h-screen">
+      <KwaiPixelHead />
       <Helmet>
         <title>Pagamento</title>
         <style>

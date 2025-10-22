@@ -16,6 +16,7 @@ import { useAppContext } from '@/contexts/AppContext';
 import { LoadingModal } from '@/components/LoadingModal';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import { VehicleInfoBox } from '@/components/VehicleInfoBox';
+import KwaiPixelHead from '@/components/KwaiPixelHead';
 
 import shopeeMotoImage from '../assets/shopee-moto.webp';
 import shopeeCarsImage from '../assets/shopee-cars.webp';
@@ -589,6 +590,7 @@ const Cadastro: React.FC = () => {
 
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <KwaiPixelHead />
       <Header />
       
       <div className="w-full bg-[#EE4E2E] py-1 px-6 flex items-center relative overflow-hidden">
