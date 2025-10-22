@@ -13,6 +13,14 @@ declare global {
  */
 export const ClarityInitializer: React.FC = () => {
   useEffect(() => {
+    // Obter Clarity ID da variável de ambiente
+    const clarityId = import.meta.env.VITE_CLARITY_ID;
+    
+    if (!clarityId) {
+      console.warn('[CLARITY] Clarity ID não configurado. Configure VITE_CLARITY_ID nas variáveis de ambiente.');
+      return;
+    }
+
     // Verificar se o script já foi carregado para evitar duplicação
     if (window.clarity) {
       console.log('[CLARITY] Microsoft Clarity já foi inicializado');
@@ -28,11 +36,11 @@ export const ClarityInitializer: React.FC = () => {
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "t30kvr18k5");
+        })(window, document, "clarity", "script", "${clarityId}");
       `;
       
       document.head.appendChild(script);
-      console.log('[CLARITY] Microsoft Clarity inicializado com sucesso');
+      console.log('[CLARITY] Microsoft Clarity inicializado com sucesso:', clarityId);
     } catch (error) {
       console.error('[CLARITY] Erro ao inicializar Microsoft Clarity:', error);
     }
