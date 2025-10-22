@@ -117,6 +117,12 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 22, 2025 (Kwai Pixel 293134365836310 Instalado)**:
+  - Configurado Kwai Pixel ID: 293134365836310
+  - Criada biblioteca kwai-pixel.ts com sistema anti-duplicatas
+  - Kwai Pixel integrado globalmente via KwaiPixelInitializer em App.tsx
+  - Rastreamento de eventos Purchase com proteção contra duplicatas
+  - Sistema suporta múltiplos pixels (VITE_KWAI_PIXEL_ID, VITE_KWAI_PIXEL_ID_2, etc.)
 - **October 22, 2025 (Microsoft Clarity ttxphy7a8o Instalado)**:
   - Configurado Microsoft Clarity ID: ttxphy7a8o
   - Clarity já estava integrado globalmente via ClarityInitializer em App.tsx
