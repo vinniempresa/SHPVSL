@@ -26,6 +26,7 @@ import Pagamento from "@/pages/Pagamento";
 import { useAppContext } from "@/contexts/AppContext";
 import FacebookPixelInitializer from "@/components/FacebookPixelInitializer";
 import TikTokPixelInitializer from "@/components/TikTokPixelInitializer";
+import KwaiPixelInitializer from "@/components/KwaiPixelInitializer";
 import ClarityInitializer from "@/components/ClarityInitializer";
 import { TikTokChromeDetector } from "@/components/WhatsAppDetector";
 import ServiceWorkerRegistration from "@/components/ServiceWorker";
@@ -107,6 +108,7 @@ function App() {
       <Toaster />
       <FacebookPixelInitializer />
       <TikTokPixelInitializer />
+      <KwaiPixelInitializer />
       <ClarityInitializer />
       <ServiceWorkerRegistration />
       <PWANotification />
