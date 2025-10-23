@@ -117,6 +117,13 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 23, 2025 (Segundo Facebook Pixel 1917873112101566 Instalado)**:
+  - Adicionado segundo Facebook Pixel ID: 1917873112101566
+  - Sistema agora rastreia TODAS as vendas em 2 Facebook Pixels simultaneamente:
+    - Pixel 1: 1141319457465997 (VITE_FB_PIXEL_ID)
+    - Pixel 2: 1917873112101566 (VITE_FB_PIXEL_ID_2)
+  - Sistema anti-duplicatas garante que cada venda é rastreada apenas uma vez por pixel
+  - Rastreamento 100% das conversões sem duplicatas
 - **October 22, 2025 (Kwai Pixel 293134365836310 Instalado)**:
   - Configurado Kwai Pixel ID: 293134365836310
   - Criada biblioteca kwai-pixel.ts com sistema anti-duplicatas
