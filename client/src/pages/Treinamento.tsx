@@ -338,31 +338,6 @@ const Treinamento: FC = () => {
       
       {/* Modal de agendamento do treinamento */}
       <TreinamentoModal open={modalOpen} onOpenChange={setModalOpen} />
-      
-      {/* Botão flutuante do WhatsApp */}
-      <div className="fixed top-1/2 transform -translate-y-1/2 right-4 z-50 flex flex-col items-center">
-        <button
-          onClick={() => {
-            const phoneNumber = "15558848532";
-            const message = "Desejo tirar dúvidas sobre o treinamento do Entregador Shopee.";
-            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
-          }}
-          className="bg-green-500 hover:bg-green-600 rounded-full p-3 shadow-lg transform transition-all duration-200 hover:scale-110 active:scale-95"
-          style={{
-            boxShadow: "0 4px 12px rgba(37, 211, 102, 0.4)"
-          }}
-        >
-          <img 
-            src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-icone.png"
-            alt="WhatsApp"
-            className="w-8 h-8"
-          />
-        </button>
-        <p className="text-[9px] text-gray-600 font-medium mt-1 text-center leading-none" style={{whiteSpace: 'nowrap', minWidth: 'max-content'}}>
-          Converse com um<br/>Gerente
-        </p>
-      </div>
     </div>
   );
 };
