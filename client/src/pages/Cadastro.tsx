@@ -17,6 +17,7 @@ import { LoadingModal } from '@/components/LoadingModal';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import { VehicleInfoBox } from '@/components/VehicleInfoBox';
 import KwaiPixelHead from '@/components/KwaiPixelHead';
+import FacebookPixelHead from '@/components/FacebookPixelHead';
 
 import shopeeMotoImage from '../assets/shopee-moto.webp';
 import shopeeCarsImage from '../assets/shopee-cars.webp';
@@ -590,6 +591,7 @@ const Cadastro: React.FC = () => {
 
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <FacebookPixelHead />
       <KwaiPixelHead />
       <Header />
       

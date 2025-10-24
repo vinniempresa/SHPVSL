@@ -13,6 +13,7 @@ import { trackKwaiPurchase } from '@/lib/kwai-pixel';
 import ConversionTracker from '@/components/ConversionTracker';
 import QRCodeGenerator from '@/components/QRCodeGenerator';
 import KwaiPixelHead from '@/components/KwaiPixelHead';
+import FacebookPixelHead from '@/components/FacebookPixelHead';
 
 import pixLogo from '../assets/pix-logo.png';
 import kitEpiImage from '../assets/kit-epi-new.webp';
@@ -337,6 +338,7 @@ const Payment: React.FC = () => {
 
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <FacebookPixelHead />
       <KwaiPixelHead />
       {/* Componente de rastreamento de conversão que não renderiza nada visualmente */}
       {isApproved && (

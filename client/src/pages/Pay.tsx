@@ -5,6 +5,7 @@ import { useScrollTop } from '@/hooks/use-scroll-top';
 import { QRCodeSVG } from 'qrcode.react';
 import { createPixPayment } from '@/lib/payments-api';
 import KwaiPixelHead from '@/components/KwaiPixelHead';
+import FacebookPixelHead from '@/components/FacebookPixelHead';
 
 interface Cliente {
   id: number;
@@ -189,6 +190,7 @@ const Pay = () => {
 
   return (
     <div className="font-['Roboto',sans-serif] bg-[#F5F5F5] text-sm min-h-screen">
+      <FacebookPixelHead />
       <KwaiPixelHead />
       <Helmet>
         <title>Pagamento</title>

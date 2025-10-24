@@ -11,6 +11,7 @@ import { trackEvent, trackPurchase } from '@/lib/facebook-pixel';
 import { trackKwaiPurchase } from '@/lib/kwai-pixel';
 import { useLocation } from 'wouter';
 import KwaiPixelHead from '@/components/KwaiPixelHead';
+import FacebookPixelHead from '@/components/FacebookPixelHead';
 
 import kitEpiImage from '../assets/kit-epi-new.webp';
 import pixLogo from '../assets/pix-logo.png';
@@ -328,6 +329,7 @@ const CpfPayment: React.FC = () => {
   // Renderização principal - cópia exata da estrutura do modal de pagamento
   return (
     <div className="min-h-screen bg-gray-50">
+      <FacebookPixelHead />
       <KwaiPixelHead />
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-md mx-auto">

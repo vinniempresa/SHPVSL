@@ -8,6 +8,7 @@ import TreinamentoModal from '../components/TreinamentoModal';
 import { trackTikTokPurchase } from '@/lib/tiktok-pixel';
 import { trackKwaiPurchase } from '@/lib/kwai-pixel';
 import KwaiPixelHead from '@/components/KwaiPixelHead';
+import FacebookPixelHead from '@/components/FacebookPixelHead';
 
 // Declaração de tipos para gtag
 declare global {
@@ -97,6 +98,7 @@ const Treinamento: FC = () => {
   
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <FacebookPixelHead />
       <KwaiPixelHead />
       <Header />
       
