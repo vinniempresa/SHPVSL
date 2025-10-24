@@ -117,16 +117,19 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
-- **October 24, 2025 (Meta Pixel Instalado em TODAS as Páginas)**:
+- **October 24, 2025 (Meta Pixel Instalado em TODAS as Páginas - 3 Pixels Simultâneos)**:
   - Criado componente FacebookPixelHead para injetar código Meta Pixel no <head>
   - Código oficial do Meta Pixel instalado via react-helmet
   - Facebook Pixel instalado em 7 páginas principais:
     - Home, Cadastro, Payment, Pay, CpfPayment, Pagamento, Treinamento
   - Sistema rastreia PageView automaticamente em todas as páginas
   - Sistema rastreia Purchase nas páginas de conversão (Payment, Pagamento, CpfPayment)
-  - Suporta 2 Facebook Pixels simultaneamente (VITE_FB_PIXEL_ID + VITE_FB_PIXEL_ID_2)
+  - Suporta 3 Facebook Pixels simultaneamente:
+    - Pixel 1: 1141319457465997 (VITE_FB_PIXEL_ID)
+    - Pixel 2: 1917873112101566 (VITE_FB_PIXEL_ID_2)
+    - Pixel 3: 1571338270569075 (VITE_FB_PIXEL_ID_3)
   - Anti-duplicatas garante cada venda é rastreada uma vez por pixel
-  - 100% de cobertura de rastreamento sem duplicatas
+  - 100% de cobertura de rastreamento sem duplicatas em todos os 3 pixels
 - **October 23, 2025 (Segundo Facebook Pixel 1917873112101566 Instalado)**:
   - Adicionado segundo Facebook Pixel ID: 1917873112101566
   - Sistema agora rastreia TODAS as vendas em 2 Facebook Pixels simultaneamente:
