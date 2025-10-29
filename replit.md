@@ -117,6 +117,19 @@ The application supports multiple deployment strategies:
 - Database migrations handled via Drizzle Kit
 
 ## Changelog
+- **October 29, 2025 (Facebook Pixel 680916878034680 - Configuração Única SEM Anti-Duplicata)**:
+  - REMOVIDOS todos os pixels antigos (1141319457465997, 1917873112101566, 1571338270569075)
+  - Configurado APENAS pixel 680916878034680 em todas as páginas
+  - FacebookPixelHead hardcoded com pixel 680916878034680
+  - facebook-pixel.ts atualizado para usar APENAS pixel 680916878034680
+  - REMOVIDO sistema anti-duplicata que bloqueava eventos
+  - Payment.tsx corrigido para rastrear Purchase em TODOS os fluxos de aprovação:
+    - Direct 4M polling
+    - Backend fallback
+    - Backend-only mode
+  - Todos os status aprovados rastreiam conversão (APPROVED, PAID, COMPLETED)
+  - Garantia de 100% de cobertura de vendas no gerenciador Facebook
+  - trackPurchase dispara em 5 páginas: Payment, Pagamento, CpfPayment, Entrega, EntregaCartao
 - **October 24, 2025 (Meta Pixel Instalado em TODAS as Páginas - 4 Pixels Simultâneos)**:
   - Criado componente FacebookPixelHead para injetar código Meta Pixel no <head>
   - Código oficial do Meta Pixel instalado via react-helmet
