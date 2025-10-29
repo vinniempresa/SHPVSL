@@ -1,50 +1,22 @@
 /**
  * Script de integração com Facebook Pixel
- * Implementação priorizada para execução no frontend (Netlify)
+ * Pixel único: 680916878034680
+ * SEM sistema anti-duplicata para garantir rastreamento de 100% das vendas
  */
 
-// Obter Facebook Pixel IDs das variáveis de ambiente
-const FACEBOOK_PIXEL_IDS = (() => {
-  const ids: string[] = [];
-  
-  // Suporta múltiplos pixels através de variáveis de ambiente
-  if (import.meta.env.VITE_FB_PIXEL_ID) {
-    ids.push(import.meta.env.VITE_FB_PIXEL_ID);
-  }
-  if (import.meta.env.VITE_FB_PIXEL_ID_2) {
-    ids.push(import.meta.env.VITE_FB_PIXEL_ID_2);
-  }
-  if (import.meta.env.VITE_FB_PIXEL_ID_3) {
-    ids.push(import.meta.env.VITE_FB_PIXEL_ID_3);
-  }
-  if (import.meta.env.VITE_FB_PIXEL_ID_4) {
-    ids.push(import.meta.env.VITE_FB_PIXEL_ID_4);
-  }
-  
-  return ids;
-})();
-
-// Mantemos o ID original como referência para compatibilidade com código existente
-const FACEBOOK_PIXEL_ID = FACEBOOK_PIXEL_IDS[0];
+const FACEBOOK_PIXEL_ID = '680916878034680';
 
 /**
  * Inicializa o Facebook Pixel
  */
 export function initFacebookPixel(): void {
-  if (FACEBOOK_PIXEL_IDS.length === 0) {
-    console.warn('[FB-PIXEL] Nenhum Pixel ID configurado. Configure VITE_FB_PIXEL_ID nas variáveis de ambiente.');
-    return;
-  }
-
-  console.log('[FB-PIXEL] Inicializando Facebook Pixels');
+  console.log('[FB-PIXEL] Inicializando Facebook Pixel 680916878034680');
   
-  // Adicionar o script do Facebook Pixel à página
   if (typeof window !== 'undefined' && !window.fbq) {
     const head = document.head || document.getElementsByTagName('head')[0];
     const pixelScript = document.createElement('script');
     pixelScript.type = 'text/javascript';
     
-    // Criar o código base do Facebook Pixel
     pixelScript.innerHTML = `
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -54,33 +26,22 @@ export function initFacebookPixel(): void {
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '${FACEBOOK_PIXEL_ID}');
+      fbq('track', 'PageView');
     `;
-    
-    // Adicionar inicialização para todos os Pixel IDs
-    FACEBOOK_PIXEL_IDS.forEach(pixelId => {
-      pixelScript.innerHTML += `
-      fbq('init', '${pixelId}');
-      `;
-    });
-    
-    // Adicionar o tracking de PageView
-    pixelScript.innerHTML += `fbq('track', 'PageView');`;
     
     head.appendChild(pixelScript);
 
-    // Adicionar noscript fallback para rastreamento para todos os pixels
-    FACEBOOK_PIXEL_IDS.forEach(pixelId => {
-      const noscript = document.createElement('noscript');
-      const img = document.createElement('img');
-      img.height = 1;
-      img.width = 1;
-      img.style.display = 'none';
-      img.src = `https://www.facebook.com/tr?id=${pixelId}&ev=PageView&noscript=1`;
-      noscript.appendChild(img);
-      head.appendChild(noscript);
-    });
+    const noscript = document.createElement('noscript');
+    const img = document.createElement('img');
+    img.height = 1;
+    img.width = 1;
+    img.style.display = 'none';
+    img.src = `https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`;
+    noscript.appendChild(img);
+    head.appendChild(noscript);
     
-    console.log(`[FB-PIXEL] ${FACEBOOK_PIXEL_IDS.length} Facebook Pixels inicializados com sucesso.`);
+    console.log(`[FB-PIXEL] Facebook Pixel ${FACEBOOK_PIXEL_ID} inicializado com sucesso.`);
   }
 }
 
@@ -90,17 +51,10 @@ export function initFacebookPixel(): void {
  * @param eventData Dados do evento (opcional)
  */
 export function trackEvent(eventName: string, eventData?: Record<string, any>): void {
-  if (FACEBOOK_PIXEL_IDS.length === 0) {
-    console.warn('[FB-PIXEL] Nenhum Pixel ID configurado. Evento não será rastreado.');
-    return;
-  }
-
   if (typeof window !== 'undefined') {
-    // Inicializar o Pixel se ainda não estiver inicializado
     if (!window.fbq) {
       initFacebookPixel();
       
-      // Aguardar a inicialização do pixel
       setTimeout(() => {
         if (window.fbq) {
           console.log(`[FB-PIXEL] Rastreando evento após inicialização: ${eventName}`, eventData || '');
@@ -120,7 +74,8 @@ export function trackEvent(eventName: string, eventData?: Record<string, any>): 
 }
 
 /**
- * Rastreia um evento de compra aprovada (com proteção contra duplicatas)
+ * Rastreia um evento de compra aprovada (SEM proteção contra duplicatas)
+ * Agora rastreia TODAS as vendas para garantir 100% de cobertura
  * @param transactionId ID da transação
  * @param amount Valor da transação
  * @param currency Moeda (default: BRL)
@@ -131,22 +86,8 @@ export function trackPurchase(
   amount: number,
   currency: string = 'BRL',
   itemName: string = 'Kit de Segurança Shopee'
-): boolean {
-  if (FACEBOOK_PIXEL_IDS.length === 0) {
-    console.warn('[FB-PIXEL] Nenhum Pixel ID configurado. Purchase não será rastreado.');
-    return false;
-  }
-
-  // Verificar se esta conversão já foi rastreada
-  const conversionKey = `fb_conversion_${transactionId}`;
-  const alreadyTracked = localStorage.getItem(conversionKey);
-  
-  if (alreadyTracked) {
-    console.log(`[FB-PIXEL] Conversão ${transactionId} já foi rastreada anteriormente. Ignorando duplicata.`);
-    return false;
-  }
-  
-  console.log('[FB-PIXEL] Rastreando compra aprovada:', { transactionId, amount });
+): void {
+  console.log('[FB-PIXEL] Rastreando compra:', { transactionId, amount, currency });
   
   const eventData = {
     value: amount,
@@ -157,45 +98,31 @@ export function trackPurchase(
     transaction_id: transactionId,
   };
   
-  // Enviar apenas UMA vez via fbq padrão
+  // Sempre enviar o evento de Purchase
   trackEvent('Purchase', eventData);
   
-  // Marcar esta conversão como já rastreada
-  localStorage.setItem(conversionKey, new Date().toISOString());
-  
-  console.log(`[PIXEL] Conversão ${transactionId} rastreada e marcada como processada`);
-  return true;
+  console.log(`[FB-PIXEL] Evento Purchase enviado para transação ${transactionId}`);
 }
 
 /**
- * Verifica o status de um pagamento diretamente na API For4Payments
- * Esta função permite que o frontend verifique o status diretamente 
- * quando o backend não conseguir processar
+ * Verifica o status de um pagamento diretamente na API 4M Pagamentos
  */
 export async function checkPaymentStatus(paymentId: string, apiKey: string): Promise<any> {
   try {
-    console.log('[PIXEL] Verificando status da transação diretamente do frontend:', paymentId);
-    console.log('[PIXEL] API Key disponível:', apiKey ? 'Sim (não exibida por segurança)' : 'Não');
+    console.log('[FB-PIXEL] Verificando status da transação:', paymentId);
     
-    // Garantir que temos uma API key
     if (!apiKey) {
-      console.error('[PIXEL] VITE_FOR4PAYMENTS_SECRET_KEY não está definida no frontend');
+      console.error('[FB-PIXEL] API Key não disponível');
       return { success: false, error: 'API Key não disponível' };
     }
     
-    // Adicionando cabeçalhos extras para evitar bloqueios CORS
     const headers = {
       'Authorization': apiKey,
       'Content-Type': 'application/json',
       'Accept': 'application/json',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
-      'Cache-Control': 'no-cache',
-      'Pragma': 'no-cache',
-      'X-Requested-With': 'XMLHttpRequest'
     };
     
-    // Enviar requisição para verificar status
-    const response = await fetch(`https://app.for4payments.com.br/api/v1/transaction.getPayment?id=${paymentId}`, {
+    const response = await fetch(`https://app.4mpagamentos.com/api/v1/transaction.getPayment?id=${paymentId}`, {
       method: 'GET',
       headers,
       mode: 'cors',
@@ -203,36 +130,29 @@ export async function checkPaymentStatus(paymentId: string, apiKey: string): Pro
     });
     
     if (!response.ok) {
-      throw new Error(`Erro na API For4Payments: ${response.status} ${response.statusText}`);
+      throw new Error(`Erro na API: ${response.status} ${response.statusText}`);
     }
     
     const data = await response.json();
-    console.log('[PIXEL] Status do pagamento verificado:', data);
+    console.log('[FB-PIXEL] Status do pagamento:', data);
     
-    // Lista de status que podem ser considerados "aprovados"
     const approvedStatusList = ['APPROVED', 'approved', 'PAID', 'paid', 'COMPLETED', 'completed'];
-    
-    // Verificar se o status está na lista de aprovados
     const isApproved = data && data.status && approvedStatusList.includes(data.status.toUpperCase());
     
     if (isApproved) {
-      console.log('[PIXEL] Pagamento APROVADO! Rastreando evento de conversão...');
+      console.log('[FB-PIXEL] Pagamento APROVADO! Rastreando evento de conversão...');
       
-      // Obter o valor da transação ou usar o valor padrão
-      const amount = data.amount ? parseFloat(data.amount) / 100 : 64.97; // Dividindo por 100 se vier em centavos
-      
-      // Enviar evento de conversão de forma robusta
+      const amount = data.amount ? parseFloat(data.amount) / 100 : 64.97;
       trackPurchase(paymentId, amount);
       
-      // Registrar o sucesso do evento
-      console.log('[PIXEL] Evento de conversão enviado com sucesso para todos os Facebook Pixel IDs:', FACEBOOK_PIXEL_IDS);
+      console.log('[FB-PIXEL] Evento de conversão enviado para Pixel:', FACEBOOK_PIXEL_ID);
       
       return { success: true, data, approved: true };
     }
     
     return { success: true, data, approved: false };
   } catch (error) {
-    console.error('[PIXEL] Erro ao verificar status diretamente:', error);
+    console.error('[FB-PIXEL] Erro ao verificar status:', error);
     return { success: false, error, approved: false };
   }
 }

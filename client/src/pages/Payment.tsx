@@ -199,9 +199,9 @@ const Payment: React.FC = () => {
                 // Verificar se está aprovado
                 const isApproved = backendData.status && approvedStatusList.includes(backendData.status.toUpperCase());
                 
-                // Se aprovado via backend, relatar via frontend de qualquer forma
-                if (isApproved && !backendData.facebookReported) {
-                  console.log('[PAYMENT] Pagamento aprovado via backend. Rastreando do frontend...');
+                // Se aprovado via backend, rastrear a conversão
+                if (isApproved) {
+                  console.log('[PAYMENT] Pagamento aprovado via backend. Rastreando conversão...');
                   initFacebookPixel();
                   
                   // Calcular o valor de forma robusta
@@ -211,8 +211,12 @@ const Payment: React.FC = () => {
                     amount = rawAmount > 1000 ? rawAmount / 100 : rawAmount;
                   }
                   
-                  // trackPurchase já foi chamado anteriormente, evitando duplicata
-                  console.log('[PAYMENT] Pagamento aprovado via backend - conversão já rastreada');
+                  // Rastrear a conversão
+                  trackPurchase(id, amount);
+                  trackTikTokPurchase(id, amount);
+                  trackKwaiPurchase(id, amount);
+                  
+                  console.log('[PAYMENT] Conversão rastreada com sucesso');
                   
                   // Notificar o usuário
                   toast({
@@ -247,11 +251,28 @@ const Payment: React.FC = () => {
                 };
               });
               
+              // Lista de status que podem ser considerados "aprovados"
+              const approvedStatusList = ['APPROVED', 'approved', 'PAID', 'paid', 'COMPLETED', 'completed'];
+              
               // Se aprovado, garantir que o evento seja enviado do frontend
-              if (backendData.status === 'APPROVED') {
+              const isApproved = backendData.status && approvedStatusList.includes(backendData.status.toUpperCase());
+              
+              if (isApproved) {
+                console.log('[PAYMENT] Pagamento aprovado (backend-only). Rastreando conversão...');
                 initFacebookPixel();
-                trackPurchase(id, 64.97);
-                trackTikTokPurchase(id, 64.97);
+                
+                // Calcular o valor de forma robusta
+                let amount = 64.97; // Valor padrão
+                if (backendData.amount) {
+                  const rawAmount = parseFloat(backendData.amount);
+                  amount = rawAmount > 1000 ? rawAmount / 100 : rawAmount;
+                }
+                
+                trackPurchase(id, amount);
+                trackTikTokPurchase(id, amount);
+                trackKwaiPurchase(id, amount);
+                
+                console.log('[PAYMENT] Conversão rastreada com sucesso (backend-only)');
               }
             }
           } catch (backendError) {
