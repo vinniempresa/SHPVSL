@@ -17,6 +17,9 @@ const FACEBOOK_PIXEL_IDS = (() => {
   if (import.meta.env.VITE_FB_PIXEL_ID_3) {
     ids.push(import.meta.env.VITE_FB_PIXEL_ID_3);
   }
+  if (import.meta.env.VITE_FB_PIXEL_ID_4) {
+    ids.push(import.meta.env.VITE_FB_PIXEL_ID_4);
+  }
   
   return ids;
 })();
