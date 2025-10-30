@@ -280,6 +280,76 @@ export async function registerRoutes(app: Express): Promise<Server> {
     });
   });
   
+  // Rota para buscar cliente por CPF
+  app.get('/api/v1/cliente/cpf/:cpf', async (req, res) => {
+    try {
+      const { cpf } = req.params;
+      
+      if (!cpf) {
+        return res.status(400).json({
+          sucesso: false,
+          mensagem: 'CPF não fornecido'
+        });
+      }
+      
+      // Remover formatação do CPF
+      const cpfLimpo = cpf.replace(/\D/g, '');
+      
+      // Validar se tem 11 dígitos
+      if (cpfLimpo.length !== 11) {
+        return res.status(400).json({
+          sucesso: false,
+          mensagem: 'CPF inválido'
+        });
+      }
+      
+      // Tentar buscar com CPF limpo ou formatado
+      const cpfFormatado = `${cpfLimpo.substring(0, 3)}.${cpfLimpo.substring(3, 6)}.${cpfLimpo.substring(6, 9)}-${cpfLimpo.substring(9, 11)}`;
+      
+      let appUser = await storage.getAppUserByCpf(cpfFormatado);
+      if (!appUser) {
+        // Tentar com CPF sem formatação
+        appUser = await storage.getAppUserByCpf(cpfLimpo);
+      }
+      
+      if (!appUser) {
+        return res.status(404).json({
+          sucesso: false,
+          mensagem: 'Cliente não encontrado'
+        });
+      }
+      
+      // Formatar resposta no formato esperado pelo frontend
+      res.json({
+        sucesso: true,
+        cliente: {
+          id: appUser.id,
+          nome: appUser.name || 'Nome não informado',
+          cpf: cpfFormatado,
+          telefone: '',
+          email: '',
+          pixCode: '',
+          cep: null,
+          rua: null,
+          numero: null,
+          complemento: null,
+          bairro: null,
+          cidade: appUser.city || null,
+          estado: appUser.state || null,
+          data_cadastro: appUser.createdAt?.toISOString() || new Date().toISOString()
+        },
+        transacoes: [],
+        total_transacoes: 0
+      });
+    } catch (error) {
+      console.error('Erro ao buscar cliente por CPF:', error);
+      res.status(500).json({
+        sucesso: false,
+        mensagem: 'Erro ao buscar dados do cliente'
+      });
+    }
+  });
+  
   // Novos endpoints para gerenciamento de IPs banidos
   
   // Verificar se o IP atual está banido

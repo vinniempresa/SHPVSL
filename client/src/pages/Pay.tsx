@@ -130,22 +130,35 @@ const Pay = () => {
 
   // Efeito para buscar os dados do cliente
   useEffect(() => {
-    if (match && params?.cpf) {
+    // Verificar se há CPF na URL e se não é a rota /pay
+    if (match && params?.cpf && params.cpf !== 'pay') {
       // Remover qualquer formatação do CPF (pontos, traços)
       const cpfLimpo = params.cpf.replace(/\D/g, '');
       
+      // Validar se o CPF tem 11 dígitos
+      if (cpfLimpo.length !== 11) {
+        console.error('CPF inválido:', cpfLimpo);
+        setError('CPF inválido na URL');
+        setLoading(false);
+        return;
+      }
+      
+      console.log('🔍 Buscando dados do cliente com CPF:', cpfLimpo);
       setLoading(true);
       
-      // Buscar dados do cliente na API
-      fetch(`https://recoveryfy.replit.app/api/v1/cliente/cpf/${cpfLimpo}`)
+      // Buscar dados do cliente na API local
+      fetch(`/api/v1/cliente/cpf/${cpfLimpo}`)
         .then(response => {
+          console.log('📡 Resposta da API:', response.status);
           if (!response.ok) {
             throw new Error('Erro ao buscar dados do cliente');
           }
           return response.json();
         })
         .then(async (data: ApiResponse) => {
+          console.log('✅ Dados recebidos da API:', data);
           if (data.sucesso && data.cliente) {
+            console.log('👤 Cliente encontrado:', data.cliente.nome);
             setCliente(data.cliente);
             setTransacoes(data.transacoes || []);
             
@@ -153,20 +166,25 @@ const Pay = () => {
             // Gerar nova transação PIX usando os dados do cliente
             await generatePixPayment(data.cliente);
           } else {
+            console.error('❌ Cliente não encontrado na resposta');
             setError('Cliente não encontrado');
           }
         })
         .catch(err => {
-          console.error('Erro ao buscar cliente:', err);
+          console.error('❌ Erro ao buscar cliente:', err);
           setError('Erro ao buscar dados do cliente');
         })
         .finally(() => {
           setLoading(false);
         });
     } else {
+      console.log('⚠️ CPF não encontrado na URL ou é a rota /pay');
       setLoading(false);
+      if (!params?.cpf || params.cpf === 'pay') {
+        setError('Nenhum CPF fornecido na URL. Use o formato: /12345678900');
+      }
     }
-  }, [match, params?.cpf]);
+  }, [match, params?.cpf, generatePixPayment]);
 
   // Adicionar os estilos diretamente no componente
   useEffect(() => {
