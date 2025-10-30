@@ -312,6 +312,73 @@ class MemStorage implements IStorage {
   private nextCandidateId = 1;
   private nextBenefitId = 1;
   private nextAppUserId = 1;
+  
+  constructor() {
+    // Adicionar usuários de exemplo para testes
+    this.initializeSampleData();
+  }
+  
+  private initializeSampleData() {
+    const now = new Date();
+    
+    // Usuário de exemplo 1
+    const user1: AppUser = {
+      id: this.nextAppUserId++,
+      cpf: '123.456.789-00',
+      name: 'João da Silva',
+      city: 'São Paulo',
+      state: 'SP',
+      selectedCities: null,
+      reachedDeliveryPage: false,
+      createdAt: now,
+      updatedAt: now
+    };
+    this.appUsers.set(user1.cpf, user1);
+    
+    // Usuário de exemplo 2
+    const user2: AppUser = {
+      id: this.nextAppUserId++,
+      cpf: '706.128.541-91',
+      name: 'Maria Santos',
+      city: 'Rio de Janeiro',
+      state: 'RJ',
+      selectedCities: null,
+      reachedDeliveryPage: false,
+      createdAt: now,
+      updatedAt: now
+    };
+    this.appUsers.set(user2.cpf, user2);
+    
+    // Usuário de exemplo 3 (CPF sem formatação para testes)
+    const user3: AppUser = {
+      id: this.nextAppUserId++,
+      cpf: '98765432100',
+      name: 'Pedro Oliveira',
+      city: 'Belo Horizonte',
+      state: 'MG',
+      selectedCities: null,
+      reachedDeliveryPage: false,
+      createdAt: now,
+      updatedAt: now
+    };
+    this.appUsers.set(user3.cpf, user3);
+    
+    // Usuário de exemplo 4 (CPF específico do usuário)
+    const user4: AppUser = {
+      id: this.nextAppUserId++,
+      cpf: '063.153.631-05',
+      name: 'Carlos Eduardo',
+      city: 'Fortaleza',
+      state: 'CE',
+      selectedCities: null,
+      reachedDeliveryPage: false,
+      createdAt: now,
+      updatedAt: now
+    };
+    this.appUsers.set(user4.cpf, user4);
+    
+    console.log('[MemStorage] Dados de exemplo inicializados: 4 usuários criados');
+  }
 
   async getUser(id: number): Promise<User | undefined> {
     return this.users.get(id);
