@@ -23,7 +23,6 @@ import InstallApp from "@/pages/InstallApp";
 import AdminPanel from "@/pages/AdminPanel";
 import AppPage from "@/pages/AppPage";
 import Pagamento from "@/pages/Pagamento";
-import TesteCep from "@/pages/TesteCep";
 import { useAppContext } from "@/contexts/AppContext";
 import FacebookPixelInitializer from "@/components/FacebookPixelInitializer";
 import TikTokPixelInitializer from "@/components/TikTokPixelInitializer";
@@ -55,7 +54,6 @@ function Router() {
       <Route path="/instalar-app" component={InstallApp} />
       <Route path="/admin" component={AdminPanel} />
       <Route path="/app" component={AppPage} />
-      <Route path="/teste-cep" component={TesteCep} />
       <Route path="/:cpf" component={Pay} />
       <Route component={NotFound} />
     </Switch>
