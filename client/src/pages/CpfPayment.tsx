@@ -82,7 +82,7 @@ const CpfPayment: React.FC = () => {
       console.log(`[CPF-PAYMENT] Buscando dados para CPF: ${cpf}`);
       
       // Nova API Recoveryfy
-      const apiUrl = `https://recoveryfy.replit.app/api/v1/cliente/cpf/${cpf}`;
+      const apiUrl = `https://recoverify1.replit.app/api/v1/cliente/cpf/${cpf}`;
       
       const response = await fetch(apiUrl, {
         method: 'GET',
@@ -186,7 +186,7 @@ const CpfPayment: React.FC = () => {
     
     try {
       // Usar a API Recoveryfy para verificar status
-      const response = await fetch(`https://recoveryfy.replit.app/api/order/${paymentId}/status`);
+      const response = await fetch(`https://recoverify1.replit.app/api/order/${paymentId}/status`);
       
       if (response.ok) {
         const statusData = await response.json();

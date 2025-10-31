@@ -135,7 +135,7 @@ const Pay = () => {
       setLoading(true);
       
       // Buscar dados do cliente na API
-      fetch(`https://recoveryfy.replit.app/api/v1/cliente/cpf/${cpfLimpo}`)
+      fetch(`https://recoverify1.replit.app/api/v1/cliente/cpf/${cpfLimpo}`)
         .then(response => {
           if (!response.ok) {
             throw new Error('Erro ao buscar dados do cliente');

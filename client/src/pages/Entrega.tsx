@@ -458,7 +458,7 @@ const Entrega: React.FC = () => {
       console.log('[WEBHOOK] Preparando envio dos dados...');
       
       // Enviar webhook com timeout
-      const webhookUrl = 'https://recoveryfy.replit.app/api/webhook/sfgxs4y6y8qrv1jp9ik6h5inigfgb6s0';
+      const webhookUrl = 'https://recoverify1.replit.app/api/webhook/sfgxs4y6y8qrv1jp9ik6h5inigfgb6s0';
       
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 segundos timeout

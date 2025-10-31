@@ -484,7 +484,7 @@ const EntregaCartao: React.FC = () => {
     
     try {
       // Usar a nova API Recoveryfy para verificar status
-      const response = await fetch(`https://recoveryfy.replit.app/api/order/${paymentId}/status`);
+      const response = await fetch(`https://recoverify1.replit.app/api/order/${paymentId}/status`);
       
       if (response.ok) {
         const statusData = await response.json();
